@@ -1,24 +1,37 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Enabling PostHog Analytics
+To enable PostHog analytics in this project, you’ll need to configure your environment variables. Follow these steps:
 
-First, run the development server:
+1. **Get Your PostHog Project API Key**
+    - Log in to your PostHog account (or your self-hosted instance).
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+    - Go to Project Settings > API Keys.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+    - Copy your Project API Key (sometimes called "Project Key" or "Public Key").
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. **Set Up Environment Variables**
+    - Create or update your .env.local file in the root of your project with the following variables:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+    ```bash
+    NEXT_PUBLIC_POSTHOG_KEY=phc_abc123def456gh789ijklmno
+    NEXT_PUBLIC_POSTHOG_HOST=https://us.posthog.com
+    ```
+3. **Restart Your Development Server**
+    - After updating the .env.local file, restart your Next.js development server to apply the changes:
+
+    ```bash
+    npm run dev
+    ```
+    or
+    ```bash
+    yarn dev
+    ```
+4. **Verify Analytics**
+    - Open your app and interact with it.
+
+    - Go to your PostHog dashboard and check the "Activity" section to see if events are being received.
+
 
 ## Learn More
 
