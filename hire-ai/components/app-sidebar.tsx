@@ -24,32 +24,32 @@ const menuItems = [
   },
   {
     title: "Search Candidates",
-    url: "/recruiter/search",
+    url: "/search",
     icon: Search,
   },
   {
     title: "Candidate Pool",
-    url: "/recruiter/candidates",
+    url: "/candidates",
     icon: Users,
   },
   {
     title: "Resume Parser",
-    url: "/recruiter/resume-parser",
+    url: "/resume-parser",
     icon: FileText,
   },
   {
     title: "Analytics",
-    url: "/recruiter/analytics",
+    url: "/analytics",
     icon: BarChart3,
   },
   {
     title: "Outreach",
-    url: "/recruiter/outreach",
+    url: "/outreach",
     icon: Mail,
   },
   {
     title: "Talent Pool",
-    url: "/recruiter/talent-pool",
+    url: "/talent-pool",
     icon: Database,
   },
   {

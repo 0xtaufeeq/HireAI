@@ -22,10 +22,10 @@ export function LoginForm({
                             <div className="flex size-8 items-center justify-center rounded-md">
                                 <GalleryVerticalEnd className="size-6" />
                             </div>
-                            <span className="sr-only">Acme Inc.</span>
+                            <span className="sr-only">HireAI</span>
                         </a>
                         <h1 className="text-xl font-bold">
-                            Welcome to Acme Inc.
+                            Welcome to HireAI
                         </h1>
                         <div className="text-center text-sm">
                             Don&apos;t have an account?{" "}

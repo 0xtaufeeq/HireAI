@@ -18,7 +18,7 @@ import { ThemeToggle } from "@/components/theme-toggle"
 
 export function Header() {
   return (
-    <header className="flex h-14 items-center justify-between gap-4 bg-background/95 backdrop-blur-md supports-[backdrop-filter]:bg-background/60 px-3 border-b border-border/40 sticky top-0 z-50">
+    <header className="flex h-14 items-center justify-between gap-4 bg-background/95 backdrop-blur-md supports-[backdrop-filter]:bg-background/60 px-3 sticky top-0 z-50">
       <SidebarTrigger className="icon-elegant focus-elegant" />
 
       {/* <div className="flex-1 flex items-center gap-4">
