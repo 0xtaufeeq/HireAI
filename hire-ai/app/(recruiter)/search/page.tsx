@@ -1,17 +1,33 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { Input } from "@/components/ui/input"
-import { Button } from "@/components/ui/button"
-import { Badge } from "@/components/ui/badge"
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
-import { Label } from "@/components/ui/label"
-import { Checkbox } from "@/components/ui/checkbox"
-import { Slider } from "@/components/ui/slider"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { Search, Mic, Filter, MapPin, Clock, Star, ExternalLink } from "lucide-react"
-import Link from "next/link"
+import { useEffect, useState } from "react";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Label } from "@/components/ui/label";
+import { Checkbox } from "@/components/ui/checkbox";
+import { Slider } from "@/components/ui/slider";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
+import {
+  Search,
+  Mic,
+  Filter,
+  MapPin,
+  Clock,
+  Star,
+  ExternalLink,
+} from "lucide-react";
+import Link from "next/link";
+import nlp from "compromise";
+import { Toggle } from "@/components/ui/toggle";
 
 const mockCandidates = [
   {
@@ -74,25 +90,179 @@ const mockCandidates = [
     experience: "8 years",
     image: "/placeholder.svg?height=40&width=40",
   },
-]
+];
+
+interface Candidate {
+  id: number;
+  name: string;
+  title: string;
+  location: string;
+  match: number;
+  skills: string[];
+  availability: string;
+  salary: string;
+  experience: string;
+  image: string;
+}
 
 const recentSearches = [
   "Senior Gen-AI engineers with LangChain + RAG experience in Europe",
   "ML Engineers with PyTorch experience, remote work",
   "AI Research Scientists with PhD, computer vision",
   "Data Scientists with NLP experience, San Francisco",
-]
+];
 
 export default function SearchPage() {
-  const [searchQuery, setSearchQuery] = useState("")
-  const [showFilters, setShowFilters] = useState(false)
-  const [salaryRange, setSalaryRange] = useState([100, 300])
+  const [searchQuery, setSearchQuery] = useState("");
+  const [showFilters, setShowFilters] = useState(false);
+  const [salaryRange, setSalaryRange] = useState([100, 300]);
+  const [keywordsUsed, setKeywordsUsed] = useState<string[]>([]);
+  const [filteredCandidates, setFilteredCandidates] = useState<Candidate[]>(mockCandidates);
+
+  const NLPKeywords = () => {
+    const doc = nlp(searchQuery);
+
+    const experiencePatterns = [
+      /\d+\+?\s*years?/i, // Matches "5 years", "5+ years"
+      /(junior|mid-level|senior|entry-level|experienced)/i,
+    ];
+    const industryKeywords = [
+      "technology",
+      "finance",
+      "healthcare",
+      "education",
+      "retail",
+      "manufacturing",
+    ];
+    const titleKeywords = [
+      "engineer",
+      "developer",
+      "manager",
+      "analyst",
+      "designer",
+      "consultant",
+    ];
+
+    // Extract keywords
+    const keywords: {
+      location: string[];
+      experience: string[];
+      title: string[];
+      industry: string[];
+    } = {
+      location: [],
+      experience: [],
+      title: [],
+      industry: [],
+    };
+
+    const places = doc.places().out("array");
+    keywords.location = Array.from(new Set(places));
+
+    // Experience (using regex)
+    experiencePatterns.forEach((pattern) => {
+      const matches = searchQuery.match(pattern) || [];
+      keywords.experience.push(...matches);
+    });
+    keywords.experience = Array.from(new Set(keywords.experience));
+
+    // Job titles (match against predefined list)
+    titleKeywords.forEach((keyword) => {
+      if (searchQuery.toLowerCase().includes(keyword.toLowerCase())) {
+        keywords.title.push(keyword);
+      }
+    });
+
+    // Industries (match against predefined list)
+    industryKeywords.forEach((keyword) => {
+      if (searchQuery.toLowerCase().includes(keyword.toLowerCase())) {
+        keywords.industry.push(keyword);
+      }
+    });
+
+    // Include skills from the search query (e.g., PyTorch, LangChain)
+    const skillKeywords = searchQuery
+      .split(" ")
+      .filter((word) =>
+        mockCandidates.some((candidate) =>
+          candidate.skills.some((skill) =>
+            skill.toLowerCase().includes(word.toLowerCase())
+          )
+        )
+      );
+
+    const allKeywords = [
+      ...keywords.experience,
+      ...keywords.location,
+      ...keywords.title,
+      ...keywords.industry,
+      ...skillKeywords,
+    ];
+
+    setKeywordsUsed(Array.from(new Set(allKeywords)));
+
+    console.log(
+      "EXPERIENCE",
+      keywords.experience,
+      "LOCATION",
+      keywords.location,
+      "TITLES",
+      keywords.title,
+      "INDUSTRY",
+      keywords.industry,
+      "SKILLS",
+      skillKeywords
+    );
+  };
+
+  const searchCandidates = () => {
+    if (!keywordsUsed.length || !searchQuery.trim()) {
+      setFilteredCandidates(mockCandidates);
+      return;
+    }
+
+    const results = mockCandidates.filter((candidate) => {
+      const candidateText = [
+        candidate.title,
+        candidate.location,
+        candidate.experience,
+        ...candidate.skills,
+      ]
+        .join(" ")
+        .toLowerCase();
+
+      return keywordsUsed.some((keyword) =>
+        candidateText.includes(keyword.toLowerCase())
+      );
+    });
+
+    setFilteredCandidates(results);
+    console.log("Search results:", results);
+  };
+
+  useEffect(() => {
+    if (searchQuery.trim()) {
+      const debounceTimer = setTimeout(() => {
+        NLPKeywords();
+      }, 500);
+      return () => clearTimeout(debounceTimer);
+    } else {
+      setKeywordsUsed([]);
+      setFilteredCandidates(mockCandidates);
+    }
+  }, [searchQuery]);
+
+  useEffect(() => {
+    searchCandidates();
+  }, [keywordsUsed]);
 
   return (
     <div className="space-y-6">
       <div>
         <h1 className="text-3xl font-bold tracking-tight">Search Candidates</h1>
-        <p className="text-muted-foreground">Use natural language to find the perfect AI talent for your team.</p>
+        <p className="text-muted-foreground">
+          Use natural language to find the perfect AI talent for your team.
+        </p>
       </div>
 
       {/* Search Interface */}
@@ -111,6 +281,9 @@ export default function SearchPage() {
                 <Button size="sm" variant="ghost">
                   <Mic className="h-4 w-4" />
                 </Button>
+                <Button size="sm" onClick={searchCandidates}>
+                  Search
+                </Button>
                 <Button size="sm" onClick={() => setShowFilters(!showFilters)}>
                   <Filter className="h-4 w-4" />
                   Filters
@@ -118,9 +291,21 @@ export default function SearchPage() {
               </div>
             </div>
 
+            {keywordsUsed.length > 0 && (
+              <div className="flex flex-wrap gap-2">
+                {keywordsUsed.map((keyword, index) => (
+                  <Toggle key={index} variant="outline" size="sm">
+                    {keyword}
+                  </Toggle>
+                ))}
+              </div>
+            )}
+
             {/* Recent Searches */}
             <div className="space-y-2">
-              <Label className="text-sm text-muted-foreground">Recent searches:</Label>
+              <Label className="text-sm text-muted-foreground">
+                Recent searches:
+              </Label>
               <div className="flex flex-wrap gap-2">
                 {recentSearches.map((search, index) => (
                   <Button
@@ -166,7 +351,12 @@ export default function SearchPage() {
               <div className="space-y-3">
                 <Label>Experience Level</Label>
                 <div className="space-y-2">
-                  {["Junior (1-3 years)", "Mid (3-6 years)", "Senior (6+ years)", "Lead (8+ years)"].map((level) => (
+                  {[
+                    "Junior (1-3 years)",
+                    "Mid (3-6 years)",
+                    "Senior (6+ years)",
+                    "Lead (8+ years)",
+                  ].map((level) => (
                     <div key={level} className="flex items-center space-x-2">
                       <Checkbox id={level} />
                       <Label htmlFor={level} className="text-sm">
@@ -196,7 +386,12 @@ export default function SearchPage() {
               <div className="space-y-3">
                 <Label>Availability</Label>
                 <div className="space-y-2">
-                  {["Available now", "2 weeks notice", "1 month notice", "Open to opportunities"].map((status) => (
+                  {[
+                    "Available now",
+                    "2 weeks notice",
+                    "1 month notice",
+                    "Open to opportunities",
+                  ].map((status) => (
                     <div key={status} className="flex items-center space-x-2">
                       <Checkbox id={status} />
                       <Label htmlFor={status} className="text-sm">
@@ -210,16 +405,23 @@ export default function SearchPage() {
               <div className="space-y-3">
                 <Label>Skills</Label>
                 <div className="space-y-2">
-                  {["Python", "PyTorch", "TensorFlow", "LangChain", "RAG", "NLP", "Computer Vision", "MLOps"].map(
-                    (skill) => (
-                      <div key={skill} className="flex items-center space-x-2">
-                        <Checkbox id={skill} />
-                        <Label htmlFor={skill} className="text-sm">
-                          {skill}
-                        </Label>
-                      </div>
-                    ),
-                  )}
+                  {[
+                    "Python",
+                    "PyTorch",
+                    "TensorFlow",
+                    "LangChain",
+                    "RAG",
+                    "NLP",
+                    "Computer Vision",
+                    "MLOps",
+                  ].map((skill) => (
+                    <div key={skill} className="flex items-center space-x-2">
+                      <Checkbox id={skill} />
+                      <Label htmlFor={skill} className="text-sm">
+                        {skill}
+                      </Label>
+                    </div>
+                  ))}
                 </div>
               </div>
             </CardContent>
@@ -227,10 +429,16 @@ export default function SearchPage() {
         )}
 
         {/* Results */}
-        <div className={`space-y-4 ${showFilters ? "lg:col-span-3" : "lg:col-span-4"}`}>
+        <div
+          className={`space-y-4 ${
+            showFilters ? "lg:col-span-3" : "lg:col-span-4"
+          }`}
+        >
           <div className="flex items-center justify-between">
             <div>
-              <p className="text-sm text-muted-foreground">Found {mockCandidates.length} candidates</p>
+              <p className="text-sm text-muted-foreground">
+                Found {filteredCandidates.length} candidates
+              </p>
             </div>
             <div className="flex items-center gap-2">
               <Label className="text-sm">Sort by:</Label>
@@ -248,13 +456,19 @@ export default function SearchPage() {
             </div>
           </div>
 
-          {mockCandidates.map((candidate) => (
-            <Card key={candidate.id} className="hover:shadow-md transition-shadow">
+          {filteredCandidates.map((candidate) => (
+            <Card
+              key={candidate.id}
+              className="hover:shadow-md transition-shadow"
+            >
               <CardContent className="p-6">
                 <div className="flex items-start justify-between">
                   <div className="flex items-start space-x-4">
                     <Avatar className="h-12 w-12">
-                      <AvatarImage src={candidate.image || "/placeholder.svg"} alt={candidate.name} />
+                      <AvatarImage
+                        src={candidate.image || "/placeholder.svg"}
+                        alt={candidate.name}
+                      />
                       <AvatarFallback>
                         {candidate.name
                           .split(" ")
@@ -264,8 +478,12 @@ export default function SearchPage() {
                     </Avatar>
                     <div className="space-y-2">
                       <div>
-                        <h3 className="text-lg font-semibold">{candidate.name}</h3>
-                        <p className="text-muted-foreground">{candidate.title}</p>
+                        <h3 className="text-lg font-semibold">
+                          {candidate.name}
+                        </h3>
+                        <p className="text-muted-foreground">
+                          {candidate.title}
+                        </p>
                       </div>
                       <div className="flex items-center gap-4 text-sm text-muted-foreground">
                         <div className="flex items-center gap-1">
@@ -283,7 +501,11 @@ export default function SearchPage() {
                       </div>
                       <div className="flex flex-wrap gap-1">
                         {candidate.skills.map((skill) => (
-                          <Badge key={skill} variant="secondary" className="text-xs">
+                          <Badge
+                            key={skill}
+                            variant="secondary"
+                            className="text-xs"
+                          >
                             {skill}
                           </Badge>
                         ))}
@@ -331,5 +553,5 @@ export default function SearchPage() {
         </div>
       </div>
     </div>
-  )
+  );
 }
