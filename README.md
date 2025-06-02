@@ -209,10 +209,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Authors
 
-**Taufeeq Riyaz**
-**Kautilya DA**
-**Pushan T**
-**Sagar N Rao**
+<a href="https://github.com/0xtaufeeq/HireAI/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=0xtaufeeq/HireAI" />
+</a>
 
 ## 🔗 Links
 
