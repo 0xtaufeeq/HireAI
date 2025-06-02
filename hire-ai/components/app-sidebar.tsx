@@ -1,6 +1,6 @@
 "use client"
 
-import { Brain, Users, FileText, BarChart3, Mail, Database, Search, Settings, Home } from "lucide-react"
+import { Brain, Users, FileText, BarChart3, Mail, Database, Search, Settings, Home, Target, Badge } from "lucide-react"
 import {
   Sidebar,
   SidebarContent,
@@ -36,6 +36,7 @@ const menuItems = [
     title: "Resume Parser",
     url: "/resume-parser",
     icon: FileText,
+    badge: "NEW"
   },
   {
     title: "Analytics",

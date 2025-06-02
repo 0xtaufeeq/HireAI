@@ -54,6 +54,8 @@
     "next": "^14.2.29",
     "next-themes": "latest",
     "pdf-parse": "^1.1.1",
+    "pdf2pic": "^3.2.0",
+    "pdfjs-dist": "^5.2.133",
     "posthog-js": "^1.249.0",
     "posthog-node": "^4.18.0",
     "react": "^18.3.1",
@@ -69,6 +71,7 @@
     "zod": "^3.24.1"
   },
   "devDependencies": {
+    "@types/formidable": "^3.4.5",
     "@types/node": "^22",
     "@types/pdf-parse": "^1.1.5",
     "@types/react": "^18.3.17",

@@ -1,0 +1,3701 @@
+[
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/liam-taylor-ai-expert/",
+    "name": "Liam Taylor",
+    "headline": "Senior AI Scientist | Deep Learning & NLP Specialist | Innovator",
+    "location": "San Francisco, CA",
+    "summary": "Visionary AI Scientist with 10+ years driving innovation in machine learning, deep learning, and natural language processing. Passionate about creating intelligent systems that solve complex real-world problems. Proven leader in R&D and product deployment.",
+    "age": 38,
+    "profile_image_url": "https://example.com/images/liam_taylor.jpg",
+    "field_category": "AI/Machine Learning",
+    "work_experience": [
+      {
+        "title": "Principal AI Scientist",
+        "company_name": "Innovatech AI Labs",
+        "company_linkedin_url": "https://www.linkedin.com/company/innovatechailabs-fictional/",
+        "location": "Mountain View, CA",
+        "start_date": "2019-03-01",
+        "end_date": "Present",
+        "duration": "5 yrs+ ",
+        "description": "Leading research and development of novel AI algorithms. Focus on scalable deep learning architectures and advanced NLP models for commercial applications. Mentoring junior scientists."
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "company_name": "FutureAI Corp",
+        "company_linkedin_url": "https://www.linkedin.com/company/futureaicorp-fictional/",
+        "location": "Palo Alto, CA",
+        "start_date": "2015-06-01",
+        "end_date": "2019-02-28",
+        "duration": "3 yrs 9 mos",
+        "description": "Developed and deployed machine learning models for predictive analytics and computer vision. Contributed to significant improvements in model accuracy and efficiency."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "Stanford University",
+        "institution_linkedin_url": "https://www.linkedin.com/school/stanford-university/",
+        "degree": "Ph.D. in Computer Science",
+        "field_of_study": "Artificial Intelligence",
+        "start_year": "2011",
+        "end_year": "2015",
+        "description": "Dissertation on 'Efficient Architectures for Deep Neural Networks'."
+      },
+      {
+        "institution_name": "Massachusetts Institute of Technology (MIT)",
+        "institution_linkedin_url": "https://www.linkedin.com/school/mit/",
+        "degree": "M.S. in Electrical Engineering and Computer Science",
+        "field_of_study": "Computer Science",
+        "start_year": "2009",
+        "end_year": "2011"
+      }
+    ],
+    "skills": [
+      "Python",
+      "TensorFlow",
+      "PyTorch",
+      "Keras",
+      "NLP",
+      "Computer Vision",
+      "Deep Learning",
+      "Machine Learning",
+      "Research",
+      "Algorithm Design"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Deep Learning Specialization",
+        "issuing_organization": "Coursera",
+        "issue_date": "2018-05-01",
+        "credential_url": "https://example.com/cert/dl_spec"
+      }
+    ],
+    "connections_count": "500+"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/olivia-chen-product-leader/",
+    "name": "Olivia Chen",
+    "headline": "Group Product Manager | SaaS & Mobile | User-Centric Growth",
+    "location": "New York, NY",
+    "summary": "Experienced Group Product Manager with a track record of launching and scaling successful SaaS and mobile products. Passionate about understanding user needs and translating them into impactful product strategies. Expert in agile methodologies and cross-functional team leadership.",
+    "age": 35,
+    "profile_image_url": "https://example.com/images/olivia_chen.jpg",
+    "field_category": "Product Management",
+    "work_experience": [
+      {
+        "title": "Group Product Manager",
+        "company_name": "ConnectSphere Inc.",
+        "company_linkedin_url": "https://www.linkedin.com/company/connectsphere-fictional/",
+        "location": "New York, NY",
+        "start_date": "2020-01-15",
+        "end_date": "Present",
+        "duration": "4 yrs+ ",
+        "description": "Lead a team of Product Managers responsible for the core platform features. Define product vision, strategy, and roadmap. Drive product growth through data-driven decisions and A/B testing."
+      },
+      {
+        "title": "Senior Product Manager",
+        "company_name": "MobileFirst Solutions",
+        "company_linkedin_url": "https://www.linkedin.com/company/mobilefirst-fictional/",
+        "location": "Brooklyn, NY",
+        "start_date": "2017-07-01",
+        "end_date": "2019-12-31",
+        "duration": "2 yrs 6 mos",
+        "description": "Owned the product lifecycle for a suite of mobile applications, from ideation to launch and iteration. Increased user engagement by 30%."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "Columbia Business School",
+        "institution_linkedin_url": "https://www.linkedin.com/school/columbia-business-school/",
+        "degree": "MBA",
+        "field_of_study": "Marketing and Strategy",
+        "start_year": "2015",
+        "end_year": "2017"
+      },
+      {
+        "institution_name": "University of Pennsylvania",
+        "institution_linkedin_url": "https://www.linkedin.com/school/u-penn/",
+        "degree": "B.S. in Economics",
+        "field_of_study": "Economics",
+        "start_year": "2008",
+        "end_year": "2012"
+      }
+    ],
+    "skills": [
+      "Product Management",
+      "Agile",
+      "Scrum",
+      "Roadmapping",
+      "User Research",
+      "Market Analysis",
+      "SaaS",
+      "Mobile Applications",
+      "JIRA",
+      "A/B Testing"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      },
+      {
+        "language": "Mandarin",
+        "proficiency": "Conversational"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Certified Scrum Product Owner (CSPO)",
+        "issuing_organization": "Scrum Alliance",
+        "issue_date": "2017-03-01",
+        "credential_url": "https://example.com/cert/cspo_olivia"
+      }
+    ],
+    "connections_count": "500+"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/noah-miller-swe/",
+    "name": "Noah Miller",
+    "headline": "Senior Software Engineer | Full Stack Developer | Cloud Native Applications",
+    "location": "Seattle, WA",
+    "summary": "Dedicated Senior Software Engineer with expertise in full-stack development and building scalable cloud-native applications. Proficient in Java, Python, and JavaScript frameworks. Committed to writing clean, efficient, and maintainable code.",
+    "age": 32,
+    "profile_image_url": "https://example.com/images/noah_miller.jpg",
+    "field_category": "Software Engineering",
+    "work_experience": [
+      {
+        "title": "Senior Software Engineer",
+        "company_name": "CloudPioneers Tech",
+        "company_linkedin_url": "https://www.linkedin.com/company/cloudpioneers-fictional/",
+        "location": "Seattle, WA",
+        "start_date": "2018-09-01",
+        "end_date": "Present",
+        "duration": "5 yrs+ ",
+        "description": "Design and develop microservices for a high-traffic e-commerce platform using Spring Boot and React. Lead for CI/CD pipeline implementation on AWS."
+      },
+      {
+        "title": "Software Engineer",
+        "company_name": "DevSolutions Co.",
+        "company_linkedin_url": "https://www.linkedin.com/company/devsolutions-fictional/",
+        "location": "Bellevue, WA",
+        "start_date": "2015-06-10",
+        "end_date": "2018-08-30",
+        "duration": "3 yrs 3 mos",
+        "description": "Developed features for enterprise software applications. Worked across the full stack, from database design to UI implementation."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "University of Washington",
+        "institution_linkedin_url": "https://www.linkedin.com/school/uw/",
+        "degree": "B.S. in Computer Science",
+        "field_of_study": "Computer Science",
+        "start_year": "2011",
+        "end_year": "2015"
+      }
+    ],
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "Python",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "Microservices",
+      "AWS",
+      "Docker",
+      "Kubernetes",
+      "SQL",
+      "NoSQL"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "AWS Certified Developer - Associate",
+        "issuing_organization": "Amazon Web Services",
+        "issue_date": "2019-11-01",
+        "credential_url": "https://example.com/cert/aws_dev_noah"
+      }
+    ],
+    "connections_count": "480"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/emma-davis-datasci/",
+    "name": "Emma Davis",
+    "headline": "Lead Data Scientist | Predictive Modeling & Analytics | Python & R",
+    "location": "Austin, TX",
+    "summary": "Analytical and results-oriented Lead Data Scientist with 7+ years of experience in leveraging data to drive business decisions. Expertise in predictive modeling, statistical analysis, and machine learning. Proficient in Python, R, and big data technologies.",
+    "age": 33,
+    "profile_image_url": "https://example.com/images/emma_davis.jpg",
+    "field_category": "Data Science",
+    "work_experience": [
+      {
+        "title": "Lead Data Scientist",
+        "company_name": "Insightful Data Solutions",
+        "company_linkedin_url": "https://www.linkedin.com/company/insightfuldata-fictional/",
+        "location": "Austin, TX",
+        "start_date": "2020-05-01",
+        "end_date": "Present",
+        "duration": "4 yrs+ ",
+        "description": "Lead a team of data scientists in developing and deploying machine learning models for customer segmentation and fraud detection. Communicate insights to stakeholders."
+      },
+      {
+        "title": "Data Scientist",
+        "company_name": "Analytics Corp",
+        "company_linkedin_url": "https://www.linkedin.com/company/analyticscorp-fictional/",
+        "location": "Dallas, TX",
+        "start_date": "2017-01-15",
+        "end_date": "2020-04-30",
+        "duration": "3 yrs 4 mos",
+        "description": "Built statistical models to analyze market trends and optimize marketing campaigns. Utilized Python and R for data manipulation and visualization."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "University of Texas at Austin",
+        "institution_linkedin_url": "https://www.linkedin.com/school/utaustin/",
+        "degree": "M.S. in Data Science",
+        "field_of_study": "Data Science and Analytics",
+        "start_year": "2015",
+        "end_year": "2017"
+      },
+      {
+        "institution_name": "Texas A&M University",
+        "institution_linkedin_url": "https://www.linkedin.com/school/tamu/",
+        "degree": "B.S. in Statistics",
+        "field_of_study": "Statistics",
+        "start_year": "2011",
+        "end_year": "2015"
+      }
+    ],
+    "skills": [
+      "Python",
+      "R",
+      "SQL",
+      "Machine Learning",
+      "Predictive Modeling",
+      "Statistical Analysis",
+      "Data Visualization",
+      "Tableau",
+      "Pandas",
+      "Scikit-learn",
+      "Spark"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      }
+    ],
+    "certifications": [],
+    "connections_count": "500+"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/oliver-wilson-marketing/",
+    "name": "Oliver Wilson",
+    "headline": "Digital Marketing Director | SEO/SEM & Content Strategy | Growth Hacking",
+    "location": "London, UK",
+    "summary": "Strategic Digital Marketing Director with a passion for driving growth through innovative SEO, SEM, and content marketing strategies. Over 9 years of experience in building brand awareness and generating qualified leads for B2B and B2C companies.",
+    "age": 36,
+    "profile_image_url": "https://example.com/images/oliver_wilson.jpg",
+    "field_category": "Marketing",
+    "work_experience": [
+      {
+        "title": "Digital Marketing Director",
+        "company_name": "Growth Accelerate Ltd.",
+        "company_linkedin_url": "https://www.linkedin.com/company/growthaccelerate-fictional/",
+        "location": "London, UK",
+        "start_date": "2019-08-01",
+        "end_date": "Present",
+        "duration": "4 yrs+ ",
+        "description": "Oversee all digital marketing channels including SEO, SEM, social media, email marketing, and content. Manage a team of 5 marketing specialists. Achieved 150% ROI on marketing spend."
+      },
+      {
+        "title": "Senior Marketing Manager",
+        "company_name": "Online Presence Co.",
+        "company_linkedin_url": "https://www.linkedin.com/company/onlinepresence-fictional/",
+        "location": "Manchester, UK",
+        "start_date": "2016-02-01",
+        "end_date": "2019-07-31",
+        "duration": "3 yrs 6 mos",
+        "description": "Developed and executed multi-channel marketing campaigns. Specialized in SEO and PPC advertising. Increased organic traffic by 200%."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "King's College London",
+        "institution_linkedin_url": "https://www.linkedin.com/school/kingscollegelondon/",
+        "degree": "M.A. in Digital Marketing",
+        "field_of_study": "Digital Marketing",
+        "start_year": "2014",
+        "end_year": "2015"
+      },
+      {
+        "institution_name": "University of Bristol",
+        "institution_linkedin_url": "https://www.linkedin.com/school/university-of-bristol/",
+        "degree": "B.A. in Marketing",
+        "field_of_study": "Marketing",
+        "start_year": "2009",
+        "end_year": "2012"
+      }
+    ],
+    "skills": [
+      "Digital Marketing",
+      "SEO",
+      "SEM",
+      "PPC",
+      "Content Marketing",
+      "Social Media Marketing",
+      "Google Analytics",
+      "HubSpot",
+      "Email Marketing",
+      "Growth Hacking"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Google Ads Certified Professional",
+        "issuing_organization": "Google",
+        "issue_date": "2020-01-10",
+        "credential_url": "https://example.com/cert/google_ads_oliver"
+      },
+      {
+        "name": "HubSpot Inbound Marketing Certified",
+        "issuing_organization": "HubSpot Academy",
+        "issue_date": "2019-05-15"
+      }
+    ],
+    "connections_count": "500+"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/ava-moore-uxui/",
+    "name": "Ava Moore",
+    "headline": "Lead UX/UI Designer | User-Centered Design | Mobile & Web Applications",
+    "location": "Berlin, Germany",
+    "summary": "Creative and analytical Lead UX/UI Designer with a strong focus on creating intuitive and engaging user experiences for mobile and web platforms. Proficient in the entire design lifecycle, from research and wireframing to prototyping and visual design. Advocate for user-centered design principles.",
+    "age": 31,
+    "profile_image_url": "https://example.com/images/ava_moore.jpg",
+    "field_category": "UX/UI Design",
+    "work_experience": [
+      {
+        "title": "Lead UX/UI Designer",
+        "company_name": "PixelPerfect Studios",
+        "company_linkedin_url": "https://www.linkedin.com/company/pixelperfect-fictional/",
+        "location": "Berlin, Germany",
+        "start_date": "2021-02-01",
+        "end_date": "Present",
+        "duration": "3 yrs+ ",
+        "description": "Lead design projects for key clients, focusing on e-commerce and SaaS applications. Mentor junior designers and establish design system guidelines. Improved conversion rates by 15% through UI redesigns."
+      },
+      {
+        "title": "UX Designer",
+        "company_name": "AppMakers GmbH",
+        "company_linkedin_url": "https://www.linkedin.com/company/appmakers-fictional/",
+        "location": "Hamburg, Germany",
+        "start_date": "2018-06-01",
+        "end_date": "2021-01-31",
+        "duration": "2 yrs 8 mos",
+        "description": "Conducted user research, created wireframes, mockups, and interactive prototypes for mobile apps. Collaborated closely with developers and product managers."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "Berlin University of the Arts",
+        "institution_linkedin_url": "https://www.linkedin.com/school/udkberlin/",
+        "degree": "M.A. in Interaction Design",
+        "field_of_study": "Interaction Design",
+        "start_year": "2016",
+        "end_year": "2018"
+      },
+      {
+        "institution_name": "FH Potsdam",
+        "institution_linkedin_url": "https://www.linkedin.com/school/fh-potsdam/",
+        "degree": "B.A. in Design",
+        "field_of_study": "Interface Design",
+        "start_year": "2012",
+        "end_year": "2016"
+      }
+    ],
+    "skills": [
+      "UX Design",
+      "UI Design",
+      "User Research",
+      "Wireframing",
+      "Prototyping",
+      "Figma",
+      "Sketch",
+      "Adobe XD",
+      "Interaction Design",
+      "Usability Testing",
+      "Design Systems"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Fluent"
+      },
+      {
+        "language": "German",
+        "proficiency": "Native or Bilingual"
+      }
+    ],
+    "certifications": [],
+    "connections_count": "450"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/elijah-jackson-cybersec/",
+    "name": "Elijah Jackson",
+    "headline": "Senior Cybersecurity Analyst | Threat Intelligence & Incident Response | CISSP",
+    "location": "Washington D.C. Metro Area",
+    "summary": "Highly skilled Senior Cybersecurity Analyst with expertise in threat intelligence, incident response, and vulnerability management. CISSP certified with a proactive approach to identifying and mitigating security risks. Committed to protecting critical infrastructure and data.",
+    "age": 39,
+    "profile_image_url": "https://example.com/images/elijah_jackson.jpg",
+    "field_category": "Cybersecurity",
+    "work_experience": [
+      {
+        "title": "Senior Cybersecurity Analyst",
+        "company_name": "SecureNet Solutions",
+        "company_linkedin_url": "https://www.linkedin.com/company/securenet-fictional/",
+        "location": "Reston, VA",
+        "start_date": "2017-11-01",
+        "end_date": "Present",
+        "duration": "6 yrs+ ",
+        "description": "Lead incident response efforts for major security breaches. Develop and implement security policies and procedures. Conduct vulnerability assessments and penetration testing."
+      },
+      {
+        "title": "Cybersecurity Specialist",
+        "company_name": "GovProtect Corp",
+        "company_linkedin_url": "https://www.linkedin.com/company/govprotect-fictional/",
+        "location": "Arlington, VA",
+        "start_date": "2014-03-01",
+        "end_date": "2017-10-31",
+        "duration": "3 yrs 8 mos",
+        "description": "Monitored security alerts, analyzed threats, and supported security operations. Contributed to the development of security awareness training programs."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "George Mason University",
+        "institution_linkedin_url": "https://www.linkedin.com/school/georgemason/",
+        "degree": "M.S. in Cybersecurity Engineering",
+        "field_of_study": "Cybersecurity",
+        "start_year": "2012",
+        "end_year": "2014"
+      },
+      {
+        "institution_name": "Virginia Tech",
+        "institution_linkedin_url": "https://www.linkedin.com/school/virginiatech/",
+        "degree": "B.S. in Computer Engineering",
+        "field_of_study": "Computer Engineering",
+        "start_year": "2008",
+        "end_year": "2012"
+      }
+    ],
+    "skills": [
+      "Cybersecurity",
+      "Threat Intelligence",
+      "Incident Response",
+      "Vulnerability Management",
+      "SIEM",
+      "Penetration Testing",
+      "Network Security",
+      "CISSP",
+      "Risk Assessment"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Certified Information Systems Security Professional (CISSP)",
+        "issuing_organization": "(ISC)²",
+        "issue_date": "2016-07-01",
+        "credential_url": "https://example.com/cert/cissp_elijah"
+      },
+      {
+        "name": "CompTIA Security+",
+        "issuing_organization": "CompTIA",
+        "issue_date": "2014-01-15"
+      }
+    ],
+    "connections_count": "500+"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/charlotte-harris-devops/",
+    "name": "Charlotte Harris",
+    "headline": "Principal DevOps Engineer | CI/CD Automation & Cloud Infrastructure | Kubernetes Expert",
+    "location": "Toronto, Canada",
+    "summary": "Experienced Principal DevOps Engineer specializing in CI/CD automation, cloud infrastructure management (AWS, Azure), and container orchestration with Kubernetes. Passionate about building resilient and scalable systems. Strong believer in Infrastructure as Code (IaC).",
+    "age": 37,
+    "profile_image_url": "https://example.com/images/charlotte_harris.jpg",
+    "field_category": "DevOps Engineering",
+    "work_experience": [
+      {
+        "title": "Principal DevOps Engineer",
+        "company_name": "CloudFlow Dynamics",
+        "company_linkedin_url": "https://www.linkedin.com/company/cloudflow-fictional/",
+        "location": "Toronto, ON",
+        "start_date": "2019-04-01",
+        "end_date": "Present",
+        "duration": "5 yrs+ ",
+        "description": "Architect and implement CI/CD pipelines for multiple development teams. Manage Kubernetes clusters and optimize cloud resource utilization. Lead initiatives for improving system reliability and performance."
+      },
+      {
+        "title": "Senior DevOps Engineer",
+        "company_name": "AutoScale Solutions",
+        "company_linkedin_url": "https://www.linkedin.com/company/autoscale-fictional/",
+        "location": "Mississauga, ON",
+        "start_date": "2016-01-15",
+        "end_date": "2019-03-31",
+        "duration": "3 yrs 3 mos",
+        "description": "Automated infrastructure provisioning using Terraform and Ansible. Managed application deployments and monitoring systems. Supported development teams with DevOps best practices."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "University of Waterloo",
+        "institution_linkedin_url": "https://www.linkedin.com/school/uwaterloo/",
+        "degree": "Bachelor of Applied Science (B.A.Sc.)",
+        "field_of_study": "Software Engineering",
+        "start_year": "2009",
+        "end_year": "2014"
+      }
+    ],
+    "skills": [
+      "DevOps",
+      "CI/CD",
+      "Kubernetes",
+      "Docker",
+      "AWS",
+      "Azure",
+      "Terraform",
+      "Ansible",
+      "Jenkins",
+      "Python",
+      "Linux",
+      "Monitoring"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      },
+      {
+        "language": "French",
+        "proficiency": "Conversational"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Certified Kubernetes Administrator (CKA)",
+        "issuing_organization": "Cloud Native Computing Foundation (CNCF)",
+        "issue_date": "2020-02-20",
+        "credential_url": "https://example.com/cert/cka_charlotte"
+      },
+      {
+        "name": "AWS Certified DevOps Engineer - Professional",
+        "issuing_organization": "Amazon Web Services",
+        "issue_date": "2018-10-01"
+      }
+    ],
+    "connections_count": "500+"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/william-martin-cloudarch/",
+    "name": "William Martin",
+    "headline": "Senior Cloud Solutions Architect | AWS & Azure | Enterprise Cloud Strategy",
+    "location": "Chicago, IL",
+    "summary": "Strategic Senior Cloud Solutions Architect with extensive experience in designing and implementing robust and scalable cloud solutions on AWS and Azure. Proven ability to translate business requirements into technical architectures for enterprise clients. Strong focus on cost optimization and security.",
+    "age": 42,
+    "profile_image_url": "https://example.com/images/william_martin.jpg",
+    "field_category": "Cloud Architecture",
+    "work_experience": [
+      {
+        "title": "Senior Cloud Solutions Architect",
+        "company_name": "StratusGlobal Consulting",
+        "company_linkedin_url": "https://www.linkedin.com/company/stratusglobal-fictional/",
+        "location": "Chicago, IL",
+        "start_date": "2018-07-01",
+        "end_date": "Present",
+        "duration": "5 yrs+ ",
+        "description": "Design and deploy complex cloud architectures for F500 companies. Provide technical leadership on cloud migration projects. Develop best practices for cloud governance and security."
+      },
+      {
+        "title": "Cloud Engineer",
+        "company_name": "Nimbus Tech Services",
+        "company_linkedin_url": "https://www.linkedin.com/company/nimbustech-fictional/",
+        "location": "Schaumburg, IL",
+        "start_date": "2015-03-01",
+        "end_date": "2018-06-30",
+        "duration": "3 yrs 4 mos",
+        "description": "Implemented and managed cloud infrastructure on AWS. Automated deployment processes and monitored system performance. Provided support for cloud-based applications."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "University of Illinois Urbana-Champaign",
+        "institution_linkedin_url": "https://www.linkedin.com/school/uiuc/",
+        "degree": "M.S. in Information Technology",
+        "field_of_study": "Information Technology",
+        "start_year": "2010",
+        "end_year": "2012"
+      },
+      {
+        "institution_name": "Purdue University",
+        "institution_linkedin_url": "https://www.linkedin.com/school/purdue/",
+        "degree": "B.S. in Computer Information Systems",
+        "field_of_study": "Computer Information Systems",
+        "start_year": "2004",
+        "end_year": "2008"
+      }
+    ],
+    "skills": [
+      "Cloud Architecture",
+      "AWS",
+      "Azure",
+      "Solution Design",
+      "Cloud Migration",
+      "Enterprise Architecture",
+      "Security",
+      "Cost Optimization",
+      "Terraform",
+      "Serverless"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "AWS Certified Solutions Architect - Professional",
+        "issuing_organization": "Amazon Web Services",
+        "issue_date": "2019-01-15",
+        "credential_url": "https://example.com/cert/aws_pro_william"
+      },
+      {
+        "name": "Microsoft Certified: Azure Solutions Architect Expert",
+        "issuing_organization": "Microsoft",
+        "issue_date": "2020-06-01"
+      }
+    ],
+    "connections_count": "500+"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/sophia-thompson-blockchain/",
+    "name": "Sophia Thompson",
+    "headline": "Lead Blockchain Developer | Smart Contracts & DApps | Ethereum & Hyperledger",
+    "location": "Singapore",
+    "summary": "Innovative Lead Blockchain Developer with expertise in designing and building decentralized applications (DApps) and smart contracts. Proficient in Ethereum (Solidity) and Hyperledger Fabric. Passionate about leveraging blockchain technology for transformative solutions.",
+    "age": 30,
+    "profile_image_url": "https://example.com/images/sophia_thompson.jpg",
+    "field_category": "Blockchain Development",
+    "work_experience": [
+      {
+        "title": "Lead Blockchain Developer",
+        "company_name": "Decentralize Future Pte Ltd",
+        "company_linkedin_url": "https://www.linkedin.com/company/decentralizefuture-fictional/",
+        "location": "Singapore",
+        "start_date": "2020-09-01",
+        "end_date": "Present",
+        "duration": "3 yrs+ ",
+        "description": "Lead the development of enterprise blockchain solutions for supply chain and finance. Design and implement secure smart contracts. Research emerging blockchain technologies."
+      },
+      {
+        "title": "Blockchain Engineer",
+        "company_name": "Crypto Ledger Systems",
+        "company_linkedin_url": "https://www.linkedin.com/company/cryptoledger-fictional/",
+        "location": "Singapore",
+        "start_date": "2018-02-01",
+        "end_date": "2020-08-31",
+        "duration": "2 yrs 7 mos",
+        "description": "Developed and tested smart contracts on the Ethereum platform. Contributed to the architecture of DApps. Worked with cryptographic libraries."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "National University of Singapore (NUS)",
+        "institution_linkedin_url": "https://www.linkedin.com/school/nus/",
+        "degree": "M.Sc. in Computing",
+        "field_of_study": "Computer Science, Specialization in FinTech",
+        "start_year": "2016",
+        "end_year": "2018"
+      },
+      {
+        "institution_name": "Nanyang Technological University (NTU)",
+        "institution_linkedin_url": "https://www.linkedin.com/school/ntu/",
+        "degree": "B.Eng. in Computer Engineering",
+        "field_of_study": "Computer Engineering",
+        "start_year": "2012",
+        "end_year": "2016"
+      }
+    ],
+    "skills": [
+      "Blockchain",
+      "Smart Contracts",
+      "Solidity",
+      "Ethereum",
+      "Hyperledger Fabric",
+      "DApps",
+      "Cryptography",
+      "Go",
+      "Node.js",
+      "Distributed Systems"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      },
+      {
+        "language": "Mandarin",
+        "proficiency": "Professional Working"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Certified Blockchain Expert™",
+        "issuing_organization": "Blockchain Council",
+        "issue_date": "2019-03-10",
+        "credential_url": "https://example.com/cert/cbe_sophia"
+      }
+    ],
+    "connections_count": "490"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/james-garcia-ai-research/",
+    "name": "James Garcia",
+    "headline": "AI Research Scientist | Reinforcement Learning & Robotics | Published Researcher",
+    "location": "Boston, MA",
+    "summary": "Dedicated AI Research Scientist specializing in reinforcement learning and its applications in robotics. Published in top-tier AI conferences. Driven to push the boundaries of artificial intelligence and create autonomous systems.",
+    "age": 29,
+    "profile_image_url": "https://example.com/images/james_garcia.jpg",
+    "field_category": "AI/Machine Learning",
+    "work_experience": [
+      {
+        "title": "AI Research Scientist",
+        "company_name": "Robotics Innovation Hub",
+        "company_linkedin_url": "https://www.linkedin.com/company/roboticsinnovation-fictional/",
+        "location": "Cambridge, MA",
+        "start_date": "2021-07-01",
+        "end_date": "Present",
+        "duration": "3 yrs+ ",
+        "description": "Conducting research in deep reinforcement learning for robotic manipulation and navigation. Collaborating with a team of engineers to implement algorithms on physical robots. Co-authored 5+ publications."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "Carnegie Mellon University",
+        "institution_linkedin_url": "https://www.linkedin.com/school/cmu/",
+        "degree": "Ph.D. in Robotics",
+        "field_of_study": "Robotics and AI",
+        "start_year": "2017",
+        "end_year": "2021",
+        "description": "Thesis on 'Sample-Efficient Reinforcement Learning for Complex Tasks'."
+      },
+      {
+        "institution_name": "University of California, Berkeley",
+        "institution_linkedin_url": "https://www.linkedin.com/school/ucberkeley/",
+        "degree": "B.S. in Electrical Engineering and Computer Sciences",
+        "field_of_study": "EECS",
+        "start_year": "2013",
+        "end_year": "2017"
+      }
+    ],
+    "skills": [
+      "Reinforcement Learning",
+      "Robotics",
+      "Python",
+      "C++",
+      "ROS",
+      "Deep Learning",
+      "TensorFlow",
+      "PyTorch",
+      "Research",
+      "Simulation"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      }
+    ],
+    "certifications": [],
+    "connections_count": "350"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/amelia-martinez-pm/",
+    "name": "Amelia Martinez",
+    "headline": "Product Manager | Fintech & Payments | Agile & Lean Methodologies",
+    "location": "Los Angeles, CA",
+    "summary": "Agile Product Manager with 5 years of experience in the Fintech and payments space. Skilled in defining product vision, managing backlogs, and working with engineering teams to deliver user-focused solutions. Passionate about financial inclusion.",
+    "age": 28,
+    "profile_image_url": "https://example.com/images/amelia_martinez.jpg",
+    "field_category": "Product Management",
+    "work_experience": [
+      {
+        "title": "Product Manager",
+        "company_name": "PayForward Tech",
+        "company_linkedin_url": "https://www.linkedin.com/company/payforward-fictional/",
+        "location": "Los Angeles, CA",
+        "start_date": "2020-03-01",
+        "end_date": "Present",
+        "duration": "4 yrs+ ",
+        "description": "Manage the product roadmap for a mobile payment application. Conduct user interviews and market research to identify new feature opportunities. Work closely with UX designers and engineers in an agile environment."
+      },
+      {
+        "title": "Associate Product Manager",
+        "company_name": "Fintech Innovators Inc.",
+        "company_linkedin_url": "https://www.linkedin.com/company/fintechinnovators-fictional/",
+        "location": "Santa Monica, CA",
+        "start_date": "2018-06-01",
+        "end_date": "2020-02-29",
+        "duration": "1 yr 9 mos",
+        "description": "Supported senior product managers in backlog grooming, sprint planning, and feature testing. Analyzed product usage data to generate insights."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "University of Southern California (USC)",
+        "institution_linkedin_url": "https://www.linkedin.com/school/usc/",
+        "degree": "B.S. in Business Administration",
+        "field_of_study": "Emphasis in Information Systems",
+        "start_year": "2014",
+        "end_year": "2018"
+      }
+    ],
+    "skills": [
+      "Product Management",
+      "Fintech",
+      "Payments",
+      "Agile",
+      "Scrum",
+      "User Stories",
+      "Backlog Management",
+      "JIRA",
+      "Market Research",
+      "Mobile Products"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      },
+      {
+        "language": "Spanish",
+        "proficiency": "Fluent"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Pragmatic Marketing Certified - Level III",
+        "issuing_organization": "Pragmatic Institute",
+        "issue_date": "2021-01-10",
+        "credential_url": "https://example.com/cert/pragmatic_amelia"
+      }
+    ],
+    "connections_count": "420"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/benjamin-robinson-fullstack/",
+    "name": "Benjamin Robinson",
+    "headline": "Full Stack Engineer | JavaScript, React, Node.js | Startup Enthusiast",
+    "location": "Denver, CO",
+    "summary": "Versatile Full Stack Engineer with a strong background in JavaScript (React, Node.js) and a passion for building innovative web applications at startups. Experienced in agile development and collaborating in fast-paced environments.",
+    "age": 27,
+    "profile_image_url": "https://example.com/images/benjamin_robinson.jpg",
+    "field_category": "Software Engineering",
+    "work_experience": [
+      {
+        "title": "Full Stack Engineer",
+        "company_name": "StartupXcel",
+        "company_linkedin_url": "https://www.linkedin.com/company/startupxcel-fictional/",
+        "location": "Boulder, CO",
+        "start_date": "2021-01-15",
+        "end_date": "Present",
+        "duration": "3 yrs+ ",
+        "description": "Developing and maintaining the company's core SaaS platform using React, Node.js, and MongoDB. Implementing new features and optimizing performance. Actively participate in code reviews and sprint planning."
+      },
+      {
+        "title": "Junior Web Developer",
+        "company_name": "WebCraft Solutions",
+        "company_linkedin_url": "https://www.linkedin.com/company/webcraft-fictional/",
+        "location": "Denver, CO",
+        "start_date": "2019-06-01",
+        "end_date": "2020-12-31",
+        "duration": "1 yr 7 mos",
+        "description": "Assisted senior developers in building responsive websites and web applications. Focused on frontend development with HTML, CSS, and JavaScript."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "University of Colorado Boulder",
+        "institution_linkedin_url": "https://www.linkedin.com/school/cuboulder/",
+        "degree": "B.A. in Computer Science",
+        "field_of_study": "Computer Science",
+        "start_year": "2015",
+        "end_year": "2019"
+      }
+    ],
+    "skills": [
+      "JavaScript",
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "HTML",
+      "CSS",
+      "Git",
+      "REST APIs",
+      "Agile Development",
+      "Full Stack Development"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      }
+    ],
+    "certifications": [],
+    "connections_count": "380"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/isabella-clark-dataanalyst/",
+    "name": "Isabella Clark",
+    "headline": "Senior Data Analyst | Business Intelligence & Reporting | SQL, Tableau, Python",
+    "location": "Sydney, Australia",
+    "summary": "Detail-oriented Senior Data Analyst with 6 years of experience transforming complex datasets into actionable business insights. Expertise in SQL, Tableau, and Python for data extraction, analysis, and visualization. Proven ability to support data-driven decision-making.",
+    "age": 30,
+    "profile_image_url": "https://example.com/images/isabella_clark.jpg",
+    "field_category": "Data Science",
+    "work_experience": [
+      {
+        "title": "Senior Data Analyst",
+        "company_name": "DataInsights Pty Ltd",
+        "company_linkedin_url": "https://www.linkedin.com/company/datainsightsau-fictional/",
+        "location": "Sydney, NSW",
+        "start_date": "2020-07-01",
+        "end_date": "Present",
+        "duration": "4 yrs+ ",
+        "description": "Lead data analysis projects for various departments, including sales and marketing. Develop interactive dashboards in Tableau to track KPIs. Perform ad-hoc analysis and generate reports for management."
+      },
+      {
+        "title": "Data Analyst",
+        "company_name": "OzAnalytics Co.",
+        "company_linkedin_url": "https://www.linkedin.com/company/ozanalytics-fictional/",
+        "location": "Melbourne, VIC",
+        "start_date": "2018-01-10",
+        "end_date": "2020-06-30",
+        "duration": "2 yrs 6 mos",
+        "description": "Extracted and cleaned data from multiple sources using SQL. Created reports and visualizations to support business operations. Assisted in developing data quality standards."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "University of New South Wales (UNSW)",
+        "institution_linkedin_url": "https://www.linkedin.com/school/unsw/",
+        "degree": "Master of Business Analytics",
+        "field_of_study": "Business Analytics",
+        "start_year": "2016",
+        "end_year": "2017"
+      },
+      {
+        "institution_name": "University of Sydney",
+        "institution_linkedin_url": "https://www.linkedin.com/school/usydney/",
+        "degree": "Bachelor of Commerce",
+        "field_of_study": "Finance and Econometrics",
+        "start_year": "2012",
+        "end_year": "2015"
+      }
+    ],
+    "skills": [
+      "Data Analysis",
+      "Business Intelligence",
+      "SQL",
+      "Tableau",
+      "Python (Pandas, NumPy)",
+      "Excel",
+      "Data Visualization",
+      "Reporting",
+      "Statistical Analysis"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Tableau Desktop Specialist",
+        "issuing_organization": "Tableau Software",
+        "issue_date": "2019-04-15",
+        "credential_url": "https://example.com/cert/tableau_isabella"
+      }
+    ],
+    "connections_count": "500+"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/lucas-rodriguez-marketing-spec/",
+    "name": "Lucas Rodriguez",
+    "headline": "Social Media Marketing Specialist | Content Creation & Campaign Management | Brand Engagement",
+    "location": "Miami, FL",
+    "summary": "Creative Social Media Marketing Specialist with a knack for crafting engaging content and managing successful campaigns across various platforms. Experienced in growing online communities and enhancing brand presence. Data-driven approach to optimizing social media ROI.",
+    "age": 26,
+    "profile_image_url": "https://example.com/images/lucas_rodriguez.jpg",
+    "field_category": "Marketing",
+    "work_experience": [
+      {
+        "title": "Social Media Marketing Specialist",
+        "company_name": "ViralVibe Agency",
+        "company_linkedin_url": "https://www.linkedin.com/company/viralvibe-fictional/",
+        "location": "Miami, FL",
+        "start_date": "2021-09-01",
+        "end_date": "Present",
+        "duration": "2 yrs+ ",
+        "description": "Develop and implement social media strategies for diverse clients. Create compelling content (text, image, video) for platforms like Instagram, TikTok, Facebook, and Twitter. Monitor analytics and report on campaign performance."
+      },
+      {
+        "title": "Marketing Intern",
+        "company_name": "Sunshine Digital",
+        "company_linkedin_url": "https://www.linkedin.com/company/sunshinedigital-fictional/",
+        "location": "Fort Lauderdale, FL",
+        "start_date": "2020-06-01",
+        "end_date": "2021-08-31",
+        "duration": "1 yr 3 mos",
+        "description": "Assisted with content creation, social media scheduling, and community management. Conducted research on industry trends and competitor activities."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "Florida International University (FIU)",
+        "institution_linkedin_url": "https://www.linkedin.com/school/fiu/",
+        "degree": "B.A. in Communication",
+        "field_of_study": "Specialization in Digital Media",
+        "start_year": "2017",
+        "end_year": "2021"
+      }
+    ],
+    "skills": [
+      "Social Media Marketing",
+      "Content Creation",
+      "Campaign Management",
+      "Instagram",
+      "TikTok",
+      "Facebook Ads",
+      "Hootsuite",
+      "Canva",
+      "Community Management",
+      "Analytics"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      },
+      {
+        "language": "Spanish",
+        "proficiency": "Native or Bilingual"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Meta Certified Digital Marketing Associate",
+        "issuing_organization": "Meta Blueprint",
+        "issue_date": "2022-03-01",
+        "credential_url": "https://example.com/cert/meta_lucas"
+      }
+    ],
+    "connections_count": "310"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/mia-lewis-uxdesigner/",
+    "name": "Mia Lewis",
+    "headline": "UX Designer | Mobile First Design | Prototyping & User Testing",
+    "location": "Paris, France",
+    "summary": "Passionate UX Designer focused on creating elegant and user-friendly mobile experiences. Skilled in user research, wireframing, prototyping, and conducting usability tests. Committed to designing products that meet both user needs and business goals.",
+    "age": 29,
+    "profile_image_url": "https://example.com/images/mia_lewis.jpg",
+    "field_category": "UX/UI Design",
+    "work_experience": [
+      {
+        "title": "UX Designer",
+        "company_name": "AppElegance S.A.S.",
+        "company_linkedin_url": "https://www.linkedin.com/company/appelegance-fictional/",
+        "location": "Paris, France",
+        "start_date": "2020-11-01",
+        "end_date": "Present",
+        "duration": "3 yrs+ ",
+        "description": "Designing user interfaces and experiences for iOS and Android applications. Conducting A/B tests and iterating on designs based on user feedback. Collaborating with product managers and developers in an agile team."
+      },
+      {
+        "title": "Junior UI Designer",
+        "company_name": "Creative Digital Paris",
+        "company_linkedin_url": "https://www.linkedin.com/company/creativedigitalparis-fictional/",
+        "location": "Paris, France",
+        "start_date": "2019-01-15",
+        "end_date": "2020-10-31",
+        "duration": "1 yr 10 mos",
+        "description": "Assisted senior designers with UI asset creation, style guides, and visual mockups. Participated in brainstorming sessions and design reviews."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "Gobelins, l'école de l'image",
+        "institution_linkedin_url": "https://www.linkedin.com/school/gobelins/",
+        "degree": "Master's Degree",
+        "field_of_study": "Interactive Digital Experiences",
+        "start_year": "2017",
+        "end_year": "2019"
+      },
+      {
+        "institution_name": "École de Condé",
+        "institution_linkedin_url": "https://www.linkedin.com/school/ecole-de-conde/",
+        "degree": "Bachelor's Degree",
+        "field_of_study": "Graphic Design",
+        "start_year": "2014",
+        "end_year": "2017"
+      }
+    ],
+    "skills": [
+      "UX Design",
+      "UI Design",
+      "Mobile Design",
+      "Prototyping",
+      "User Testing",
+      "Figma",
+      "Adobe Creative Suite",
+      "User Personas",
+      "Journey Mapping",
+      "Agile"
+    ],
+    "languages": [
+      {
+        "language": "French",
+        "proficiency": "Native or Bilingual"
+      },
+      {
+        "language": "English",
+        "proficiency": "Fluent"
+      }
+    ],
+    "certifications": [],
+    "connections_count": "405"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/henry-lee-security-engineer/",
+    "name": "Henry Lee",
+    "headline": "Security Engineer | Cloud Security & Automation | DevSecOps Advocate",
+    "location": "Austin, TX",
+    "summary": "Proactive Security Engineer with a focus on cloud security (AWS, GCP) and automating security processes. Advocate for DevSecOps principles to integrate security throughout the development lifecycle. Experienced in threat modeling and vulnerability management.",
+    "age": 34,
+    "profile_image_url": "https://example.com/images/henry_lee.jpg",
+    "field_category": "Cybersecurity",
+    "work_experience": [
+      {
+        "title": "Security Engineer",
+        "company_name": "CloudGuardians Inc.",
+        "company_linkedin_url": "https://www.linkedin.com/company/cloudguardians-fictional/",
+        "location": "Austin, TX",
+        "start_date": "2019-06-01",
+        "end_date": "Present",
+        "duration": "5 yrs+ ",
+        "description": "Implement and manage security tools and controls for cloud environments. Automate security tasks using Python and scripting. Conduct security reviews and provide guidance to development teams."
+      },
+      {
+        "title": "IT Security Specialist",
+        "company_name": "TechSecure Solutions",
+        "company_linkedin_url": "https://www.linkedin.com/company/techsecure-fictional/",
+        "location": "Dallas, TX",
+        "start_date": "2016-08-01",
+        "end_date": "2019-05-31",
+        "duration": "2 yrs 10 mos",
+        "description": "Monitored network traffic for security incidents, managed firewalls and IDS/IPS systems. Assisted with compliance audits."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "University of Houston",
+        "institution_linkedin_url": "https://www.linkedin.com/school/uh/",
+        "degree": "B.S. in Computer Information Systems",
+        "field_of_study": "Focus on Cybersecurity",
+        "start_year": "2012",
+        "end_year": "2016"
+      }
+    ],
+    "skills": [
+      "Cloud Security",
+      "AWS Security",
+      "GCP Security",
+      "DevSecOps",
+      "Security Automation",
+      "Python",
+      "Vulnerability Management",
+      "Threat Modeling",
+      "IAM",
+      "SIEM"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "AWS Certified Security - Specialty",
+        "issuing_organization": "Amazon Web Services",
+        "issue_date": "2020-08-10",
+        "credential_url": "https://example.com/cert/aws_sec_henry"
+      }
+    ],
+    "connections_count": "500+"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/evelyn-walker-sre/",
+    "name": "Evelyn Walker",
+    "headline": "Site Reliability Engineer (SRE) | System Scalability & Automation | Observability",
+    "location": "San Francisco Bay Area",
+    "summary": "Experienced Site Reliability Engineer dedicated to building and maintaining highly available and scalable distributed systems. Proficient in automation, monitoring, and incident response. Strong background in Linux systems and cloud platforms.",
+    "age": 33,
+    "profile_image_url": "https://example.com/images/evelyn_walker.jpg",
+    "field_category": "DevOps Engineering",
+    "work_experience": [
+      {
+        "title": "Site Reliability Engineer",
+        "company_name": "ScaleUp Systems",
+        "company_linkedin_url": "https://www.linkedin.com/company/scaleupsystems-fictional/",
+        "location": "San Francisco, CA",
+        "start_date": "2020-01-20",
+        "end_date": "Present",
+        "duration": "4 yrs+ ",
+        "description": "Ensure the reliability and performance of critical services. Develop automation tools for infrastructure management and deployment. Implement and enhance monitoring and alerting systems (Prometheus, Grafana)."
+      },
+      {
+        "title": "Systems Engineer",
+        "company_name": "InfraCore Solutions",
+        "company_linkedin_url": "https://www.linkedin.com/company/infracore-fictional/",
+        "location": "Oakland, CA",
+        "start_date": "2017-05-01",
+        "end_date": "2019-12-31",
+        "duration": "2 yrs 8 mos",
+        "description": "Managed Linux servers and network infrastructure. Implemented configuration management using Ansible. Responded to system outages and performance issues."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "San Jose State University",
+        "institution_linkedin_url": "https://www.linkedin.com/school/sjsu/",
+        "degree": "B.S. in Software Engineering",
+        "field_of_study": "Software Engineering",
+        "start_year": "2013",
+        "end_year": "2017"
+      }
+    ],
+    "skills": [
+      "Site Reliability Engineering (SRE)",
+      "Automation",
+      "Monitoring",
+      "Observability",
+      "Prometheus",
+      "Grafana",
+      "Kubernetes",
+      "Docker",
+      "Linux",
+      "Python",
+      "Go",
+      "Incident Response",
+      "AWS"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      }
+    ],
+    "certifications": [],
+    "connections_count": "465"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/alexander-hall-cloud-solutions/",
+    "name": "Alexander Hall",
+    "headline": "Cloud Solutions Architect | Multi-Cloud Specialist (AWS, Azure, GCP) | Digital Transformation",
+    "location": "Amsterdam, Netherlands",
+    "summary": "Versatile Cloud Solutions Architect with expertise across AWS, Azure, and GCP. Helping organizations achieve digital transformation through strategic cloud adoption. Skilled in designing secure, scalable, and cost-effective cloud solutions.",
+    "age": 40,
+    "profile_image_url": "https://example.com/images/alexander_hall.jpg",
+    "field_category": "Cloud Architecture",
+    "work_experience": [
+      {
+        "title": "Cloud Solutions Architect",
+        "company_name": "CloudBridge International",
+        "company_linkedin_url": "https://www.linkedin.com/company/cloudbridgeintl-fictional/",
+        "location": "Amsterdam, Netherlands",
+        "start_date": "2019-09-01",
+        "end_date": "Present",
+        "duration": "4 yrs+ ",
+        "description": "Architect multi-cloud solutions for enterprise clients across Europe. Lead workshops on cloud strategy and best practices. Focus on FinOps and cloud governance."
+      },
+      {
+        "title": "Senior Cloud Consultant",
+        "company_name": "AzureNow Experts",
+        "company_linkedin_url": "https://www.linkedin.com/company/azurenow-fictional/",
+        "location": "Utrecht, Netherlands",
+        "start_date": "2016-04-01",
+        "end_date": "2019-08-31",
+        "duration": "3 yrs 5 mos",
+        "description": "Provided consulting services for Azure cloud migrations and implementations. Designed IaaS and PaaS solutions. Developed automation scripts for Azure Resource Manager."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "Delft University of Technology (TU Delft)",
+        "institution_linkedin_url": "https://www.linkedin.com/school/tudelft/",
+        "degree": "M.Sc. in Computer Science",
+        "field_of_study": "Distributed Systems",
+        "start_year": "2005",
+        "end_year": "2007"
+      },
+      {
+        "institution_name": "Eindhoven University of Technology (TU/e)",
+        "institution_linkedin_url": "https://www.linkedin.com/school/tueindhoven/",
+        "degree": "B.Sc. in Computer Science and Engineering",
+        "field_of_study": "Computer Science",
+        "start_year": "2001",
+        "end_year": "2005"
+      }
+    ],
+    "skills": [
+      "Cloud Architecture",
+      "AWS",
+      "Azure",
+      "GCP",
+      "Multi-Cloud",
+      "Digital Transformation",
+      "Solution Design",
+      "FinOps",
+      "Cloud Governance",
+      "Serverless",
+      "Microservices"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Fluent"
+      },
+      {
+        "language": "Dutch",
+        "proficiency": "Native or Bilingual"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Google Cloud Certified - Professional Cloud Architect",
+        "issuing_organization": "Google Cloud",
+        "issue_date": "2020-11-05",
+        "credential_url": "https://example.com/cert/gcp_arch_alex"
+      },
+      {
+        "name": "TOGAF® 9 Certified",
+        "issuing_organization": "The Open Group",
+        "issue_date": "2018-03-01"
+      }
+    ],
+    "connections_count": "500+"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/harper-allen-blockchain-consultant/",
+    "name": "Harper Allen",
+    "headline": "Blockchain Strategy Consultant | DeFi & NFT Specialist | Enterprise Adoption",
+    "location": "New York, NY",
+    "summary": "Forward-thinking Blockchain Strategy Consultant focusing on DeFi, NFTs, and enterprise blockchain adoption. Helping businesses understand and leverage the potential of distributed ledger technologies. Strong analytical and communication skills.",
+    "age": 31,
+    "profile_image_url": "https://example.com/images/harper_allen.jpg",
+    "field_category": "Blockchain Development",
+    "work_experience": [
+      {
+        "title": "Blockchain Strategy Consultant",
+        "company_name": "LedgerLeap Advisory",
+        "company_linkedin_url": "https://www.linkedin.com/company/ledgerleap-fictional/",
+        "location": "New York, NY",
+        "start_date": "2021-03-01",
+        "end_date": "Present",
+        "duration": "3 yrs+ ",
+        "description": "Advise clients on blockchain use cases, tokenomics, and go-to-market strategies for DApps. Conduct market research on emerging trends in DeFi and NFTs. Develop educational materials and workshops."
+      },
+      {
+        "title": "Business Analyst - Fintech",
+        "company_name": "WallStreet Innovations",
+        "company_linkedin_url": "https://www.linkedin.com/company/wallstreetinnov-fictional/",
+        "location": "New York, NY",
+        "start_date": "2018-07-01",
+        "end_date": "2021-02-28",
+        "duration": "2 yrs 8 mos",
+        "description": "Analyzed business requirements for financial technology projects. Researched the impact of blockchain on traditional finance. Contributed to proof-of-concept blockchain initiatives."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "New York University (NYU)",
+        "institution_linkedin_url": "https://www.linkedin.com/school/nyu/",
+        "degree": "MBA",
+        "field_of_study": "Finance and Technology",
+        "start_year": "2016",
+        "end_year": "2018"
+      },
+      {
+        "institution_name": "Cornell University",
+        "institution_linkedin_url": "https://www.linkedin.com/school/cornell/",
+        "degree": "B.A. in Economics",
+        "field_of_study": "Economics",
+        "start_year": "2012",
+        "end_year": "2016"
+      }
+    ],
+    "skills": [
+      "Blockchain Strategy",
+      "DeFi",
+      "NFTs",
+      "Tokenomics",
+      "Enterprise Blockchain",
+      "Consulting",
+      "Market Research",
+      "Fintech",
+      "Business Analysis",
+      "Communication"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      }
+    ],
+    "certifications": [],
+    "connections_count": "475"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/michael-king-aiml-manager/",
+    "name": "Michael King",
+    "headline": "AI/ML Engineering Manager | Building & Leading High-Performing Teams | Scalable AI Solutions",
+    "location": "San Jose, CA",
+    "summary": "Dynamic AI/ML Engineering Manager with a proven ability to build, lead, and mentor high-performing teams. Expertise in developing and deploying scalable AI solutions that drive business value. Passionate about fostering innovation and collaboration.",
+    "age": 40,
+    "profile_image_url": "https://example.com/images/michael_king.jpg",
+    "field_category": "AI/Machine Learning",
+    "work_experience": [
+      {
+        "title": "AI/ML Engineering Manager",
+        "company_name": "IntelliSys Corp",
+        "company_linkedin_url": "https://www.linkedin.com/company/intellisys-fictional/",
+        "location": "Santa Clara, CA",
+        "start_date": "2020-06-01",
+        "end_date": "Present",
+        "duration": "4 yrs+ ",
+        "description": "Manage a team of 12 AI/ML engineers. Oversee the development lifecycle of AI products, from research to production. Define technical roadmaps and drive architectural decisions."
+      },
+      {
+        "title": "Senior Machine Learning Engineer",
+        "company_name": "DataDriven AI",
+        "company_linkedin_url": "https://www.linkedin.com/company/datadrivenai-fictional/",
+        "location": "Sunnyvale, CA",
+        "start_date": "2016-02-01",
+        "end_date": "2020-05-31",
+        "duration": "4 yrs 4 mos",
+        "description": "Led the development of machine learning models for recommendation systems and anomaly detection. Mentored junior engineers and contributed to MLOps practices."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "University of California, San Diego (UCSD)",
+        "institution_linkedin_url": "https://www.linkedin.com/school/ucsd/",
+        "degree": "M.S. in Computer Science",
+        "field_of_study": "Machine Learning specialization",
+        "start_year": "2010",
+        "end_year": "2012"
+      },
+      {
+        "institution_name": "Georgia Institute of Technology",
+        "institution_linkedin_url": "https://www.linkedin.com/school/georgiatech/",
+        "degree": "B.S. in Computer Engineering",
+        "field_of_study": "Computer Engineering",
+        "start_year": "2006",
+        "end_year": "2010"
+      }
+    ],
+    "skills": [
+      "AI Management",
+      "Machine Learning",
+      "Team Leadership",
+      "Python",
+      "TensorFlow",
+      "MLOps",
+      "Scalable Systems",
+      "Deep Learning",
+      "Project Management",
+      "Agile"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      }
+    ],
+    "certifications": [],
+    "connections_count": "500+"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/camila-wright-product-owner/",
+    "name": "Camila Wright",
+    "headline": "Senior Product Owner | Agile & Scrum | B2B SaaS Platforms",
+    "location": "Chicago, IL",
+    "summary": "Dedicated Senior Product Owner with extensive experience in managing B2B SaaS product backlogs and delivering value through Agile and Scrum frameworks. Excellent communicator and collaborator, bridging the gap between business stakeholders and development teams.",
+    "age": 36,
+    "profile_image_url": "https://example.com/images/camila_wright.jpg",
+    "field_category": "Product Management",
+    "work_experience": [
+      {
+        "title": "Senior Product Owner",
+        "company_name": "EnterpriseFlow Solutions",
+        "company_linkedin_url": "https://www.linkedin.com/company/enterpriseflow-fictional/",
+        "location": "Chicago, IL",
+        "start_date": "2019-01-10",
+        "end_date": "Present",
+        "duration": "5 yrs+ ",
+        "description": "Own and prioritize the product backlog for a suite of enterprise SaaS tools. Write detailed user stories and acceptance criteria. Facilitate sprint planning, reviews, and retrospectives."
+      },
+      {
+        "title": "Product Owner",
+        "company_name": "BizTools Innovations",
+        "company_linkedin_url": "https://www.linkedin.com/company/biztoolsinnov-fictional/",
+        "location": "Naperville, IL",
+        "start_date": "2016-05-01",
+        "end_date": "2018-12-31",
+        "duration": "2 yrs 8 mos",
+        "description": "Managed product development for a CRM module. Gathered requirements from sales and customer success teams. Worked closely with QA to ensure product quality."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "DePaul University",
+        "institution_linkedin_url": "https://www.linkedin.com/school/depaul/",
+        "degree": "M.S. in Human-Computer Interaction",
+        "field_of_study": "HCI",
+        "start_year": "2014",
+        "end_year": "2016"
+      },
+      {
+        "institution_name": "University of Illinois Chicago (UIC)",
+        "institution_linkedin_url": "https://www.linkedin.com/school/uic/",
+        "degree": "B.A. in Business Management",
+        "field_of_study": "Management",
+        "start_year": "2010",
+        "end_year": "2014"
+      }
+    ],
+    "skills": [
+      "Product Owner",
+      "Agile",
+      "Scrum",
+      "Backlog Management",
+      "User Stories",
+      "Acceptance Criteria",
+      "JIRA",
+      "Confluence",
+      "SaaS",
+      "B2B",
+      "Stakeholder Management"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Advanced Certified Scrum Product Owner (A-CSPO)",
+        "issuing_organization": "Scrum Alliance",
+        "issue_date": "2020-07-15",
+        "credential_url": "https://example.com/cert/acspo_camila"
+      }
+    ],
+    "connections_count": "500+"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/ethan-scott-backend-dev/",
+    "name": "Ethan Scott",
+    "headline": "Backend Software Engineer | Java, Spring Boot, Microservices | API Development",
+    "location": "Bangalore, India",
+    "summary": "Proficient Backend Software Engineer specializing in Java, Spring Boot, and microservices architecture. Experienced in designing and developing robust and scalable APIs. Committed to writing high-quality, testable code.",
+    "age": 29,
+    "profile_image_url": "https://example.com/images/ethan_scott.jpg",
+    "field_category": "Software Engineering",
+    "work_experience": [
+      {
+        "title": "Backend Software Engineer",
+        "company_name": "Tech महिंद्रा (Tech Mahindra - Fictional Arm)",
+        "company_linkedin_url": "https://www.linkedin.com/company/techmahindra-fictional/",
+        "location": "Bangalore, Karnataka",
+        "start_date": "2020-08-01",
+        "end_date": "Present",
+        "duration": "3 yrs+ ",
+        "description": "Develop and maintain backend services for a large-scale financial platform. Design and implement RESTful APIs. Work with distributed systems and message queues (Kafka)."
+      },
+      {
+        "title": "Associate Software Engineer",
+        "company_name": "Infy Systems (Infosys - Fictional Arm)",
+        "company_linkedin_url": "https://www.linkedin.com/company/infysystems-fictional/",
+        "location": "Pune, Maharashtra",
+        "start_date": "2018-06-01",
+        "end_date": "2020-07-31",
+        "duration": "2 yrs 2 mos",
+        "description": "Contributed to the development of enterprise applications using Java. Wrote unit tests and participated in bug fixing."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "Indian Institute of Technology Bombay (IIT Bombay)",
+        "institution_linkedin_url": "https://www.linkedin.com/school/iit-bombay/",
+        "degree": "Bachelor of Technology (B.Tech)",
+        "field_of_study": "Computer Science and Engineering",
+        "start_year": "2014",
+        "end_year": "2018"
+      }
+    ],
+    "skills": [
+      "Java",
+      "Spring Boot",
+      "Microservices",
+      "REST APIs",
+      "SQL",
+      "Kafka",
+      "Docker",
+      "Git",
+      "Backend Development",
+      "Problem Solving"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Fluent"
+      },
+      {
+        "language": "Hindi",
+        "proficiency": "Native or Bilingual"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Oracle Certified Professional, Java SE 11 Developer",
+        "issuing_organization": "Oracle",
+        "issue_date": "2021-05-10",
+        "credential_url": "https://example.com/cert/ocpjp_ethan"
+      }
+    ],
+    "connections_count": "410"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/gianna-green-datascientist-health/",
+    "name": "Gianna Green",
+    "headline": "Data Scientist | Healthcare Analytics & Machine Learning | R & Python",
+    "location": "Boston, MA",
+    "summary": "Passionate Data Scientist applying machine learning and statistical analysis to solve complex problems in healthcare. Experienced in working with clinical data, developing predictive models, and communicating insights to medical professionals. Proficient in R and Python.",
+    "age": 32,
+    "profile_image_url": "https://example.com/images/gianna_green.jpg",
+    "field_category": "Data Science",
+    "work_experience": [
+      {
+        "title": "Data Scientist",
+        "company_name": "Health Informatics Solutions",
+        "company_linkedin_url": "https://www.linkedin.com/company/healthinformatics-fictional/",
+        "location": "Boston, MA",
+        "start_date": "2019-07-15",
+        "end_date": "Present",
+        "duration": "4 yrs+ ",
+        "description": "Develop machine learning models for patient risk stratification and disease prediction. Analyze electronic health records (EHR) data. Collaborate with clinicians and researchers on data-driven projects."
+      },
+      {
+        "title": "Research Analyst",
+        "company_name": "Medical Data Insights Group",
+        "company_linkedin_url": "https://www.linkedin.com/company/medicaldatainsights-fictional/",
+        "location": "Cambridge, MA",
+        "start_date": "2017-01-05",
+        "end_date": "2019-06-30",
+        "duration": "2 yrs 6 mos",
+        "description": "Supported research projects by performing statistical analysis on clinical trial data. Prepared reports and visualizations. Maintained research databases."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "Harvard T.H. Chan School of Public Health",
+        "institution_linkedin_url": "https://www.linkedin.com/school/harvardpublichealth/",
+        "degree": "Master of Science (SM)",
+        "field_of_study": "Biostatistics",
+        "start_year": "2015",
+        "end_year": "2017"
+      },
+      {
+        "institution_name": "Brown University",
+        "institution_linkedin_url": "https://www.linkedin.com/school/brown/",
+        "degree": "B.S. in Applied Mathematics-Biology",
+        "field_of_study": "Applied Mathematics and Biology",
+        "start_year": "2011",
+        "end_year": "2015"
+      }
+    ],
+    "skills": [
+      "Data Science",
+      "Healthcare Analytics",
+      "Machine Learning",
+      "R",
+      "Python",
+      "Statistics",
+      "Predictive Modeling",
+      "EHR Data",
+      "SQL",
+      "Data Visualization"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      }
+    ],
+    "certifications": [],
+    "connections_count": "485"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/daniel-adams-marketing-manager/",
+    "name": "Daniel Adams",
+    "headline": "Senior Marketing Manager | B2B Tech Marketing | Demand Generation & ABM",
+    "location": "San Francisco, CA",
+    "summary": "Results-driven Senior Marketing Manager with extensive experience in B2B technology marketing. Specializing in demand generation, account-based marketing (ABM), and marketing automation. Proven ability to develop and execute strategies that drive revenue growth.",
+    "age": 38,
+    "profile_image_url": "https://example.com/images/daniel_adams.jpg",
+    "field_category": "Marketing",
+    "work_experience": [
+      {
+        "title": "Senior Marketing Manager",
+        "company_name": "TechLeads Pro",
+        "company_linkedin_url": "https://www.linkedin.com/company/techleadspro-fictional/",
+        "location": "San Francisco, CA",
+        "start_date": "2018-11-01",
+        "end_date": "Present",
+        "duration": "5 yrs+ ",
+        "description": "Lead demand generation and ABM campaigns for enterprise software products. Manage marketing automation platforms (Marketo, HubSpot). Analyze campaign performance and optimize for MQLs and SQLs."
+      },
+      {
+        "title": "Marketing Specialist",
+        "company_name": "CloudServe Solutions",
+        "company_linkedin_url": "https://www.linkedin.com/company/cloudserve-fictional/",
+        "location": "Redwood City, CA",
+        "start_date": "2015-06-01",
+        "end_date": "2018-10-31",
+        "duration": "3 yrs 5 mos",
+        "description": "Executed email marketing campaigns, managed social media channels, and created marketing collateral. Supported event marketing initiatives."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "University of California, Berkeley, Haas School of Business",
+        "institution_linkedin_url": "https://www.linkedin.com/school/haas/",
+        "degree": "MBA",
+        "field_of_study": "Marketing",
+        "start_year": "2013",
+        "end_year": "2015"
+      },
+      {
+        "institution_name": "Stanford University",
+        "institution_linkedin_url": "https://www.linkedin.com/school/stanford/",
+        "degree": "B.A. in Communication",
+        "field_of_study": "Communication",
+        "start_year": "2009",
+        "end_year": "2013"
+      }
+    ],
+    "skills": [
+      "B2B Marketing",
+      "Demand Generation",
+      "Account-Based Marketing (ABM)",
+      "Marketing Automation",
+      "Marketo",
+      "HubSpot",
+      "Salesforce",
+      "Content Marketing",
+      "Lead Nurturing",
+      "Campaign Management"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Marketo Certified Expert (MCE)",
+        "issuing_organization": "Adobe Marketo Engage",
+        "issue_date": "2019-08-01",
+        "credential_url": "https://example.com/cert/mce_daniel"
+      }
+    ],
+    "connections_count": "500+"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/abigail-baker-ux-research/",
+    "name": "Abigail Baker",
+    "headline": "Senior UX Researcher | Qualitative & Quantitative Methods | Product Strategy",
+    "location": "Seattle, WA",
+    "summary": "Insightful Senior UX Researcher skilled in a wide range of qualitative and quantitative research methods. Passionate about understanding user behavior and translating findings into actionable recommendations that inform product strategy and design. Advocate for user-centricity.",
+    "age": 34,
+    "profile_image_url": "https://example.com/images/abigail_baker.jpg",
+    "field_category": "UX/UI Design",
+    "work_experience": [
+      {
+        "title": "Senior UX Researcher",
+        "company_name": "UserFocus Labs",
+        "company_linkedin_url": "https://www.linkedin.com/company/userfocuslabs-fictional/",
+        "location": "Seattle, WA",
+        "start_date": "2019-03-01",
+        "end_date": "Present",
+        "duration": "5 yrs+ ",
+        "description": "Lead foundational and evaluative research projects for various digital products. Design and conduct user interviews, surveys, usability tests, and A/B tests. Synthesize research findings and present to cross-functional teams."
+      },
+      {
+        "title": "UX Researcher",
+        "company_name": "Digital Experiences Inc.",
+        "company_linkedin_url": "https://www.linkedin.com/company/digitalexperiences-fictional/",
+        "location": "Bellevue, WA",
+        "start_date": "2016-07-01",
+        "end_date": "2019-02-28",
+        "duration": "2 yrs 8 mos",
+        "description": "Supported UX research activities, including participant recruitment, data collection, and analysis. Contributed to the development of user personas and journey maps."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "University of Washington",
+        "institution_linkedin_url": "https://www.linkedin.com/school/uw/",
+        "degree": "Master of Human-Computer Interaction + Design (MHCI+D)",
+        "field_of_study": "HCI and Design",
+        "start_year": "2015",
+        "end_year": "2016"
+      },
+      {
+        "institution_name": "University of Oregon",
+        "institution_linkedin_url": "https://www.linkedin.com/school/uoregon/",
+        "degree": "B.S. in Psychology",
+        "field_of_study": "Psychology, Minor in Business Administration",
+        "start_year": "2011",
+        "end_year": "2015"
+      }
+    ],
+    "skills": [
+      "UX Research",
+      "Qualitative Research",
+      "Quantitative Research",
+      "Usability Testing",
+      "User Interviews",
+      "Surveys",
+      "A/B Testing",
+      "Persona Development",
+      "Journey Mapping",
+      "Data Analysis",
+      "Product Strategy"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      }
+    ],
+    "certifications": [],
+    "connections_count": "500+"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/matthew-nelson-pentester/",
+    "name": "Matthew Nelson",
+    "headline": "Lead Penetration Tester | Offensive Security Expert | OSCP, OSCE",
+    "location": "Dallas, TX",
+    "summary": "Highly skilled Lead Penetration Tester with a strong background in offensive security and vulnerability assessment. Holds OSCP and OSCE certifications. Experienced in conducting comprehensive penetration tests for web applications, networks, and cloud environments.",
+    "age": 37,
+    "profile_image_url": "https://example.com/images/matthew_nelson.jpg",
+    "field_category": "Cybersecurity",
+    "work_experience": [
+      {
+        "title": "Lead Penetration Tester",
+        "company_name": "BreachProof Security",
+        "company_linkedin_url": "https://www.linkedin.com/company/breachproof-fictional/",
+        "location": "Dallas, TX",
+        "start_date": "2018-05-01",
+        "end_date": "Present",
+        "duration": "6 yrs+ ",
+        "description": "Lead and execute penetration testing engagements. Develop custom exploits and tools. Provide detailed reports with actionable recommendations for remediation. Mentor junior testers."
+      },
+      {
+        "title": "Security Consultant",
+        "company_name": "CyberDefend LLC",
+        "company_linkedin_url": "https://www.linkedin.com/company/cyberdefend-fictional/",
+        "location": "Austin, TX",
+        "start_date": "2015-01-15",
+        "end_date": "2018-04-30",
+        "duration": "3 yrs 4 mos",
+        "description": "Performed vulnerability assessments and security audits for clients. Assisted with incident response and security awareness training."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "Texas Tech University",
+        "institution_linkedin_url": "https://www.linkedin.com/school/texastech/",
+        "degree": "B.S. in Computer Science",
+        "field_of_study": "Focus on Network Security",
+        "start_year": "2008",
+        "end_year": "2012"
+      }
+    ],
+    "skills": [
+      "Penetration Testing",
+      "Offensive Security",
+      "Vulnerability Assessment",
+      "Web Application Security",
+      "Network Security",
+      "Exploit Development",
+      "Metasploit",
+      "Burp Suite",
+      "Kali Linux",
+      "Scripting (Python, Bash)"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Offensive Security Certified Professional (OSCP)",
+        "issuing_organization": "Offensive Security",
+        "issue_date": "2016-03-01",
+        "credential_url": "https://example.com/cert/oscp_matthew"
+      },
+      {
+        "name": "Offensive Security Certified Expert (OSCE)",
+        "issuing_organization": "Offensive Security",
+        "issue_date": "2018-09-15"
+      }
+    ],
+    "connections_count": "500+"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/luna-hill-devops-azure/",
+    "name": "Luna Hill",
+    "headline": "Senior DevOps Engineer | Azure Specialist | IaC & Automation",
+    "location": "London, UK",
+    "summary": "Dedicated Senior DevOps Engineer with a strong focus on Microsoft Azure cloud services, Infrastructure as Code (ARM, Terraform), and CI/CD automation. Committed to building robust, scalable, and efficient cloud solutions. Experienced in PowerShell and Azure DevOps.",
+    "age": 33,
+    "profile_image_url": "https://example.com/images/luna_hill.jpg",
+    "field_category": "DevOps Engineering",
+    "work_experience": [
+      {
+        "title": "Senior DevOps Engineer",
+        "company_name": "AzurePrime Solutions UK",
+        "company_linkedin_url": "https://www.linkedin.com/company/azureprimeuk-fictional/",
+        "location": "London, UK",
+        "start_date": "2020-02-01",
+        "end_date": "Present",
+        "duration": "4 yrs+ ",
+        "description": "Design and implement Azure infrastructure using ARM templates and Terraform. Build and manage CI/CD pipelines with Azure DevOps. Automate operational tasks using PowerShell and Azure Functions."
+      },
+      {
+        "title": "Cloud Support Engineer",
+        "company_name": "TechSupport UK",
+        "company_linkedin_url": "https://www.linkedin.com/company/techsupportuk-fictional/",
+        "location": "Reading, UK",
+        "start_date": "2017-06-01",
+        "end_date": "2020-01-31",
+        "duration": "2 yrs 8 mos",
+        "description": "Provided technical support for Azure services. Assisted clients with troubleshooting and configuration. Developed internal tools for support automation."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "Imperial College London",
+        "institution_linkedin_url": "https://www.linkedin.com/school/imperialcollege/",
+        "degree": "MSc in Computing (Cloud Computing)",
+        "field_of_study": "Cloud Computing",
+        "start_year": "2016",
+        "end_year": "2017"
+      },
+      {
+        "institution_name": "University of Manchester",
+        "institution_linkedin_url": "https://www.linkedin.com/school/umanchester/",
+        "degree": "BSc (Hons) in Computer Science",
+        "field_of_study": "Computer Science",
+        "start_year": "2013",
+        "end_year": "2016"
+      }
+    ],
+    "skills": [
+      "Azure",
+      "DevOps",
+      "Infrastructure as Code (IaC)",
+      "ARM Templates",
+      "Terraform",
+      "Azure DevOps",
+      "CI/CD",
+      "PowerShell",
+      "Docker",
+      "Kubernetes (AKS)",
+      "Monitoring"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Microsoft Certified: Azure DevOps Engineer Expert",
+        "issuing_organization": "Microsoft",
+        "issue_date": "2021-01-20",
+        "credential_url": "https://example.com/cert/azure_devops_luna"
+      }
+    ],
+    "connections_count": "495"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/aiden-campbell-cloud-architect-gcp/",
+    "name": "Aiden Campbell",
+    "headline": "Principal Cloud Architect | Google Cloud Platform (GCP) Expert | Big Data & ML Infrastructure",
+    "location": "Toronto, Canada",
+    "summary": "Visionary Principal Cloud Architect specializing in Google Cloud Platform (GCP). Expertise in designing and implementing large-scale solutions for big data analytics and machine learning infrastructure. Passionate about leveraging GCP to solve complex business challenges.",
+    "age": 43,
+    "profile_image_url": "https://example.com/images/aiden_campbell.jpg",
+    "field_category": "Cloud Architecture",
+    "work_experience": [
+      {
+        "title": "Principal Cloud Architect",
+        "company_name": "GCPInnovate Canada",
+        "company_linkedin_url": "https://www.linkedin.com/company/gcpinnovateca-fictional/",
+        "location": "Toronto, ON",
+        "start_date": "2017-10-01",
+        "end_date": "Present",
+        "duration": "6 yrs+ ",
+        "description": "Lead the architecture and design of GCP solutions for enterprise clients. Specialize in BigQuery, Dataflow, AI Platform, and GKE. Provide technical guidance and mentorship to cloud engineering teams."
+      },
+      {
+        "title": "Senior Solutions Architect",
+        "company_name": "CloudForward Tech",
+        "company_linkedin_url": "https://www.linkedin.com/company/cloudforward-fictional/",
+        "location": "Montreal, QC",
+        "start_date": "2014-05-01",
+        "end_date": "2017-09-30",
+        "duration": "3 yrs 5 mos",
+        "description": "Designed and implemented cloud solutions on various platforms, with increasing focus on GCP. Worked with clients to define cloud strategy and migration plans."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "McGill University",
+        "institution_linkedin_url": "https://www.linkedin.com/school/mcgill/",
+        "degree": "Master of Engineering (M.Eng.)",
+        "field_of_study": "Software Engineering",
+        "start_year": "2002",
+        "end_year": "2004"
+      },
+      {
+        "institution_name": "University of British Columbia (UBC)",
+        "institution_linkedin_url": "https://www.linkedin.com/school/ubc/",
+        "degree": "Bachelor of Science (B.Sc.)",
+        "field_of_study": "Computer Science",
+        "start_year": "1998",
+        "end_year": "2002"
+      }
+    ],
+    "skills": [
+      "Google Cloud Platform (GCP)",
+      "Cloud Architecture",
+      "Big Data",
+      "Machine Learning Infrastructure",
+      "BigQuery",
+      "Dataflow",
+      "AI Platform",
+      "Google Kubernetes Engine (GKE)",
+      "Solution Design",
+      "Terraform"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      },
+      {
+        "language": "French",
+        "proficiency": "Professional Working"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Google Cloud Certified - Professional Data Engineer",
+        "issuing_organization": "Google Cloud",
+        "issue_date": "2018-12-01",
+        "credential_url": "https://example.com/cert/gcp_data_aiden"
+      },
+      {
+        "name": "Google Cloud Certified - Professional Machine Learning Engineer",
+        "issuing_organization": "Google Cloud",
+        "issue_date": "2020-03-10"
+      }
+    ],
+    "connections_count": "500+"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/ella-mitchell-blockchain-dev/",
+    "name": "Ella Mitchell",
+    "headline": "Senior Blockchain Engineer | Solidity & Smart Contract Auditing | DeFi Protocols",
+    "location": "Berlin, Germany",
+    "summary": "Detail-oriented Senior Blockchain Engineer with a strong focus on Solidity development, smart contract auditing, and DeFi protocols. Committed to building secure and efficient decentralized systems. Experienced in security best practices for blockchain applications.",
+    "age": 31,
+    "profile_image_url": "https://example.com/images/ella_mitchell.jpg",
+    "field_category": "Blockchain Development",
+    "work_experience": [
+      {
+        "title": "Senior Blockchain Engineer",
+        "company_name": "DeFiSecure GmbH",
+        "company_linkedin_url": "https://www.linkedin.com/company/defisecure-fictional/",
+        "location": "Berlin, Germany",
+        "start_date": "2020-07-01",
+        "end_date": "Present",
+        "duration": "4 yrs+ ",
+        "description": "Develop and audit smart contracts for DeFi platforms. Research and implement new blockchain security measures. Collaborate with product teams on protocol design."
+      },
+      {
+        "title": "Software Developer (Blockchain Focus)",
+        "company_name": "CryptoStartups Berlin",
+        "company_linkedin_url": "https://www.linkedin.com/company/cryptostartupsberlin-fictional/",
+        "location": "Berlin, Germany",
+        "start_date": "2018-01-15",
+        "end_date": "2020-06-30",
+        "duration": "2 yrs 6 mos",
+        "description": "Contributed to the development of various DApps on Ethereum. Wrote backend services and integrated with smart contracts. Gained experience in Solidity and Truffle."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "Technical University of Munich (TUM)",
+        "institution_linkedin_url": "https://www.linkedin.com/school/tumunich/",
+        "degree": "M.Sc. in Informatics",
+        "field_of_study": "Informatics (Computer Science)",
+        "start_year": "2016",
+        "end_year": "2018"
+      },
+      {
+        "institution_name": "RWTH Aachen University",
+        "institution_linkedin_url": "https://www.linkedin.com/school/rwthaachen/",
+        "degree": "B.Sc. in Computer Science",
+        "field_of_study": "Computer Science",
+        "start_year": "2013",
+        "end_year": "2016"
+      }
+    ],
+    "skills": [
+      "Blockchain",
+      "Solidity",
+      "Smart Contract Auditing",
+      "DeFi",
+      "Ethereum",
+      "Security Best Practices",
+      "Truffle Suite",
+      "Hardhat",
+      "Cryptography",
+      "Go"
+    ],
+    "languages": [
+      {
+        "language": "German",
+        "proficiency": "Native or Bilingual"
+      },
+      {
+        "language": "English",
+        "proficiency": "Fluent"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Certified Smart Contract Auditor (CSCA)",
+        "issuing_organization": "Blockchain Training Alliance",
+        "issue_date": "2021-09-01",
+        "credential_url": "https://example.com/cert/csca_ella"
+      }
+    ],
+    "connections_count": "450"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/joseph-roberts-ai-ethics/",
+    "name": "Joseph Roberts",
+    "headline": "AI Ethics & Governance Lead | Responsible AI Frameworks | Policy Development",
+    "location": "Washington D.C. Metro Area",
+    "summary": "Dedicated AI Ethics & Governance Lead focused on developing and implementing responsible AI frameworks and policies. Bridging the gap between technology, ethics, and regulation to ensure AI systems are fair, transparent, and accountable. Experienced in stakeholder engagement.",
+    "age": 45,
+    "profile_image_url": "https://example.com/images/joseph_roberts.jpg",
+    "field_category": "AI/Machine Learning",
+    "work_experience": [
+      {
+        "title": "AI Ethics & Governance Lead",
+        "company_name": "ResponsibleTech Institute",
+        "company_linkedin_url": "https://www.linkedin.com/company/responsibletech-fictional/",
+        "location": "Washington D.C.",
+        "start_date": "2019-05-01",
+        "end_date": "Present",
+        "duration": "5 yrs+ ",
+        "description": "Develop and promote ethical guidelines for AI development and deployment. Advise organizations on AI governance strategies. Conduct research on the societal impact of AI."
+      },
+      {
+        "title": "Senior Policy Analyst - Technology",
+        "company_name": "FutureGov Think Tank",
+        "company_linkedin_url": "https://www.linkedin.com/company/futuregovtt-fictional/",
+        "location": "Arlington, VA",
+        "start_date": "2014-01-10",
+        "end_date": "2019-04-30",
+        "duration": "5 yrs 4 mos",
+        "description": "Analyzed technology policy issues, including data privacy and cybersecurity. Authored reports and white papers on emerging technologies. Organized policy workshops and conferences."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "Georgetown University Law Center",
+        "institution_linkedin_url": "https://www.linkedin.com/school/georgetownlaw/",
+        "degree": "Juris Doctor (J.D.)",
+        "field_of_study": "Technology Law and Policy",
+        "start_year": "2008",
+        "end_year": "2011"
+      },
+      {
+        "institution_name": "Yale University",
+        "institution_linkedin_url": "https://www.linkedin.com/school/yale/",
+        "degree": "B.A. in Philosophy",
+        "field_of_study": "Philosophy, Ethics",
+        "start_year": "2004",
+        "end_year": "2008"
+      }
+    ],
+    "skills": [
+      "AI Ethics",
+      "AI Governance",
+      "Responsible AI",
+      "Policy Development",
+      "Regulation",
+      "Data Privacy",
+      "Fairness in AI",
+      "Transparency",
+      "Accountability",
+      "Stakeholder Engagement"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      }
+    ],
+    "certifications": [],
+    "connections_count": "500+"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/elizabeth-carter-product-marketing/",
+    "name": "Elizabeth Carter",
+    "headline": "Director of Product Marketing | Go-to-Market Strategy | SaaS & Cloud",
+    "location": "Austin, TX",
+    "summary": "Strategic Director of Product Marketing with a strong track record of launching successful SaaS and cloud products. Expert in developing go-to-market strategies, product positioning, messaging, and sales enablement. Passionate about understanding customer needs and market dynamics.",
+    "age": 41,
+    "profile_image_url": "https://example.com/images/elizabeth_carter.jpg",
+    "field_category": "Product Management",
+    "work_experience": [
+      {
+        "title": "Director of Product Marketing",
+        "company_name": "CloudLaunch Solutions",
+        "company_linkedin_url": "https://www.linkedin.com/company/cloudlaunch-fictional/",
+        "location": "Austin, TX",
+        "start_date": "2018-08-01",
+        "end_date": "Present",
+        "duration": "5 yrs+ ",
+        "description": "Lead product marketing initiatives for a portfolio of cloud services. Develop and execute GTM plans for new product launches. Create compelling product messaging and sales enablement materials."
+      },
+      {
+        "title": "Senior Product Marketing Manager",
+        "company_name": "SaaSWorks Inc.",
+        "company_linkedin_url": "https://www.linkedin.com/company/saasworks-fictional/",
+        "location": "Dallas, TX",
+        "start_date": "2015-02-01",
+        "end_date": "2018-07-31",
+        "duration": "3 yrs 6 mos",
+        "description": "Managed product marketing for a B2B SaaS platform. Conducted market research and competitive analysis. Developed content for marketing campaigns and sales presentations."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "Northwestern University - Kellogg School of Management",
+        "institution_linkedin_url": "https://www.linkedin.com/school/kellogg/",
+        "degree": "MBA",
+        "field_of_study": "Marketing and Strategy",
+        "start_year": "2009",
+        "end_year": "2011"
+      },
+      {
+        "institution_name": "Duke University",
+        "institution_linkedin_url": "https://www.linkedin.com/school/duke/",
+        "degree": "B.A. in Public Policy",
+        "field_of_study": "Public Policy",
+        "start_year": "2003",
+        "end_year": "2007"
+      }
+    ],
+    "skills": [
+      "Product Marketing",
+      "Go-to-Market Strategy",
+      "Product Positioning",
+      "Messaging",
+      "Sales Enablement",
+      "SaaS",
+      "Cloud Computing",
+      "Market Research",
+      "Competitive Analysis",
+      "Content Strategy"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "PMC Level VI",
+        "issuing_organization": "Pragmatic Institute",
+        "issue_date": "2019-10-01",
+        "credential_url": "https://example.com/cert/pmc_elizabeth"
+      }
+    ],
+    "connections_count": "500+"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/david-phillips-mobile-dev/",
+    "name": "David Phillips",
+    "headline": "Lead Mobile Engineer (iOS & Android) | Swift, Kotlin, React Native | Team Leadership",
+    "location": "London, UK",
+    "summary": "Experienced Lead Mobile Engineer proficient in native iOS (Swift) and Android (Kotlin) development, as well as cross-platform solutions like React Native. Proven ability to lead mobile development teams and deliver high-quality applications. Passionate about mobile innovation.",
+    "age": 35,
+    "profile_image_url": "https://example.com/images/david_phillips.jpg",
+    "field_category": "Software Engineering",
+    "work_experience": [
+      {
+        "title": "Lead Mobile Engineer",
+        "company_name": "AppCraft UK",
+        "company_linkedin_url": "https://www.linkedin.com/company/appcraftuk-fictional/",
+        "location": "London, UK",
+        "start_date": "2019-11-01",
+        "end_date": "Present",
+        "duration": "4 yrs+ ",
+        "description": "Lead a team of mobile developers in building and maintaining iOS and Android applications. Architect mobile solutions and define best practices. Mentor junior developers and conduct code reviews."
+      },
+      {
+        "title": "Senior Mobile Developer",
+        "company_name": "PocketSolutions Ltd.",
+        "company_linkedin_url": "https://www.linkedin.com/company/pocketsolutions-fictional/",
+        "location": "Manchester, UK",
+        "start_date": "2016-06-01",
+        "end_date": "2019-10-31",
+        "duration": "3 yrs 5 mos",
+        "description": "Developed native iOS and Android applications for various clients. Worked on UI/UX implementation, API integration, and performance optimization."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "University College London (UCL)",
+        "institution_linkedin_url": "https://www.linkedin.com/school/ucl/",
+        "degree": "MSc in Software Systems Engineering",
+        "field_of_study": "Software Engineering",
+        "start_year": "2012",
+        "end_year": "2013"
+      },
+      {
+        "institution_name": "University of Cambridge",
+        "institution_linkedin_url": "https://www.linkedin.com/school/cambridge/",
+        "degree": "BA (Hons) in Computer Science",
+        "field_of_study": "Computer Science",
+        "start_year": "2009",
+        "end_year": "2012"
+      }
+    ],
+    "skills": [
+      "iOS Development",
+      "Android Development",
+      "Swift",
+      "Kotlin",
+      "React Native",
+      "Mobile Architecture",
+      "Team Leadership",
+      "API Integration",
+      "UI/UX Implementation",
+      "Agile"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      }
+    ],
+    "certifications": [],
+    "connections_count": "500+"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/sofia-evans-bi-developer/",
+    "name": "Sofia Evans",
+    "headline": "Business Intelligence Developer | SQL, Power BI, Data Warehousing | ETL Processes",
+    "location": "Toronto, Canada",
+    "summary": "Skilled Business Intelligence Developer with expertise in SQL, Power BI, and data warehousing. Experienced in designing and implementing ETL processes to transform data into actionable insights. Passionate about leveraging data to improve business performance.",
+    "age": 30,
+    "profile_image_url": "https://example.com/images/sofia_evans.jpg",
+    "field_category": "Data Science",
+    "work_experience": [
+      {
+        "title": "Business Intelligence Developer",
+        "company_name": "DataDriven Solutions Canada",
+        "company_linkedin_url": "https://www.linkedin.com/company/datadrivenca-fictional/",
+        "location": "Toronto, ON",
+        "start_date": "2020-03-01",
+        "end_date": "Present",
+        "duration": "4 yrs+ ",
+        "description": "Develop and maintain BI solutions using Power BI and SQL Server. Design and optimize ETL workflows with SSIS. Create interactive dashboards and reports for stakeholders."
+      },
+      {
+        "title": "Junior Data Analyst",
+        "company_name": "Analytics Hub Inc.",
+        "company_linkedin_url": "https://www.linkedin.com/company/analyticshub-fictional/",
+        "location": "Mississauga, ON",
+        "start_date": "2018-01-15",
+        "end_date": "2020-02-29",
+        "duration": "2 yrs 2 mos",
+        "description": "Assisted with data extraction, cleaning, and analysis. Created ad-hoc reports using Excel and SQL. Supported senior BI developers with various tasks."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "York University",
+        "institution_linkedin_url": "https://www.linkedin.com/school/yorku/",
+        "degree": "Master of Science in Business Analytics (MBAN)",
+        "field_of_study": "Business Analytics",
+        "start_year": "2017",
+        "end_year": "2018"
+      },
+      {
+        "institution_name": "Ryerson University (Toronto Metropolitan University)",
+        "institution_linkedin_url": "https://www.linkedin.com/school/ryerson/",
+        "degree": "Bachelor of Commerce (BComm)",
+        "field_of_study": "Information Technology Management",
+        "start_year": "2013",
+        "end_year": "2017"
+      }
+    ],
+    "skills": [
+      "Business Intelligence",
+      "SQL",
+      "Power BI",
+      "Data Warehousing",
+      "ETL",
+      "SSIS",
+      "Data Modeling",
+      "Dashboard Development",
+      "Reporting",
+      "Data Analysis"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Microsoft Certified: Power BI Data Analyst Associate",
+        "issuing_organization": "Microsoft",
+        "issue_date": "2021-06-01",
+        "credential_url": "https://example.com/cert/powerbi_sofia"
+      }
+    ],
+    "connections_count": "430"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/samuel-turner-content-strategist/",
+    "name": "Samuel Turner",
+    "headline": "Head of Content Strategy | SEO-driven Content | Brand Storytelling",
+    "location": "New York, NY",
+    "summary": "Experienced Head of Content Strategy with a passion for creating SEO-driven content that engages audiences and builds brand authority. Skilled in developing comprehensive content plans, managing editorial calendars, and leading content creation teams. Strong believer in the power of storytelling.",
+    "age": 39,
+    "profile_image_url": "https://example.com/images/samuel_turner.jpg",
+    "field_category": "Marketing",
+    "work_experience": [
+      {
+        "title": "Head of Content Strategy",
+        "company_name": "Narratech Media",
+        "company_linkedin_url": "https://www.linkedin.com/company/narratech-fictional/",
+        "location": "New York, NY",
+        "start_date": "2019-07-01",
+        "end_date": "Present",
+        "duration": "4 yrs+ ",
+        "description": "Develop and oversee the execution of content strategy across all digital channels. Manage a team of writers, editors, and designers. Optimize content for SEO and user engagement. Track content performance and ROI."
+      },
+      {
+        "title": "Senior Content Marketing Manager",
+        "company_name": "DigitalVoice Agency",
+        "company_linkedin_url": "https://www.linkedin.com/company/digitalvoice-fictional/",
+        "location": "Brooklyn, NY",
+        "start_date": "2016-02-01",
+        "end_date": "2019-06-30",
+        "duration": "3 yrs 5 mos",
+        "description": "Created and managed content marketing campaigns for B2B clients. Wrote blog posts, white papers, case studies, and website copy. Conducted keyword research and SEO analysis."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "Columbia University Graduate School of Journalism",
+        "institution_linkedin_url": "https://www.linkedin.com/school/columbiajournalism/",
+        "degree": "M.S. in Journalism",
+        "field_of_study": "Digital Media",
+        "start_year": "2010",
+        "end_year": "2011"
+      },
+      {
+        "institution_name": "Vassar College",
+        "institution_linkedin_url": "https://www.linkedin.com/school/vassar/",
+        "degree": "B.A. in English",
+        "field_of_study": "English Literature",
+        "start_year": "2004",
+        "end_year": "2008"
+      }
+    ],
+    "skills": [
+      "Content Strategy",
+      "SEO",
+      "Content Marketing",
+      "Brand Storytelling",
+      "Editorial Management",
+      "Copywriting",
+      "Content Creation",
+      "Keyword Research",
+      "Google Analytics",
+      "Team Leadership"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      }
+    ],
+    "certifications": [],
+    "connections_count": "500+"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/emily-torres-visual-designer/",
+    "name": "Emily Torres",
+    "headline": "Senior Visual Designer | Branding & Identity | Digital & Print",
+    "location": "Los Angeles, CA",
+    "summary": "Creative Senior Visual Designer with a strong portfolio in branding, identity design, and creating compelling visuals for digital and print media. Passionate about translating brand strategies into impactful design solutions. Proficient in Adobe Creative Suite.",
+    "age": 33,
+    "profile_image_url": "https://example.com/images/emily_torres.jpg",
+    "field_category": "UX/UI Design",
+    "work_experience": [
+      {
+        "title": "Senior Visual Designer",
+        "company_name": "DesignSpark LA",
+        "company_linkedin_url": "https://www.linkedin.com/company/designsparkla-fictional/",
+        "location": "Los Angeles, CA",
+        "start_date": "2018-10-01",
+        "end_date": "Present",
+        "duration": "5 yrs+ ",
+        "description": "Lead visual design projects for key clients, focusing on brand development and marketing campaigns. Create logos, style guides, website mockups, and print collateral. Mentor junior designers."
+      },
+      {
+        "title": "Graphic Designer",
+        "company_name": "CreativeVisions Studio",
+        "company_linkedin_url": "https://www.linkedin.com/company/creativevisions-fictional/",
+        "location": "Santa Monica, CA",
+        "start_date": "2015-05-01",
+        "end_date": "2018-09-30",
+        "duration": "3 yrs 5 mos",
+        "description": "Designed a variety of marketing materials, including brochures, social media graphics, and presentations. Collaborated with marketing teams to ensure brand consistency."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "ArtCenter College of Design",
+        "institution_linkedin_url": "https://www.linkedin.com/school/artcenter/",
+        "degree": "BFA in Graphic Design",
+        "field_of_study": "Graphic Design",
+        "start_year": "2011",
+        "end_year": "2015"
+      }
+    ],
+    "skills": [
+      "Visual Design",
+      "Branding",
+      "Identity Design",
+      "Graphic Design",
+      "Adobe Creative Suite (Photoshop, Illustrator, InDesign)",
+      "Typography",
+      "Layout Design",
+      "Digital Design",
+      "Print Design"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      }
+    ],
+    "certifications": [],
+    "connections_count": "480"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/christopher-parker-soc-analyst/",
+    "name": "Christopher Parker",
+    "headline": "SOC Analyst Lead | Security Monitoring & Incident Handling | SIEM Expert",
+    "location": "Raleigh-Durham, NC Area",
+    "summary": "Experienced SOC Analyst Lead specializing in security monitoring, incident handling, and SIEM (Splunk, QRadar) management. Proven ability to detect, analyze, and respond to security threats effectively. Committed to maintaining a strong security posture.",
+    "age": 36,
+    "profile_image_url": "https://example.com/images/christopher_parker.jpg",
+    "field_category": "Cybersecurity",
+    "work_experience": [
+      {
+        "title": "SOC Analyst Lead",
+        "company_name": "CyberWatch Solutions",
+        "company_linkedin_url": "https://www.linkedin.com/company/cyberwatch-fictional/",
+        "location": "Durham, NC",
+        "start_date": "2019-02-01",
+        "end_date": "Present",
+        "duration": "5 yrs+ ",
+        "description": "Lead a team of SOC analysts in 24/7 security monitoring. Manage and optimize SIEM platforms. Develop incident response playbooks and conduct threat hunting exercises."
+      },
+      {
+        "title": "Security Analyst",
+        "company_name": "SecureNet Corp",
+        "company_linkedin_url": "https://www.linkedin.com/company/securenetcorp-fictional/",
+        "location": "Raleigh, NC",
+        "start_date": "2016-01-10",
+        "end_date": "2019-01-31",
+        "duration": "3 yrs 1 mo",
+        "description": "Monitored security alerts, investigated incidents, and escalated issues as needed. Contributed to vulnerability scanning and reporting."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "North Carolina State University",
+        "institution_linkedin_url": "https://www.linkedin.com/school/ncsu/",
+        "degree": "B.S. in Information Technology",
+        "field_of_study": "Concentration in Security",
+        "start_year": "2012",
+        "end_year": "2016"
+      }
+    ],
+    "skills": [
+      "SOC Analyst",
+      "Security Monitoring",
+      "Incident Handling",
+      "SIEM",
+      "Splunk",
+      "QRadar",
+      "Threat Hunting",
+      "Intrusion Detection",
+      "Network Security",
+      "Cybersecurity"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "CompTIA CySA+ (Cybersecurity Analyst)",
+        "issuing_organization": "CompTIA",
+        "issue_date": "2018-07-01",
+        "credential_url": "https://example.com/cert/cysa_chris"
+      }
+    ],
+    "connections_count": "500+"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/scarlett-collins-automation-engineer/",
+    "name": "Scarlett Collins",
+    "headline": "Automation Engineer | Python, Ansible, Jenkins | Infrastructure Automation",
+    "location": "Phoenix, AZ",
+    "summary": "Skilled Automation Engineer with expertise in Python, Ansible, and Jenkins for infrastructure automation and CI/CD pipeline development. Passionate about improving efficiency and reliability through automation. Experienced in both cloud and on-premise environments.",
+    "age": 31,
+    "profile_image_url": "https://example.com/images/scarlett_collins.jpg",
+    "field_category": "DevOps Engineering",
+    "work_experience": [
+      {
+        "title": "Automation Engineer",
+        "company_name": "AutoFlow Systems",
+        "company_linkedin_url": "https://www.linkedin.com/company/autoflow-fictional/",
+        "location": "Phoenix, AZ",
+        "start_date": "2020-09-01",
+        "end_date": "Present",
+        "duration": "3 yrs+ ",
+        "description": "Develop and maintain automation scripts for server provisioning, configuration management, and application deployment. Build and manage CI/CD pipelines using Jenkins. Automate routine operational tasks."
+      },
+      {
+        "title": "Systems Administrator",
+        "company_name": "InfraSupport Solutions",
+        "company_linkedin_url": "https://www.linkedin.com/company/infrasupport-fictional/",
+        "location": "Tempe, AZ",
+        "start_date": "2017-07-01",
+        "end_date": "2020-08-31",
+        "duration": "3 yrs 2 mos",
+        "description": "Managed Linux and Windows servers. Provided technical support and troubleshooting. Gained experience in scripting and system monitoring."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "Arizona State University",
+        "institution_linkedin_url": "https://www.linkedin.com/school/asu/",
+        "degree": "B.S. in Computer Systems Engineering",
+        "field_of_study": "Computer Systems Engineering",
+        "start_year": "2013",
+        "end_year": "2017"
+      }
+    ],
+    "skills": [
+      "Automation",
+      "Python",
+      "Ansible",
+      "Jenkins",
+      "CI/CD",
+      "Infrastructure Automation",
+      "Scripting (Bash, PowerShell)",
+      "Linux",
+      "Cloud (AWS/Azure basics)",
+      "Configuration Management"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Red Hat Certified Specialist in Ansible Automation",
+        "issuing_organization": "Red Hat",
+        "issue_date": "2021-11-15",
+        "credential_url": "https://example.com/cert/ansible_scarlett"
+      }
+    ],
+    "connections_count": "440"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/andrew-edwards-cloud-consultant/",
+    "name": "Andrew Edwards",
+    "headline": "Senior Cloud Consultant | AWS Migration & Optimization | Well-Architected Framework",
+    "location": "Atlanta, GA",
+    "summary": "Results-oriented Senior Cloud Consultant specializing in AWS migrations, cost optimization, and applying the Well-Architected Framework. Helping businesses leverage the full potential of AWS for scalability, security, and efficiency. Strong problem-solving and client management skills.",
+    "age": 42,
+    "profile_image_url": "https://example.com/images/andrew_edwards.jpg",
+    "field_category": "Cloud Architecture",
+    "work_experience": [
+      {
+        "title": "Senior Cloud Consultant",
+        "company_name": "AWSPrime Partners",
+        "company_linkedin_url": "https://www.linkedin.com/company/awsprimepartners-fictional/",
+        "location": "Atlanta, GA",
+        "start_date": "2018-06-01",
+        "end_date": "Present",
+        "duration": "6 yrs+ ",
+        "description": "Lead AWS cloud migration projects for enterprise clients. Conduct Well-Architected Reviews and provide recommendations for optimization. Design and implement solutions for disaster recovery and high availability."
+      },
+      {
+        "title": "Cloud Systems Engineer",
+        "company_name": "CloudInfra Solutions",
+        "company_linkedin_url": "https://www.linkedin.com/company/cloudinfra-fictional/",
+        "location": "Marietta, GA",
+        "start_date": "2015-01-10",
+        "end_date": "2018-05-31",
+        "duration": "3 yrs 5 mos",
+        "description": "Managed and supported AWS infrastructure for various clients. Automated deployments using CloudFormation. Monitored system performance and security."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "Georgia State University",
+        "institution_linkedin_url": "https://www.linkedin.com/school/georgiastate/",
+        "degree": "M.S. in Information Systems",
+        "field_of_study": "Information Systems",
+        "start_year": "2007",
+        "end_year": "2009"
+      },
+      {
+        "institution_name": "Auburn University",
+        "institution_linkedin_url": "https://www.linkedin.com/school/auburn/",
+        "degree": "B.S. in Management Information Systems",
+        "field_of_study": "MIS",
+        "start_year": "2001",
+        "end_year": "2005"
+      }
+    ],
+    "skills": [
+      "AWS",
+      "Cloud Migration",
+      "Cost Optimization",
+      "Well-Architected Framework",
+      "Cloud Consulting",
+      "Solution Architecture",
+      "CloudFormation",
+      "EC2",
+      "S3",
+      "RDS",
+      "Disaster Recovery"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "AWS Certified Solutions Architect - Professional",
+        "issuing_organization": "Amazon Web Services",
+        "issue_date": "2019-03-01",
+        "credential_url": "https://example.com/cert/aws_pro_andrew"
+      },
+      {
+        "name": "AWS Certified Advanced Networking - Specialty",
+        "issuing_organization": "Amazon Web Services",
+        "issue_date": "2020-07-15"
+      }
+    ],
+    "connections_count": "500+"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/victoria-stewart-blockchain-research/",
+    "name": "Victoria Stewart",
+    "headline": "Blockchain Researcher | Cryptoeconomics & Token Engineering | Academic Publications",
+    "location": "Cambridge, UK",
+    "summary": "Dedicated Blockchain Researcher with a focus on cryptoeconomics, token engineering, and the societal implications of DLT. Published in academic journals and conference proceedings. Passionate about advancing the understanding and responsible development of blockchain technology.",
+    "age": 30,
+    "profile_image_url": "https://example.com/images/victoria_stewart.jpg",
+    "field_category": "Blockchain Development",
+    "work_experience": [
+      {
+        "title": "Postdoctoral Blockchain Researcher",
+        "company_name": "University of Cambridge - Centre for Blockchain Studies (Fictional)",
+        "company_linkedin_url": "https://www.linkedin.com/school/cambridgeblockchain-fictional/",
+        "location": "Cambridge, UK",
+        "start_date": "2022-01-15",
+        "end_date": "Present",
+        "duration": "2 yrs+ ",
+        "description": "Conducting research on incentive mechanisms in decentralized systems and the economics of tokenized assets. Collaborating on interdisciplinary research projects. Supervising student research."
+      },
+      {
+        "title": "Research Assistant - Distributed Systems",
+        "company_name": "Imperial College London - DLT Lab (Fictional)",
+        "company_linkedin_url": "https://www.linkedin.com/school/imperialdlt-fictional/",
+        "location": "London, UK",
+        "start_date": "2018-09-01",
+        "end_date": "2021-12-31",
+        "duration": "3 yrs 4 mos",
+        "description": "Supported senior researchers in projects related to blockchain scalability and consensus algorithms. Contributed to literature reviews and data analysis."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "University College London (UCL)",
+        "institution_linkedin_url": "https://www.linkedin.com/school/ucl/",
+        "degree": "PhD in Computer Science",
+        "field_of_study": "Blockchain Technology and Cryptoeconomics",
+        "start_year": "2018",
+        "end_year": "2021",
+        "description": "Thesis: 'Game Theoretic Analysis of Blockchain Governance Models'."
+      },
+      {
+        "institution_name": "University of Oxford",
+        "institution_linkedin_url": "https://www.linkedin.com/school/oxford/",
+        "degree": "MSc in Economics for Development",
+        "field_of_study": "Economics",
+        "start_year": "2016",
+        "end_year": "2017"
+      }
+    ],
+    "skills": [
+      "Blockchain Research",
+      "Cryptoeconomics",
+      "Token Engineering",
+      "Distributed Ledger Technology (DLT)",
+      "Game Theory",
+      "Academic Writing",
+      "Quantitative Analysis",
+      "Ethereum",
+      "Smart Contracts Theory"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      }
+    ],
+    "certifications": [],
+    "connections_count": "390"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/joshua-flores-nlp-engineer/",
+    "name": "Joshua Flores",
+    "headline": "Senior NLP Engineer | Text Analytics & Conversational AI | Python & SpaCy",
+    "location": "New York, NY",
+    "summary": "Innovative Senior NLP Engineer specializing in text analytics, sentiment analysis, and building conversational AI systems. Proficient in Python, SpaCy, NLTK, and various deep learning frameworks for NLP. Passionate about extracting meaningful insights from text data.",
+    "age": 32,
+    "profile_image_url": "https://example.com/images/joshua_flores.jpg",
+    "field_category": "AI/Machine Learning",
+    "work_experience": [
+      {
+        "title": "Senior NLP Engineer",
+        "company_name": "TextSense AI",
+        "company_linkedin_url": "https://www.linkedin.com/company/textsenseai-fictional/",
+        "location": "New York, NY",
+        "start_date": "2020-01-10",
+        "end_date": "Present",
+        "duration": "4 yrs+ ",
+        "description": "Design and develop NLP models for information extraction, text classification, and chatbots. Implement solutions using SpaCy, Transformers, and TensorFlow/PyTorch. Optimize models for performance and scalability."
+      },
+      {
+        "title": "Machine Learning Engineer",
+        "company_name": "DataExtract Corp",
+        "company_linkedin_url": "https://www.linkedin.com/company/dataextract-fictional/",
+        "location": "Jersey City, NJ",
+        "start_date": "2017-06-01",
+        "end_date": "2019-12-31",
+        "duration": "2 yrs 7 mos",
+        "description": "Worked on various machine learning projects, with a growing focus on NLP tasks. Developed scripts for data preprocessing and feature engineering."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "Columbia University",
+        "institution_linkedin_url": "https://www.linkedin.com/school/columbia/",
+        "degree": "M.S. in Data Science",
+        "field_of_study": "Natural Language Processing Track",
+        "start_year": "2015",
+        "end_year": "2017"
+      },
+      {
+        "institution_name": "Rutgers University",
+        "institution_linkedin_url": "https://www.linkedin.com/school/rutgers/",
+        "degree": "B.S. in Computer Science",
+        "field_of_study": "Computer Science",
+        "start_year": "2011",
+        "end_year": "2015"
+      }
+    ],
+    "skills": [
+      "Natural Language Processing (NLP)",
+      "Text Analytics",
+      "Conversational AI",
+      "Python",
+      "SpaCy",
+      "NLTK",
+      "Transformers",
+      "TensorFlow",
+      "PyTorch",
+      "Sentiment Analysis",
+      "Information Extraction"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      },
+      {
+        "language": "Spanish",
+        "proficiency": "Conversational"
+      }
+    ],
+    "certifications": [],
+    "connections_count": "500+"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/chloe-morris-product-strategy/",
+    "name": "Chloe Morris",
+    "headline": "Head of Product Strategy | Market Expansion & Innovation | Data-Driven Insights",
+    "location": "London, UK",
+    "summary": "Strategic Head of Product Strategy with a focus on market expansion, product innovation, and leveraging data-driven insights to inform long-term product vision. Experienced in leading cross-functional teams and developing compelling product roadmaps for global markets.",
+    "age": 40,
+    "profile_image_url": "https://example.com/images/chloe_morris.jpg",
+    "field_category": "Product Management",
+    "work_experience": [
+      {
+        "title": "Head of Product Strategy",
+        "company_name": "GlobalReach Software",
+        "company_linkedin_url": "https://www.linkedin.com/company/globalreachsoft-fictional/",
+        "location": "London, UK",
+        "start_date": "2019-09-01",
+        "end_date": "Present",
+        "duration": "4 yrs+ ",
+        "description": "Define and drive the long-term product strategy and vision. Identify new market opportunities and areas for product innovation. Lead strategic planning and competitive analysis."
+      },
+      {
+        "title": "Senior Product Manager, International",
+        "company_name": "ConnectWorld Plc",
+        "company_linkedin_url": "https://www.linkedin.com/company/connectworld-fictional/",
+        "location": "London, UK",
+        "start_date": "2016-03-01",
+        "end_date": "2019-08-31",
+        "duration": "3 yrs 6 mos",
+        "description": "Managed product localization and go-to-market strategies for EMEA and APAC regions. Adapted product features to meet local market needs. Worked closely with regional sales and marketing teams."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "London Business School",
+        "institution_linkedin_url": "https://www.linkedin.com/school/london-business-school/",
+        "degree": "MBA",
+        "field_of_study": "Strategy and International Business",
+        "start_year": "2010",
+        "end_year": "2012"
+      },
+      {
+        "institution_name": "University of Oxford",
+        "institution_linkedin_url": "https://www.linkedin.com/school/oxford/",
+        "degree": "BA (Hons) in Philosophy, Politics and Economics (PPE)",
+        "field_of_study": "PPE",
+        "start_year": "2004",
+        "end_year": "2007"
+      }
+    ],
+    "skills": [
+      "Product Strategy",
+      "Market Expansion",
+      "Product Innovation",
+      "Data-Driven Insights",
+      "Competitive Analysis",
+      "Roadmapping",
+      "International Markets",
+      "Strategic Planning",
+      "Leadership"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      },
+      {
+        "language": "French",
+        "proficiency": "Professional Working"
+      }
+    ],
+    "certifications": [],
+    "connections_count": "500+"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/gabriel-nguyen-gamedev/",
+    "name": "Gabriel Nguyen",
+    "headline": "Lead Game Developer | Unity & C# | Gameplay Programming & System Design",
+    "location": "Los Angeles, CA",
+    "summary": "Passionate Lead Game Developer with extensive experience in Unity and C#. Specializing in gameplay programming, system design, and leading development teams to create engaging and innovative gaming experiences. Shipped multiple titles across PC and mobile platforms.",
+    "age": 34,
+    "profile_image_url": "https://example.com/images/gabriel_nguyen.jpg",
+    "field_category": "Software Engineering",
+    "work_experience": [
+      {
+        "title": "Lead Game Developer",
+        "company_name": "PixelPlay Studios",
+        "company_linkedin_url": "https://www.linkedin.com/company/pixelplay-fictional/",
+        "location": "Irvine, CA",
+        "start_date": "2019-01-15",
+        "end_date": "Present",
+        "duration": "5 yrs+ ",
+        "description": "Lead a team of programmers in developing new game titles using Unity. Architect core gameplay systems and AI. Optimize game performance and mentor junior developers."
+      },
+      {
+        "title": "Senior Gameplay Programmer",
+        "company_name": "IndieQuest Games",
+        "company_linkedin_url": "https://www.linkedin.com/company/indiequest-fictional/",
+        "location": "Santa Monica, CA",
+        "start_date": "2016-05-01",
+        "end_date": "2018-12-31",
+        "duration": "2 yrs 8 mos",
+        "description": "Implemented core gameplay mechanics, character controls, and UI features for mobile games. Collaborated closely with designers and artists."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "DigiPen Institute of Technology",
+        "institution_linkedin_url": "https://www.linkedin.com/school/digipen/",
+        "degree": "Bachelor of Science in Computer Science in Real-Time Interactive Simulation",
+        "field_of_study": "Game Development",
+        "start_year": "2010",
+        "end_year": "2014"
+      }
+    ],
+    "skills": [
+      "Game Development",
+      "Unity",
+      "C#",
+      "Gameplay Programming",
+      "System Design",
+      "AI Programming",
+      "Mobile Games",
+      "PC Games",
+      "Agile Development",
+      "Team Leadership"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      }
+    ],
+    "certifications": [],
+    "connections_count": "500+"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/grace-murphy-data-engineering/",
+    "name": "Grace Murphy",
+    "headline": "Senior Data Engineer | Big Data Pipelines (Spark, Kafka) | Cloud Data Warehousing",
+    "location": "Dublin, Ireland",
+    "summary": "Experienced Senior Data Engineer specializing in building and optimizing scalable big data pipelines using Spark and Kafka. Proficient in cloud data warehousing solutions (Snowflake, Redshift) and ETL/ELT processes. Passionate about enabling data-driven decision-making.",
+    "age": 33,
+    "profile_image_url": "https://example.com/images/grace_murphy.jpg",
+    "field_category": "Data Science",
+    "work_experience": [
+      {
+        "title": "Senior Data Engineer",
+        "company_name": "DataFlow Analytics Ireland",
+        "company_linkedin_url": "https://www.linkedin.com/company/dataflowie-fictional/",
+        "location": "Dublin, Ireland",
+        "start_date": "2019-08-01",
+        "end_date": "Present",
+        "duration": "4 yrs+ ",
+        "description": "Design, build, and maintain batch and real-time data pipelines. Develop data models for cloud data warehouses. Optimize data processing performance and ensure data quality."
+      },
+      {
+        "title": "Data Engineer",
+        "company_name": "Insightful Systems Ltd.",
+        "company_linkedin_url": "https://www.linkedin.com/company/insightfulsystems-fictional/",
+        "location": "Cork, Ireland",
+        "start_date": "2016-06-01",
+        "end_date": "2019-07-31",
+        "duration": "3 yrs 2 mos",
+        "description": "Implemented ETL processes for data integration. Worked with SQL databases and Hadoop ecosystem components. Supported data analysts with data access and preparation."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "Trinity College Dublin",
+        "institution_linkedin_url": "https://www.linkedin.com/school/trinitycollegedublin/",
+        "degree": "M.Sc. in Computer Science (Data Science Stream)",
+        "field_of_study": "Data Science",
+        "start_year": "2015",
+        "end_year": "2016"
+      },
+      {
+        "institution_name": "University College Dublin (UCD)",
+        "institution_linkedin_url": "https://www.linkedin.com/school/ucd/",
+        "degree": "BSc in Computer Science",
+        "field_of_study": "Computer Science",
+        "start_year": "2011",
+        "end_year": "2015"
+      }
+    ],
+    "skills": [
+      "Data Engineering",
+      "Big Data",
+      "Apache Spark",
+      "Apache Kafka",
+      "ETL/ELT",
+      "Cloud Data Warehousing",
+      "Snowflake",
+      "AWS Redshift",
+      "Python",
+      "SQL",
+      "Data Modeling",
+      "Data Pipelines"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "AWS Certified Data Analytics - Specialty",
+        "issuing_organization": "Amazon Web Services",
+        "issue_date": "2020-10-01",
+        "credential_url": "https://example.com/cert/aws_data_grace"
+      }
+    ],
+    "connections_count": "500+"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/ryan-rivera-sem-specialist/",
+    "name": "Ryan Rivera",
+    "headline": "Senior SEM Specialist | PPC Campaign Management | Google Ads & Bing Ads Expert",
+    "location": "Chicago, IL",
+    "summary": "Results-driven Senior SEM Specialist with a strong focus on managing and optimizing PPC campaigns across Google Ads and Bing Ads. Expert in keyword research, bid management, ad copywriting, and conversion rate optimization. Proven ability to maximize ROI.",
+    "age": 31,
+    "profile_image_url": "https://example.com/images/ryan_rivera.jpg",
+    "field_category": "Marketing",
+    "work_experience": [
+      {
+        "title": "Senior SEM Specialist",
+        "company_name": "ClickOptimize Agency",
+        "company_linkedin_url": "https://www.linkedin.com/company/clickoptimize-fictional/",
+        "location": "Chicago, IL",
+        "start_date": "2019-04-01",
+        "end_date": "Present",
+        "duration": "5 yrs+ ",
+        "description": "Manage large-scale PPC campaigns for e-commerce and B2B clients. Conduct in-depth keyword analysis and competitor research. A/B test ad copy and landing pages to improve performance. Report on key metrics."
+      },
+      {
+        "title": "PPC Analyst",
+        "company_name": "SearchBoost Marketing",
+        "company_linkedin_url": "https://www.linkedin.com/company/searchboost-fictional/",
+        "location": "Evanston, IL",
+        "start_date": "2017-01-15",
+        "end_date": "2019-03-31",
+        "duration": "2 yrs 3 mos",
+        "description": "Supported SEM managers with campaign setup, monitoring, and reporting. Performed keyword research and ad copy creation. Assisted with budget management."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "University of Illinois Urbana-Champaign",
+        "institution_linkedin_url": "https://www.linkedin.com/school/uiuc/",
+        "degree": "B.S. in Advertising",
+        "field_of_study": "Advertising",
+        "start_year": "2013",
+        "end_year": "2017"
+      }
+    ],
+    "skills": [
+      "Search Engine Marketing (SEM)",
+      "Pay-Per-Click (PPC)",
+      "Google Ads",
+      "Bing Ads",
+      "Keyword Research",
+      "Bid Management",
+      "Ad Copywriting",
+      "Conversion Rate Optimization (CRO)",
+      "Google Analytics",
+      "A/B Testing"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Google Ads Search Certification",
+        "issuing_organization": "Google",
+        "issue_date": "2018-05-01",
+        "credential_url": "https://example.com/cert/googleads_ryan"
+      },
+      {
+        "name": "Microsoft Advertising Certified Professional",
+        "issuing_organization": "Microsoft",
+        "issue_date": "2019-02-10"
+      }
+    ],
+    "connections_count": "470"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/penelope-cook-interaction-designer/",
+    "name": "Penelope Cook",
+    "headline": "Lead Interaction Designer | Microinteractions & Motion Design | User-Centered Solutions",
+    "location": "San Francisco, CA",
+    "summary": "Creative Lead Interaction Designer specializing in crafting engaging microinteractions and meaningful motion design for digital products. Passionate about creating intuitive and delightful user experiences. Strong understanding of user-centered design principles and usability.",
+    "age": 35,
+    "profile_image_url": "https://example.com/images/penelope_cook.jpg",
+    "field_category": "UX/UI Design",
+    "work_experience": [
+      {
+        "title": "Lead Interaction Designer",
+        "company_name": "FlowState Digital",
+        "company_linkedin_url": "https://www.linkedin.com/company/flowstate-fictional/",
+        "location": "San Francisco, CA",
+        "start_date": "2018-07-01",
+        "end_date": "Present",
+        "duration": "5 yrs+ ",
+        "description": "Lead interaction design efforts for web and mobile applications. Define interaction patterns and design motion language. Create interactive prototypes and collaborate with UX researchers and visual designers."
+      },
+      {
+        "title": "Interaction Designer",
+        "company_name": "EngageUX Studio",
+        "company_linkedin_url": "https://www.linkedin.com/company/engageux-fictional/",
+        "location": "Oakland, CA",
+        "start_date": "2015-03-01",
+        "end_date": "2018-06-30",
+        "duration": "3 yrs 4 mos",
+        "description": "Designed user flows, wireframes, and interactive prototypes. Contributed to the development of design systems. Participated in usability testing sessions."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "California College of the Arts (CCA)",
+        "institution_linkedin_url": "https://www.linkedin.com/school/cca/",
+        "degree": "MFA in Interaction Design",
+        "field_of_study": "Interaction Design",
+        "start_year": "2013",
+        "end_year": "2015"
+      },
+      {
+        "institution_name": "Rhode Island School of Design (RISD)",
+        "institution_linkedin_url": "https://www.linkedin.com/school/risd/",
+        "degree": "BFA in Graphic Design",
+        "field_of_study": "Graphic Design",
+        "start_year": "2009",
+        "end_year": "2013"
+      }
+    ],
+    "skills": [
+      "Interaction Design",
+      "Microinteractions",
+      "Motion Design",
+      "User-Centered Design",
+      "Prototyping (Principle, After Effects)",
+      "Wireframing",
+      "User Flows",
+      "Figma",
+      "Usability",
+      "Design Systems"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      }
+    ],
+    "certifications": [],
+    "connections_count": "500+"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/nicholas-rogers-dfir/",
+    "name": "Nicholas Rogers",
+    "headline": "Digital Forensics & Incident Response (DFIR) Manager | Cyber Investigations | EnCE, GCFE",
+    "location": "New York, NY",
+    "summary": "Experienced Digital Forensics & Incident Response (DFIR) Manager leading complex cyber investigations and managing incident response engagements. Holds EnCE and GCFE certifications. Skilled in evidence collection, analysis, and reporting for legal and internal matters.",
+    "age": 41,
+    "profile_image_url": "https://example.com/images/nicholas_rogers.jpg",
+    "field_category": "Cybersecurity",
+    "work_experience": [
+      {
+        "title": "DFIR Manager",
+        "company_name": "CyberTrace Forensics",
+        "company_linkedin_url": "https://www.linkedin.com/company/cybertrace-fictional/",
+        "location": "New York, NY",
+        "start_date": "2017-11-01",
+        "end_date": "Present",
+        "duration": "6 yrs+ ",
+        "description": "Manage a team of DFIR analysts. Oversee forensic investigations related to data breaches, malware infections, and insider threats. Develop and implement incident response plans. Liaise with legal counsel and law enforcement."
+      },
+      {
+        "title": "Senior Forensic Analyst",
+        "company_name": "SecureData Investigations",
+        "company_linkedin_url": "https://www.linkedin.com/company/securedata-fictional/",
+        "location": "Washington D.C.",
+        "start_date": "2013-06-01",
+        "end_date": "2017-10-31",
+        "duration": "4 yrs 5 mos",
+        "description": "Conducted digital forensic examinations on various types of media. Analyzed malware and network traffic. Prepared detailed forensic reports and provided expert testimony."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "John Jay College of Criminal Justice",
+        "institution_linkedin_url": "https://www.linkedin.com/school/johnjay/",
+        "degree": "M.S. in Digital Forensics and Cybersecurity",
+        "field_of_study": "Digital Forensics",
+        "start_year": "2009",
+        "end_year": "2011"
+      },
+      {
+        "institution_name": "Pace University",
+        "institution_linkedin_url": "https://www.linkedin.com/school/pace/",
+        "degree": "B.S. in Computer Science",
+        "field_of_study": "Computer Science",
+        "start_year": "2005",
+        "end_year": "2009"
+      }
+    ],
+    "skills": [
+      "Digital Forensics",
+      "Incident Response (DFIR)",
+      "Cyber Investigations",
+      "Malware Analysis",
+      "Network Forensics",
+      "EnCase",
+      "FTK",
+      "Volatility",
+      "Evidence Handling",
+      "Reporting"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "EnCase Certified Examiner (EnCE)",
+        "issuing_organization": "OpenText",
+        "issue_date": "2015-03-01",
+        "credential_url": "https://example.com/cert/ence_nicholas"
+      },
+      {
+        "name": "GIAC Certified Forensic Examiner (GCFE)",
+        "issuing_organization": "GIAC Certifications",
+        "issue_date": "2014-09-10"
+      }
+    ],
+    "connections_count": "500+"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/layla-morgan-kubernetes-admin/",
+    "name": "Layla Morgan",
+    "headline": "Kubernetes Administrator | Cloud Native Infrastructure | CKA, CKAD",
+    "location": "Austin, TX",
+    "summary": "Certified Kubernetes Administrator (CKA, CKAD) with expertise in deploying, managing, and scaling containerized applications on Kubernetes. Passionate about cloud-native technologies and building resilient infrastructure. Experienced with Helm, Prometheus, and Istio.",
+    "age": 29,
+    "profile_image_url": "https://example.com/images/layla_morgan.jpg",
+    "field_category": "DevOps Engineering",
+    "work_experience": [
+      {
+        "title": "Kubernetes Administrator",
+        "company_name": "KubeNative Solutions",
+        "company_linkedin_url": "https://www.linkedin.com/company/kubenative-fictional/",
+        "location": "Austin, TX",
+        "start_date": "2021-02-01",
+        "end_date": "Present",
+        "duration": "3 yrs+ ",
+        "description": "Manage and maintain Kubernetes clusters in production environments (EKS, GKE). Implement CI/CD pipelines for deploying applications to Kubernetes. Monitor cluster health and performance using Prometheus and Grafana."
+      },
+      {
+        "title": "DevOps Engineer",
+        "company_name": "CloudDeploy Inc.",
+        "company_linkedin_url": "https://www.linkedin.com/company/clouddeploy-fictional/",
+        "location": "Dallas, TX",
+        "start_date": "2019-01-10",
+        "end_date": "2021-01-31",
+        "duration": "2 yrs 1 mo",
+        "description": "Supported cloud infrastructure on AWS. Worked with Docker and containerization. Assisted with automation tasks using Ansible and Python."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "University of Texas at Dallas",
+        "institution_linkedin_url": "https://www.linkedin.com/school/utdallas/",
+        "degree": "B.S. in Software Engineering",
+        "field_of_study": "Software Engineering",
+        "start_year": "2015",
+        "end_year": "2019"
+      }
+    ],
+    "skills": [
+      "Kubernetes",
+      "Docker",
+      "Cloud Native",
+      "CKA",
+      "CKAD",
+      "Helm",
+      "Prometheus",
+      "Grafana",
+      "Istio",
+      "CI/CD",
+      "AWS (EKS)",
+      "GCP (GKE)",
+      "Linux"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Certified Kubernetes Administrator (CKA)",
+        "issuing_organization": "Cloud Native Computing Foundation (CNCF)",
+        "issue_date": "2020-08-15",
+        "credential_url": "https://example.com/cert/cka_layla"
+      },
+      {
+        "name": "Certified Kubernetes Application Developer (CKAD)",
+        "issuing_organization": "Cloud Native Computing Foundation (CNCF)",
+        "issue_date": "2021-03-01"
+      }
+    ],
+    "connections_count": "460"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/brandon-peterson-gcp-architect/",
+    "name": "Brandon Peterson",
+    "headline": "Google Cloud Architect | Infrastructure Modernization & Data Solutions on GCP",
+    "location": "Seattle, WA",
+    "summary": "Experienced Google Cloud Architect focused on infrastructure modernization and designing scalable data solutions on GCP. Helping organizations migrate to and optimize their workloads on Google Cloud. Proficient in GCE, GKE, BigQuery, and Dataflow.",
+    "age": 38,
+    "profile_image_url": "https://example.com/images/brandon_peterson.jpg",
+    "field_category": "Cloud Architecture",
+    "work_experience": [
+      {
+        "title": "Google Cloud Architect",
+        "company_name": "GCPTransformations Inc.",
+        "company_linkedin_url": "https://www.linkedin.com/company/gcptransform-fictional/",
+        "location": "Seattle, WA",
+        "start_date": "2019-07-01",
+        "end_date": "Present",
+        "duration": "4 yrs+ ",
+        "description": "Design and implement GCP architectures for enterprise clients. Lead infrastructure modernization projects, including lift-and-shift and re-platforming. Develop solutions for data analytics and machine learning on GCP."
+      },
+      {
+        "title": "Cloud Engineer",
+        "company_name": "CloudNative Northwest",
+        "company_linkedin_url": "https://www.linkedin.com/company/cloudnativenw-fictional/",
+        "location": "Bellevue, WA",
+        "start_date": "2016-03-01",
+        "end_date": "2019-06-30",
+        "duration": "3 yrs 4 mos",
+        "description": "Managed cloud infrastructure across AWS and GCP. Automated deployments and configuration management. Provided support for cloud services."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "Western Washington University",
+        "institution_linkedin_url": "https://www.linkedin.com/school/wwu/",
+        "degree": "B.S. in Management Information Systems",
+        "field_of_study": "MIS, Minor in Computer Science",
+        "start_year": "2005",
+        "end_year": "2009"
+      }
+    ],
+    "skills": [
+      "Google Cloud Platform (GCP)",
+      "Cloud Architecture",
+      "Infrastructure Modernization",
+      "Data Solutions",
+      "Google Compute Engine (GCE)",
+      "Google Kubernetes Engine (GKE)",
+      "BigQuery",
+      "Dataflow",
+      "Terraform",
+      "Solution Design"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Google Cloud Certified - Professional Cloud Architect",
+        "issuing_organization": "Google Cloud",
+        "issue_date": "2020-02-10",
+        "credential_url": "https://example.com/cert/gcp_arch_brandon"
+      }
+    ],
+    "connections_count": "500+"
+  },
+  {
+    "linkedin_profile_url": "https://www.linkedin.com/in/lily-cooper-dapp-developer/",
+    "name": "Lily Cooper",
+    "headline": "DApp Developer | Full Stack Blockchain Engineering | Ethereum & Web3.js",
+    "location": "Remote / Global",
+    "summary": "Versatile DApp Developer with full-stack blockchain engineering experience. Proficient in building decentralized applications on Ethereum using Solidity, Web3.js, and modern frontend frameworks. Passionate about creating user-friendly interfaces for blockchain technology.",
+    "age": 28,
+    "profile_image_url": "https://example.com/images/lily_cooper.jpg",
+    "field_category": "Blockchain Development",
+    "work_experience": [
+      {
+        "title": "DApp Developer",
+        "company_name": "Decentralized Innovations Co. (Remote)",
+        "company_linkedin_url": "https://www.linkedin.com/company/decentralinnov-fictional/",
+        "location": "Remote",
+        "start_date": "2020-11-01",
+        "end_date": "Present",
+        "duration": "3 yrs+ ",
+        "description": "Develop and deploy DApps on the Ethereum network. Write and test smart contracts in Solidity. Build responsive frontend interfaces using React and Web3.js. Integrate with backend services and IPFS."
+      },
+      {
+        "title": "Frontend Developer (Blockchain Interest)",
+        "company_name": "WebSolutions Startups",
+        "company_linkedin_url": "https://www.linkedin.com/company/websolstartups-fictional/",
+        "location": "Denver, CO",
+        "start_date": "2018-06-01",
+        "end_date": "2020-10-31",
+        "duration": "2 yrs 5 mos",
+        "description": "Developed responsive web applications using JavaScript frameworks. Gained exposure to blockchain concepts and started personal projects in DApp development."
+      }
+    ],
+    "education_experience": [
+      {
+        "institution_name": "Online Blockchain Bootcamp (e.g., ConsenSys Academy - Fictional)",
+        "institution_linkedin_url": "https://www.linkedin.com/school/onlineblockchainbootcamp-fictional/",
+        "degree": "Certificate in Blockchain Development",
+        "field_of_study": "Blockchain, Solidity, DApp Development",
+        "start_year": "2020",
+        "end_year": "2020"
+      },
+      {
+        "institution_name": "University of Colorado Denver",
+        "institution_linkedin_url": "https://www.linkedin.com/school/ucdenver/",
+        "degree": "B.A. in Fine Arts",
+        "field_of_study": "Digital Design",
+        "start_year": "2012",
+        "end_year": "2016"
+      }
+    ],
+    "skills": [
+      "DApp Development",
+      "Full Stack Blockchain",
+      "Ethereum",
+      "Solidity",
+      "Web3.js",
+      "React",
+      "IPFS",
+      "Truffle Suite",
+      "Smart Contracts",
+      "JavaScript",
+      "Frontend Development"
+    ],
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Native or Bilingual"
+      }
+    ],
+    "certifications": [],
+    "connections_count": "415"
+  }
+]
