@@ -1,17 +1,13 @@
-import type React from "react";
-import { SidebarProvider } from "@/components/ui/sidebar";
-import { AppSidebar } from "@/components/app-sidebar";
-import { Header } from "@/components/header";
-import { create } from "domain";
 import { createClient } from "@/utils/supabase/server";
-import { redirect } from "next/navigation";
 import { jwtDecode, JwtPayload } from "jwt-decode";
+import { redirect } from "next/navigation";
+import { Header } from "./header";
 
 interface CustomJwtPayload extends JwtPayload {
     user_role: string;
 }
 
-export default async function RecruiterLayout({
+export default async function CandidateLayout({
     children,
 }: {
     children: React.ReactNode;
@@ -35,19 +31,16 @@ export default async function RecruiterLayout({
         redirect("/login");
     }
 
-    if ((await getUserRole()) != "recruiter") {
+    if ((await getUserRole()) != "candidate") {
         redirect("/");
     }
 
     return (
-        <SidebarProvider>
-            <div className="flex min-h-screen w-full">
-                <AppSidebar />
-                <div className="flex-1 flex flex-col">
-                    <Header />
-                    <div className="flex-1 p-6 bg-background">{children}</div>
-                </div>
+        <div className="flex min-h-screen w-full">
+            <div className="flex-1 flex flex-col">
+                <Header />
+                <div className="flex-1 p-6 bg-background">{children}</div>
             </div>
-        </SidebarProvider>
+        </div>
     );
 }
