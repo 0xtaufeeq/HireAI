@@ -36,7 +36,6 @@ const menuItems = [
     title: "Resume Parser",
     url: "/resume-parser",
     icon: FileText,
-    badge: "NEW"
   },
   {
     title: "Analytics",
