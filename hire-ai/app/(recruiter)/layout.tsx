@@ -11,7 +11,7 @@ interface CustomJwtPayload extends JwtPayload {
     user_role: string;
 }
 
-export default async function RecruiterLayout({
+export default async function RootLayout({
     children,
 }: {
     children: React.ReactNode;
