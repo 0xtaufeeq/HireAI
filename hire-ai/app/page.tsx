@@ -1,10 +1,7 @@
+import { CustomJwtPayload } from "@/lib/utils";
 import { createClient } from "@/utils/supabase/server";
 import { jwtDecode, JwtPayload } from "jwt-decode";
 import { redirect } from "next/navigation";
-
-interface CustomJwtPayload extends JwtPayload {
-    user_role: string;
-}
 
 export default async function RootPage() {
     const supabase = await createClient();
