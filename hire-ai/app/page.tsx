@@ -1,10 +1,7 @@
+import { CustomJwtPayload, getUserRole } from "@/lib/utils";
 import { createClient } from "@/utils/supabase/server";
 import { jwtDecode, JwtPayload } from "jwt-decode";
 import { redirect } from "next/navigation";
-
-interface CustomJwtPayload extends JwtPayload {
-    user_role: string;
-}
 
 export default async function RootPage() {
     const supabase = await createClient();
@@ -13,19 +10,7 @@ export default async function RootPage() {
         redirect("/login");
     }
 
-    const getUserRole = async () => {
-        const { data, error } = await supabase.auth.getSession();
-        if (error || !data.session) {
-            redirect("/login");
-            return null;
-        }
-        const jwt = data.session!.access_token;
-        const decoded = jwtDecode<CustomJwtPayload>(jwt);
-        const user_role: string = decoded.user_role;
-        return user_role;
-    };
-
-    const userRole = await getUserRole();
+    const userRole = await getUserRole(supabase);
 
     switch (userRole) {
         case "recruiter":
@@ -34,6 +19,8 @@ export default async function RootPage() {
         case "candidate":
             redirect("/home");
             break;
+        case "undefined":
+            redirect("/setup");
         default:
             redirect("/error");
     }

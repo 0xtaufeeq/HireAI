@@ -1,3 +1,5 @@
+-- not in use, check v2
+
 create or replace function public.insert_user_role () RETURNS trigger as $$
 DECLARE
     user_role text;
@@ -6,7 +8,7 @@ BEGIN
     IF NEW.raw_user_meta_data::jsonb ? 'signup_as' THEN
         user_role := NEW.raw_user_meta_data::jsonb->>'signup_as';
     ELSE
-        user_role := 'candidate'; -- default
+        user_role := 'undefined'; -- default
     END IF;
 
     -- Insert the user role into the user_roles table

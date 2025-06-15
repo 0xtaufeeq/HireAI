@@ -13,6 +13,10 @@ export default function ErrorPage() {
                 <a href="/" className="text-blue-500 hover:underline">
                     Go back to home
                 </a>
+                <br />
+                <a href="/signout" className="text-blue-500 hover:underline">
+                    or Sign Out
+                </a>
             </div>
         </div>
     );
