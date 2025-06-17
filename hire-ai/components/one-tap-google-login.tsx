@@ -14,8 +14,8 @@ const OneTapGoogleLoginBtn = () => {
     const generateNonce = async (): Promise<string[]> => {
         const nonce = btoa(
             String.fromCharCode(
-                ...Array.from(crypto.getRandomValues(new Uint8Array(32)))
-            )
+                ...Array.from(crypto.getRandomValues(new Uint8Array(32))),
+            ),
         );
         const encoder = new TextEncoder();
         const encodedNonce = encoder.encode(nonce);
@@ -61,7 +61,7 @@ const OneTapGoogleLoginBtn = () => {
                             if (error) throw error;
                             console.log("Session data: ", data);
                             console.log(
-                                "Successfully logged in with Google One Tap"
+                                "Successfully logged in with Google One Tap",
                             );
 
                             // redirect to protected page
@@ -69,7 +69,7 @@ const OneTapGoogleLoginBtn = () => {
                         } catch (error) {
                             console.error(
                                 "Error logging in with Google One Tap",
-                                error
+                                error,
                             );
                         }
                     },

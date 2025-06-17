@@ -1,9 +1,11 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Enabling PostHog Analytics
+
 To enable PostHog analytics in this project, you’ll need to configure your environment variables. Follow these steps:
 
 1. **Get Your PostHog Project API Key**
+
     - Log in to your PostHog account (or your self-hosted instance).
 
     - Go to Project Settings > API Keys.
@@ -11,27 +13,33 @@ To enable PostHog analytics in this project, you’ll need to configure your env
     - Copy your Project API Key (sometimes called "Project Key" or "Public Key").
 
 2. **Set Up Environment Variables**
+
     - Create or update your .env.local file in the root of your project with the following variables:
 
     ```bash
     NEXT_PUBLIC_POSTHOG_KEY=phc_abc123def456gh789ijklmno
     NEXT_PUBLIC_POSTHOG_HOST=https://us.posthog.com
     ```
+
 3. **Restart Your Development Server**
+
     - After updating the .env.local file, restart your Next.js development server to apply the changes:
 
     ```bash
     npm run dev
     ```
+
     or
+
     ```bash
     yarn dev
     ```
+
 4. **Verify Analytics**
+
     - Open your app and interact with it.
 
     - Go to your PostHog dashboard and check the "Activity" section to see if events are being received.
-
 
 ## Learn More
 

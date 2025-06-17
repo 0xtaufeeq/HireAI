@@ -15,7 +15,7 @@ export async function sendMail({ to, subject, text }: sendMailProps) {
                 to: to,
                 subject: subject,
                 text: text,
-            }
+            },
         );
 
         console.log(data);
