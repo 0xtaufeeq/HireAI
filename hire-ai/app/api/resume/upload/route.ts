@@ -144,11 +144,13 @@ export async function POST(request: NextRequest) {
         structuredData = JSON.parse(aiResponseText) as ResumeStructuredData;
         
         // Validate the structure
-        const requiredFields = ['name', 'email', 'phone', 'location', 'title', 'experience', 'skills', 'education', 'workHistory'];
-        const isValid = requiredFields.every(field => field in structuredData);
-        
-        if (!isValid) {
-          throw new Error('Invalid structure returned from AI');
+        if (structuredData) {
+          const requiredFields = ['name', 'email', 'phone', 'location', 'title', 'experience', 'skills', 'education', 'workHistory'];
+          const isValid = requiredFields.every(field => field in structuredData!);
+          
+          if (!isValid) {
+            throw new Error('Invalid structure returned from AI');
+          }
         }
 
       } catch (error) {
