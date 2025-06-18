@@ -290,10 +290,16 @@
     background: hsl(var(--primary));
   }
 
-  /* Dropdown elegance */
-  .dropdown-elegant {
-    animation: elegant-scale-in 200ms var(--ease-out-cubic);
-    transform-origin: top;
+  /* Disable dropdown animations completely */
+  [data-radix-popper-content-wrapper] {
+    animation: none !important;
+    transition: none !important;
+  }
+  
+  [data-radix-dropdown-menu-content] {
+    animation: none !important;
+    transition: none !important;
+    transform: none !important;
   }
 
   /* Focus rings */

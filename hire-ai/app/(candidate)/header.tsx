@@ -1,6 +1,6 @@
 "use client";
 
-import { Bell, Search, User } from "lucide-react";
+import { Bell, Search, User, Settings } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import {
@@ -15,6 +15,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { logout } from "@/app/login/actions";
+import Link from "next/link";
 
 export function Header() {
     return (
@@ -34,7 +35,7 @@ export function Header() {
                     className="button-elegant relative focus-elegant"
                 >
                     <Bell className="h-4 w-4 icon-elegant" />
-                    <Badge className="absolute -top-1 -right-1 h-4 w-4 rounded-full p-0 text-[10px] bg-primary text-primary-foreground border-0 notification-pulse">
+                    <Badge className="absolute -top-1 -right-1 h-4 w-4 rounded-full p-0 text-[10px] bg-primary text-primary-foreground border-0 notification-pulse flex items-center justify-center">
                         3
                     </Badge>
                 </Button>
@@ -57,7 +58,7 @@ export function Header() {
                         </Button>
                     </DropdownMenuTrigger>
                     <DropdownMenuContent
-                        className="dropdown-elegant w-56 border-border/60 bg-card/95 backdrop-blur-md"
+                        className="w-56 border-border/60 bg-card/95 backdrop-blur-md"
                         align="end"
                         forceMount
                     >
@@ -76,8 +77,11 @@ export function Header() {
                             <User className="mr-2 h-4 w-4" />
                             <span>Profile</span>
                         </DropdownMenuItem>
-                        <DropdownMenuItem className="cursor-pointer transition-all duration-200 hover:bg-primary/5 hover:text-primary focus:bg-primary/5 focus:text-primary">
-                            <span>Settings</span>
+                        <DropdownMenuItem className="cursor-pointer transition-all duration-200 hover:bg-primary/5 hover:text-primary focus:bg-primary/5 focus:text-primary" asChild>
+                            <Link href="/settings">
+                                <Settings className="mr-2 h-4 w-4" />
+                                <span>Settings</span>
+                            </Link>
                         </DropdownMenuItem>
                         <DropdownMenuSeparator className="bg-border/50" />
                         <DropdownMenuItem
