@@ -5,8 +5,8 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 import { Progress } from "@/components/ui/progress"
-import { Textarea } from "@/components/ui/textarea"
-import { Upload, FileText, CheckCircle, Clock, AlertCircle, X, Download, Copy } from "lucide-react"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import { Upload, FileText, CheckCircle, Clock, AlertCircle, X, Download, Zap } from "lucide-react"
 import { UploadedResume, UploadResponse } from "@/types/resume"
 import { useToast } from "@/hooks/use-toast"
 
@@ -104,6 +104,7 @@ export default function ResumeParserPage() {
           size: result.size,
           uploadTime: result.uploadTime,
           extractedText: result.extractedText,
+          structuredData: result.structuredData,
           status: "completed"
         }
 
@@ -154,16 +155,6 @@ export default function ResumeParserPage() {
     }
   }
 
-  const copyToClipboard = () => {
-    if (selectedResume?.extractedText) {
-      navigator.clipboard.writeText(selectedResume.extractedText)
-      toast({
-        title: "Copied to clipboard",
-        description: "Extracted text has been copied to your clipboard.",
-      })
-    }
-  }
-
   const formatFileSize = (bytes: number) => {
     if (bytes === 0) return '0 Bytes'
     const k = 1024
@@ -192,7 +183,7 @@ export default function ResumeParserPage() {
         }}
       >
         <h1 className="text-3xl font-bold tracking-tight">Resume Parser</h1>
-        <p className="text-muted-foreground/80">Upload resumes to automatically extract text content using AI-powered OCR.</p>
+        <p className="text-muted-foreground/80">Upload resumes to automatically extract and structure candidate information using AI.</p>
       </div>
 
       <div className="grid gap-6 lg:grid-cols-2">
@@ -372,29 +363,14 @@ export default function ResumeParserPage() {
             }}
           >
             <CardHeader>
-              <CardTitle className="flex items-center justify-between">
-                <div className="flex items-center gap-3">
-                  <FileText className="h-5 w-5 text-primary/70" />
-                  Extracted Text
-                </div>
-                {selectedResume && (
-                  <div className="flex items-center gap-2">
-                    <Button
-                      variant="outline"
-                      size="sm"
-                      onClick={copyToClipboard}
-                      className="button-elegant h-8"
-                    >
-                      <Copy className="h-3 w-3 mr-1" />
-                      Copy
-                    </Button>
-                  </div>
-                )}
+              <CardTitle className="flex items-center gap-3">
+                <Zap className="h-5 w-5 text-primary/70" />
+                Parsing Results
               </CardTitle>
               <CardDescription className="text-muted-foreground/70">
                 {selectedResume 
-                  ? `Text content extracted from ${selectedResume.originalName}`
-                  : "Select a completed upload to view extracted text"
+                  ? `Structured information extracted from ${selectedResume.originalName}`
+                  : "Select a completed upload to view parsed resume data"
                 }
               </CardDescription>
             </CardHeader>
@@ -404,21 +380,179 @@ export default function ResumeParserPage() {
                   <FileText className="h-16 w-16 mx-auto mb-4 text-muted-foreground/30" />
                   <p className="text-muted-foreground/60 mb-2">No resume selected</p>
                   <p className="text-sm text-muted-foreground/50">
-                    Upload and process a resume to view extracted text
+                    Upload and process a resume to view structured data
                   </p>
                 </div>
-              ) : (
-                <div className="space-y-4">
-                  <Textarea
-                    value={selectedResume.extractedText}
-                    readOnly
-                    className="min-h-[400px] font-mono text-sm resize-none focus-visible:ring-1"
-                    placeholder="Extracted text will appear here..."
-                  />
-                  <div className="flex items-center justify-between text-xs text-muted-foreground/60">
-                    <span>{selectedResume.extractedText.length} characters</span>
-                    <span>Processed {formatTimeAgo(selectedResume.uploadTime)}</span>
+              ) : selectedResume.status !== "completed" ? (
+                <div className="text-center py-12">
+                  <Clock className="h-16 w-16 mx-auto mb-4 text-muted-foreground/40 animate-spin" />
+                  <p className="text-muted-foreground/60 mb-2">Processing resume...</p>
+                  <p className="text-sm text-muted-foreground/50">
+                    AI is analyzing and structuring the data
+                  </p>
+                </div>
+              ) : selectedResume.structuredData ? (
+                <>
+                  <Tabs defaultValue="overview" className="w-full">
+                    <TabsList className="grid w-full grid-cols-3">
+                      <TabsTrigger value="overview">Overview</TabsTrigger>
+                      <TabsTrigger value="skills">Skills</TabsTrigger>
+                      <TabsTrigger value="experience">Experience</TabsTrigger>
+                    </TabsList>
+
+                    <TabsContent value="overview" className="space-y-4 mt-6">
+                      <div className="space-y-4">
+                        <div className="grid grid-cols-1 gap-4">
+                          <div>
+                            <label className="text-sm font-medium text-foreground/80">Name</label>
+                            <p className="text-sm text-muted-foreground/70 mt-1">
+                              {selectedResume.structuredData.name || "Not specified"}
+                            </p>
+                          </div>
+                          <div>
+                            <label className="text-sm font-medium text-foreground/80">Email</label>
+                            <p className="text-sm text-muted-foreground/70 mt-1">
+                              {selectedResume.structuredData.email || "Not specified"}
+                            </p>
+                          </div>
+                          <div>
+                            <label className="text-sm font-medium text-foreground/80">Phone</label>
+                            <p className="text-sm text-muted-foreground/70 mt-1">
+                              {selectedResume.structuredData.phone || "Not specified"}
+                            </p>
+                          </div>
+                          <div>
+                            <label className="text-sm font-medium text-foreground/80">Location</label>
+                            <p className="text-sm text-muted-foreground/70 mt-1">
+                              {selectedResume.structuredData.location || "Not specified"}
+                            </p>
+                          </div>
+                          <div>
+                            <label className="text-sm font-medium text-foreground/80">Title</label>
+                            <p className="text-sm text-muted-foreground/70 mt-1">
+                              {selectedResume.structuredData.title || "Not specified"}
+                            </p>
+                          </div>
+                          <div>
+                            <label className="text-sm font-medium text-foreground/80">Experience</label>
+                            <p className="text-sm text-muted-foreground/70 mt-1">
+                              {selectedResume.structuredData.experience || "Not specified"}
+                            </p>
+                          </div>
+                          {selectedResume.structuredData.summary && (
+                            <div>
+                              <label className="text-sm font-medium text-foreground/80">Summary</label>
+                              <p className="text-sm text-muted-foreground/70 mt-1">
+                                {selectedResume.structuredData.summary}
+                              </p>
+                            </div>
+                          )}
+                        </div>
+                      </div>
+                    </TabsContent>
+
+                    <TabsContent value="skills" className="space-y-4 mt-6">
+                      <div>
+                        <label className="text-sm font-medium mb-3 block text-foreground/80">Extracted Skills</label>
+                        {selectedResume.structuredData.skills.length > 0 ? (
+                          <div className="flex flex-wrap gap-2">
+                            {selectedResume.structuredData.skills.map((skill, index) => (
+                              <Badge 
+                                key={index} 
+                                variant="secondary" 
+                                className="badge-elegant text-xs bg-primary/10 text-primary border-primary/20 hover:bg-primary/15"
+                              >
+                                {skill}
+                              </Badge>
+                            ))}
+                          </div>
+                        ) : (
+                          <p className="text-sm text-muted-foreground/60">No skills extracted</p>
+                        )}
+                      </div>
+                    </TabsContent>
+
+                    <TabsContent value="experience" className="space-y-4 mt-6">
+                      <div className="space-y-6">
+                        {selectedResume.structuredData.education.length > 0 && (
+                          <div>
+                            <label className="text-sm font-medium mb-3 block text-foreground/80">Education</label>
+                            <div className="space-y-3">
+                              {selectedResume.structuredData.education.map((edu, index) => (
+                                <div key={index} className="text-sm border-l-2 border-primary/20 pl-4 py-2">
+                                  <p className="font-medium text-foreground/90">{edu.degree}</p>
+                                  <p className="text-muted-foreground/70">
+                                    {edu.school} {edu.year && `• ${edu.year}`}
+                                  </p>
+                                  {edu.gpa && (
+                                    <p className="text-xs text-muted-foreground/60">GPA: {edu.gpa}</p>
+                                  )}
+                                  {edu.honors && (
+                                    <p className="text-xs text-muted-foreground/60">{edu.honors}</p>
+                                  )}
+                                </div>
+                              ))}
+                            </div>
+                          </div>
+                        )}
+
+                        {selectedResume.structuredData.workHistory.length > 0 && (
+                          <div>
+                            <label className="text-sm font-medium mb-3 block text-foreground/80">Work History</label>
+                            <div className="space-y-4">
+                              {selectedResume.structuredData.workHistory.map((job, index) => (
+                                <div key={index} className="text-sm border-l-2 border-primary/20 pl-4 py-2">
+                                  <p className="font-medium text-foreground/90">{job.position}</p>
+                                  <p className="text-muted-foreground/70">
+                                    {job.company} • {job.duration}
+                                  </p>
+                                  <p className="text-xs text-muted-foreground/60 mt-1">{job.description}</p>
+                                  {job.achievements && job.achievements.length > 0 && (
+                                    <div className="mt-2">
+                                      <p className="text-xs font-medium text-foreground/70">Key Achievements:</p>
+                                      <ul className="text-xs text-muted-foreground/60 mt-1 space-y-0.5">
+                                        {job.achievements.map((achievement, i) => (
+                                          <li key={i} className="flex items-start">
+                                            <span className="inline-block w-1 h-1 bg-primary/60 rounded-full mt-1.5 mr-2 flex-shrink-0"></span>
+                                            {achievement}
+                                          </li>
+                                        ))}
+                                      </ul>
+                                    </div>
+                                  )}
+                                </div>
+                              ))}
+                            </div>
+                          </div>
+                        )}
+
+                        {selectedResume.structuredData.education.length === 0 && selectedResume.structuredData.workHistory.length === 0 && (
+                          <p className="text-sm text-muted-foreground/60">No education or work history extracted</p>
+                        )}
+                      </div>
+                    </TabsContent>
+                  </Tabs>
+
+                  <div className="flex gap-3 pt-6 border-t border-border/30">
+                    <Button className="button-elegant bg-primary text-primary-foreground hover:bg-primary/90">
+                      Add to Candidate Pool
+                    </Button>
+                    <Button 
+                      variant="outline" 
+                      className="button-elegant border-border/60 hover:border-primary/30 hover:bg-primary/5"
+                    >
+                      <Download className="h-4 w-4 mr-2" />
+                      Export Data
+                    </Button>
                   </div>
+                </>
+              ) : (
+                <div className="text-center py-12">
+                  <AlertCircle className="h-16 w-16 mx-auto mb-4 text-muted-foreground/40" />
+                  <p className="text-muted-foreground/60 mb-2">Processing failed</p>
+                  <p className="text-sm text-muted-foreground/50">
+                    Unable to extract structured data from this resume
+                  </p>
                 </div>
               )}
             </CardContent>
