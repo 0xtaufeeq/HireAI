@@ -26,6 +26,8 @@ jobs:
 
             - name: Install dependencies
               run: pnpm install
+              working-directory: hire-ai
 
             - name: Build project
               run: pnpm build
+              working-directory: hire-ai
