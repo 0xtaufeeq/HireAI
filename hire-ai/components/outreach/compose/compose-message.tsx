@@ -25,7 +25,25 @@ import {
     TooltipTrigger,
     TooltipProvider,
 } from "@/components/ui/tooltip";
-import { Send, Clock, Save, Users, Mail, Eye } from "lucide-react";
+import {
+    AlertDialog,
+    AlertDialogAction,
+    AlertDialogContent,
+    AlertDialogDescription,
+    AlertDialogFooter,
+    AlertDialogHeader,
+    AlertDialogTitle,
+} from "@/components/ui/alert-dialog";
+import {
+    Send,
+    Clock,
+    Save,
+    Users,
+    Mail,
+    Eye,
+    AlertTriangle,
+    CheckCircle,
+} from "lucide-react";
 import type { EmailTemplate } from "@/types/outreach";
 import { sendMail, type sendMailProps } from "@/utils/mailgun/sendMail";
 import { htmlTemplates } from "@/app/(recruiter)/outreach/_templates";
@@ -48,6 +66,10 @@ export function ComposeMessage({
         useState<string>("");
     const [isLoading, setIsLoading] = useState(false);
     const [previewMode, setPreviewMode] = useState<"text" | "html">("text");
+    const [alertMessage, setAlertMessage] = useState<string>("");
+    const [showValidationDialog, setShowValidationDialog] = useState(false);
+    const [showSuccessDialog, setShowSuccessDialog] = useState(false);
+    const [successMessage, setSuccessMessage] = useState<string>("");
 
     const handleTemplateChange = (templateId: string) => {
         setSelectedTemplate(templateId);
@@ -126,8 +148,44 @@ export function ComposeMessage({
         return processedContent;
     };
 
+    const validateForm = (): { isValid: boolean; missingFields: string[] } => {
+        const missingFields: string[] = [];
+
+        if (!emailData.to.length) {
+            missingFields.push("Recipients");
+        }
+        if (!emailData.subject.trim()) {
+            missingFields.push("Subject");
+        }
+        if (!emailData.text.trim()) {
+            missingFields.push("Message");
+        }
+
+        return {
+            isValid: missingFields.length === 0,
+            missingFields,
+        };
+    };
+
+    const showValidationAlert = (missingFields: string[]) => {
+        setAlertMessage(
+            `Please fill out the following required fields: ${missingFields.join(", ")}`,
+        );
+        setShowValidationDialog(true);
+    };
+
+    const showSuccessAlert = (recipientCount: number) => {
+        setSuccessMessage(
+            `Message sent successfully to ${recipientCount} recipient${recipientCount !== 1 ? "s" : ""}!`,
+        );
+        setShowSuccessDialog(true);
+    };
+
     const handleSendNow = async () => {
-        if (!emailData.to.length || !emailData.subject || !emailData.text) {
+        const validation = validateForm();
+
+        if (!validation.isValid) {
+            showValidationAlert(validation.missingFields);
             return;
         }
 
@@ -147,6 +205,9 @@ export function ComposeMessage({
 
             console.log("Message sent successfully to:", emailData.to);
 
+            // Show success dialog
+            showSuccessAlert(emailData.to.length);
+
             // Reset form after successful send
             setEmailData({
                 to: [],
@@ -163,6 +224,13 @@ export function ComposeMessage({
     };
 
     const handleScheduleSend = () => {
+        const validation = validateForm();
+
+        if (!validation.isValid) {
+            showValidationAlert(validation.missingFields);
+            return;
+        }
+
         // Implementation for scheduling message
         console.log("Scheduling message:", emailData);
     };
@@ -171,9 +239,6 @@ export function ComposeMessage({
         // Implementation for saving draft
         console.log("Saving draft:", emailData);
     };
-
-    const isFormValid =
-        emailData.to.length > 0 && emailData.subject && emailData.text;
 
     // Check if current content is HTML
     const isHtmlContent =
@@ -189,7 +254,7 @@ export function ComposeMessage({
                         Compose Message
                     </CardTitle>
                     <CardDescription>
-                        Send personalized outreach to candidates using HTML
+                        Send personalized outreach to candidates using mail
                         templates
                     </CardDescription>
                 </CardHeader>
@@ -233,7 +298,7 @@ export function ComposeMessage({
                                 </TooltipTrigger>
                                 <TooltipContent>
                                     <p>
-                                        Choose a pre-built HTML template to
+                                        Choose a pre-built mail template to
                                         start with
                                     </p>
                                 </TooltipContent>
@@ -379,7 +444,7 @@ export function ComposeMessage({
                             <TooltipTrigger asChild>
                                 <Button
                                     onClick={handleSendNow}
-                                    disabled={!isFormValid || isLoading}
+                                    disabled={isLoading}
                                 >
                                     <Send className="h-4 w-4 mr-2" />
                                     {isLoading ? "Sending..." : "Send Now"}
@@ -387,8 +452,8 @@ export function ComposeMessage({
                             </TooltipTrigger>
                             <TooltipContent>
                                 <p>
-                                    Send the HTML message immediately to
-                                    selected candidates
+                                    Send a message immediately to selected
+                                    candidates
                                 </p>
                             </TooltipContent>
                         </Tooltip>
@@ -397,7 +462,7 @@ export function ComposeMessage({
                                 <Button
                                     variant="outline"
                                     onClick={handleScheduleSend}
-                                    disabled={!isFormValid || isLoading}
+                                    disabled={isLoading}
                                 >
                                     <Clock className="h-4 w-4 mr-2" />
                                     Schedule Send
@@ -421,6 +486,57 @@ export function ComposeMessage({
                     </div>
                 </CardContent>
             </Card>
+
+            {/* Validation Alert Dialog */}
+            <AlertDialog
+                open={showValidationDialog}
+                onOpenChange={setShowValidationDialog}
+            >
+                <AlertDialogContent>
+                    <AlertDialogHeader>
+                        <AlertDialogTitle className="flex items-center gap-2">
+                            <AlertTriangle className="h-5 w-5 text-amber-500" />
+                            Missing Required Fields
+                        </AlertDialogTitle>
+                        <AlertDialogDescription>
+                            {alertMessage}
+                        </AlertDialogDescription>
+                    </AlertDialogHeader>
+                    <AlertDialogFooter>
+                        <AlertDialogAction
+                            onClick={() => setShowValidationDialog(false)}
+                        >
+                            OK
+                        </AlertDialogAction>
+                    </AlertDialogFooter>
+                </AlertDialogContent>
+            </AlertDialog>
+
+            {/* Success Alert Dialog */}
+            <AlertDialog
+                open={showSuccessDialog}
+                onOpenChange={setShowSuccessDialog}
+            >
+                <AlertDialogContent>
+                    <AlertDialogHeader>
+                        <AlertDialogTitle className="flex items-center gap-2">
+                            <CheckCircle className="h-5 w-5 text-green-500" />
+                            Message Sent Successfully
+                        </AlertDialogTitle>
+                        <AlertDialogDescription>
+                            {successMessage}
+                        </AlertDialogDescription>
+                    </AlertDialogHeader>
+                    <AlertDialogFooter>
+                        <AlertDialogAction
+                            onClick={() => setShowSuccessDialog(false)}
+                            className="bg-green-600 hover:bg-green-700"
+                        >
+                            Great!
+                        </AlertDialogAction>
+                    </AlertDialogFooter>
+                </AlertDialogContent>
+            </AlertDialog>
         </TooltipProvider>
     );
 }
