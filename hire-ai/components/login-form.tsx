@@ -9,10 +9,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { login, signUpWithGoogle } from "@/app/login/actions";
 
-export function LoginForm({
-    className,
-    ...props
-}: React.ComponentProps<"div">) {
+export function LoginForm({ className, ...props }: React.ComponentProps<"div">) {
     const [error, setError] = useState<string | null>(null);
     const [isLoading, setIsLoading] = useState(false);
 
@@ -33,22 +30,13 @@ export function LoginForm({
         <div className={cn("flex flex-col gap-6", className)} {...props}>
             <div className="flex flex-col gap-6">
                 <div className="flex flex-col items-center gap-2">
-                    <a
-                        href="#"
-                        className="flex flex-col items-center gap-2 font-medium"
-                    >
+                    <a href="#" className="flex flex-col items-center gap-2 font-medium">
                         <div className="flex size-8 items-center justify-center rounded-md">
                             <GalleryVerticalEnd className="size-6" />
                         </div>
                         <span className="sr-only">HireAI</span>
                     </a>
                     <h1 className="text-xl font-bold">Welcome to HireAI</h1>
-                    <div className="text-center text-sm">
-                        Don&apos;t have an account?{" "}
-                        <a href="#" className="underline underline-offset-4">
-                            Sign up
-                        </a>
-                    </div>
                 </div>
 
                 {/* Email/Password Login Form */}
@@ -74,15 +62,9 @@ export function LoginForm({
                         />
                     </div>
 
-                    {error && (
-                        <div className="text-sm text-red-600">{error}</div>
-                    )}
+                    {error && <div className="text-sm text-red-600">{error}</div>}
 
-                    <Button
-                        type="submit"
-                        className="w-full"
-                        disabled={isLoading}
-                    >
+                    <Button type="submit" className="w-full" disabled={isLoading}>
                         {isLoading ? "Logging in..." : "Login"}
                     </Button>
                 </form>
@@ -117,10 +99,10 @@ export function LoginForm({
             </div>
 
             <div className="text-muted-foreground *:[a]:hover:text-primary text-center text-xs text-balance *:[a]:underline *:[a]:underline-offset-4">
-                By clicking continue, you agree to our{" "}
-                <a href="#">Terms of Service</a> and{" "}
+                By clicking continue, you agree to our <a href="#">Terms of Service</a> and{" "}
                 <a href="#">Privacy Policy</a>.
             </div>
         </div>
     );
 }
+
