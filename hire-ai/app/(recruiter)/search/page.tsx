@@ -73,13 +73,13 @@ export default function SearchPage() {
     useEffect(() => {
         const loadCandidates = async () => {
             try {
-                const response = await fetch('/data/indian-candidates.json');
+                const response = await fetch("/data/indian-candidates.json");
                 const data = await response.json();
                 setCandidates(data);
                 setFilteredCandidates(data);
                 setLoading(false);
             } catch (error) {
-                console.error('Error loading candidates:', error);
+                console.error("Error loading candidates:", error);
                 setLoading(false);
             }
         };
@@ -90,112 +90,330 @@ export default function SearchPage() {
     // Analyze search query for detected criteria
     const analyzeSearchQuery = (query: string) => {
         const lowerQuery = query.toLowerCase();
-        
+
         // Location patterns
         const locationKeywords = [
-            'bangalore', 'mumbai', 'delhi', 'chennai', 'hyderabad', 'pune', 'kolkata', 
-            'ahmedabad', 'kochi', 'jaipur', 'mysore', 'coimbatore', 'thiruvananthapuram',
-            'bay area', 'silicon valley', 'california', 'new york', 'london', 'remote',
-            'gurgaon', 'noida', 'indore', 'bhubaneswar', 'chandigarh', 'nagpur', 'surat'
+            "bangalore",
+            "mumbai",
+            "delhi",
+            "chennai",
+            "hyderabad",
+            "pune",
+            "kolkata",
+            "ahmedabad",
+            "kochi",
+            "jaipur",
+            "mysore",
+            "coimbatore",
+            "thiruvananthapuram",
+            "bay area",
+            "silicon valley",
+            "california",
+            "new york",
+            "london",
+            "remote",
+            "gurgaon",
+            "noida",
+            "indore",
+            "bhubaneswar",
+            "chandigarh",
+            "nagpur",
+            "surat",
         ];
-        
+
         // Job title patterns - expanded for all fields
         const jobTitleKeywords = [
             // Technology
-            'engineer', 'developer', 'architect', 'devops', 'data scientist', 'ai', 'ml',
+            "engineer",
+            "developer",
+            "architect",
+            "devops",
+            "data scientist",
+            "ai",
+            "ml",
             // Product & Management
-            'product manager', 'manager', 'director', 'analyst', 'lead', 'senior', 'junior', 
-            'principal', 'consultant', 'specialist', 'coordinator', 'executive',
+            "product manager",
+            "manager",
+            "director",
+            "analyst",
+            "lead",
+            "senior",
+            "junior",
+            "principal",
+            "consultant",
+            "specialist",
+            "coordinator",
+            "executive",
             // Sales & Marketing
-            'sales', 'marketing', 'account', 'business development', 'growth', 'digital marketing',
-            'content', 'social media', 'seo', 'sem', 'brand', 'performance marketing',
+            "sales",
+            "marketing",
+            "account",
+            "business development",
+            "growth",
+            "digital marketing",
+            "content",
+            "social media",
+            "seo",
+            "sem",
+            "brand",
+            "performance marketing",
             // Finance & Operations
-            'financial', 'finance', 'controller', 'cfo', 'operations', 'supply chain', 'logistics',
-            'audit', 'risk', 'treasury', 'budget', 'investment', 'credit',
+            "financial",
+            "finance",
+            "controller",
+            "cfo",
+            "operations",
+            "supply chain",
+            "logistics",
+            "audit",
+            "risk",
+            "treasury",
+            "budget",
+            "investment",
+            "credit",
             // HR & Legal
-            'hr', 'human resources', 'talent', 'recruiter', 'recruiting', 'legal', 'counsel',
-            'compliance', 'contract', 'regulatory', 'employment', 'benefits',
+            "hr",
+            "human resources",
+            "talent",
+            "recruiter",
+            "recruiting",
+            "legal",
+            "counsel",
+            "compliance",
+            "contract",
+            "regulatory",
+            "employment",
+            "benefits",
             // Design & Creative
-            'designer', 'design', 'creative', 'ui', 'ux', 'visual', 'graphic', 'brand designer',
-            'art director', 'motion graphics', 'interaction design',
+            "designer",
+            "design",
+            "creative",
+            "ui",
+            "ux",
+            "visual",
+            "graphic",
+            "brand designer",
+            "art director",
+            "motion graphics",
+            "interaction design",
             // Consulting & Strategy
-            'consultant', 'strategy', 'transformation', 'process improvement', 'change management',
+            "consultant",
+            "strategy",
+            "transformation",
+            "process improvement",
+            "change management",
             // Healthcare & Education
-            'healthcare', 'medical', 'clinical', 'pharmaceutical', 'training', 'learning',
-            'education', 'curriculum', 'instructional'
+            "healthcare",
+            "medical",
+            "clinical",
+            "pharmaceutical",
+            "training",
+            "learning",
+            "education",
+            "curriculum",
+            "instructional",
         ];
-        
+
         // Experience patterns
         const experiencePatterns = [
             /\d+\s*(year|yr|yrs|years?)/i,
             /(fresh|fresher|entry.level|junior|senior|mid.level|experienced)/i,
-            /(\d+)\+?\s*(year|yr|yrs|years?)/i
+            /(\d+)\+?\s*(year|yr|yrs|years?)/i,
         ];
-        
+
         // Industry patterns - greatly expanded
         const industryKeywords = [
             // Technology
-            'fintech', 'tech', 'technology', 'startup', 'saas', 'software', 'it',
+            "fintech",
+            "tech",
+            "technology",
+            "startup",
+            "saas",
+            "software",
+            "it",
             // Finance & Banking
-            'finance', 'banking', 'financial services', 'insurance', 'investment',
-            'private equity', 'venture capital', 'asset management',
+            "finance",
+            "banking",
+            "financial services",
+            "insurance",
+            "investment",
+            "private equity",
+            "venture capital",
+            "asset management",
             // Consulting & Professional Services
-            'consulting', 'professional services', 'advisory', 'strategy',
+            "consulting",
+            "professional services",
+            "advisory",
+            "strategy",
             // Healthcare & Pharma
-            'healthcare', 'pharma', 'pharmaceutical', 'medical', 'biotech', 'life sciences',
+            "healthcare",
+            "pharma",
+            "pharmaceutical",
+            "medical",
+            "biotech",
+            "life sciences",
             // E-commerce & Retail
-            'ecommerce', 'e-commerce', 'retail', 'consumer goods', 'fmcg',
+            "ecommerce",
+            "e-commerce",
+            "retail",
+            "consumer goods",
+            "fmcg",
             // Manufacturing & Industrial
-            'manufacturing', 'automotive', 'industrial', 'chemicals', 'steel', 'textiles',
+            "manufacturing",
+            "automotive",
+            "industrial",
+            "chemicals",
+            "steel",
+            "textiles",
             // Media & Entertainment
-            'media', 'entertainment', 'gaming', 'publishing', 'advertising', 'marketing',
+            "media",
+            "entertainment",
+            "gaming",
+            "publishing",
+            "advertising",
+            "marketing",
             // Education & Training
-            'education', 'edtech', 'training', 'learning', 'academic',
+            "education",
+            "edtech",
+            "training",
+            "learning",
+            "academic",
             // Government & Public Sector
-            'government', 'public sector', 'ngo', 'non-profit',
+            "government",
+            "public sector",
+            "ngo",
+            "non-profit",
             // Real Estate & Construction
-            'real estate', 'construction', 'infrastructure', 'property',
+            "real estate",
+            "construction",
+            "infrastructure",
+            "property",
             // Energy & Utilities
-            'energy', 'utilities', 'oil', 'gas', 'renewable', 'solar', 'wind'
+            "energy",
+            "utilities",
+            "oil",
+            "gas",
+            "renewable",
+            "solar",
+            "wind",
         ];
-        
+
         // Skills patterns - expanded for all fields
         const skillKeywords = [
             // Technology Skills
-            'react', 'angular', 'vue', 'javascript', 'typescript', 'python', 'java',
-            'node', 'express', 'spring', 'django', 'mongodb', 'sql', 'postgresql',
-            'aws', 'azure', 'docker', 'kubernetes', 'git', 'agile', 'scrum',
-            'machine learning', 'ai', 'data science', 'devops', 'frontend', 'backend',
+            "react",
+            "angular",
+            "vue",
+            "javascript",
+            "typescript",
+            "python",
+            "java",
+            "node",
+            "express",
+            "spring",
+            "django",
+            "mongodb",
+            "sql",
+            "postgresql",
+            "aws",
+            "azure",
+            "docker",
+            "kubernetes",
+            "git",
+            "agile",
+            "scrum",
+            "machine learning",
+            "ai",
+            "data science",
+            "devops",
+            "frontend",
+            "backend",
             // Product & Analytics
-            'product management', 'analytics', 'data analysis', 'market research',
-            'user research', 'a/b testing', 'roadmap', 'wireframing', 'prototyping',
+            "product management",
+            "analytics",
+            "data analysis",
+            "market research",
+            "user research",
+            "a/b testing",
+            "roadmap",
+            "wireframing",
+            "prototyping",
             // Marketing & Sales
-            'digital marketing', 'seo', 'sem', 'google ads', 'facebook ads', 'content marketing',
-            'email marketing', 'social media', 'crm', 'salesforce', 'hubspot', 'lead generation',
-            'account management', 'business development', 'sales strategy',
+            "digital marketing",
+            "seo",
+            "sem",
+            "google ads",
+            "facebook ads",
+            "content marketing",
+            "email marketing",
+            "social media",
+            "crm",
+            "salesforce",
+            "hubspot",
+            "lead generation",
+            "account management",
+            "business development",
+            "sales strategy",
             // Finance & Operations
-            'financial modeling', 'excel', 'powerpoint', 'budgeting', 'forecasting',
-            'financial analysis', 'sap', 'oracle', 'accounting', 'audit', 'compliance',
-            'supply chain', 'logistics', 'operations', 'process improvement', 'lean six sigma',
+            "financial modeling",
+            "excel",
+            "powerpoint",
+            "budgeting",
+            "forecasting",
+            "financial analysis",
+            "sap",
+            "oracle",
+            "accounting",
+            "audit",
+            "compliance",
+            "supply chain",
+            "logistics",
+            "operations",
+            "process improvement",
+            "lean six sigma",
             // HR & Legal
-            'talent acquisition', 'recruiting', 'hris', 'performance management',
-            'employee relations', 'compensation', 'benefits', 'learning development',
-            'contract law', 'corporate law', 'compliance', 'legal research',
+            "talent acquisition",
+            "recruiting",
+            "hris",
+            "performance management",
+            "employee relations",
+            "compensation",
+            "benefits",
+            "learning development",
+            "contract law",
+            "corporate law",
+            "compliance",
+            "legal research",
             // Design & Creative
-            'figma', 'sketch', 'adobe creative suite', 'photoshop', 'illustrator',
-            'ui design', 'ux design', 'visual design', 'graphic design', 'brand design',
-            'prototyping', 'user experience', 'design systems', 'wireframing',
+            "figma",
+            "sketch",
+            "adobe creative suite",
+            "photoshop",
+            "illustrator",
+            "ui design",
+            "ux design",
+            "visual design",
+            "graphic design",
+            "brand design",
+            "prototyping",
+            "user experience",
+            "design systems",
+            "wireframing",
             // Consulting & Strategy
-            'strategy development', 'business analysis', 'change management',
-            'project management', 'stakeholder management', 'process consulting'
+            "strategy development",
+            "business analysis",
+            "change management",
+            "project management",
+            "stakeholder management",
+            "process consulting",
         ];
 
         const detected = {
-            location: locationKeywords.some(keyword => lowerQuery.includes(keyword)),
-            jobTitle: jobTitleKeywords.some(keyword => lowerQuery.includes(keyword)),
-            experience: experiencePatterns.some(pattern => pattern.test(lowerQuery)),
-            industry: industryKeywords.some(keyword => lowerQuery.includes(keyword)),
-            skills: skillKeywords.some(keyword => lowerQuery.includes(keyword)),
+            location: locationKeywords.some((keyword) => lowerQuery.includes(keyword)),
+            jobTitle: jobTitleKeywords.some((keyword) => lowerQuery.includes(keyword)),
+            experience: experiencePatterns.some((pattern) => pattern.test(lowerQuery)),
+            industry: industryKeywords.some((keyword) => lowerQuery.includes(keyword)),
+            skills: skillKeywords.some((keyword) => lowerQuery.includes(keyword)),
         };
 
         setDetectedCriteria(detected);
@@ -215,15 +433,15 @@ export default function SearchPage() {
 
         setSearching(true);
         try {
-            const response = await fetch('/api/ai-search', {
-                method: 'POST',
+            const response = await fetch("/api/ai-search", {
+                method: "POST",
                 headers: {
-                    'Content-Type': 'application/json',
+                    "Content-Type": "application/json",
                 },
                 body: JSON.stringify({
                     query: query,
-                    candidates: candidates
-                })
+                    candidates: candidates,
+                }),
             });
 
             if (response.ok) {
@@ -234,7 +452,7 @@ export default function SearchPage() {
                 setFilteredCandidates(applyFilters(candidates));
             }
         } catch (error) {
-            console.error('AI search error:', error);
+            console.error("AI search error:", error);
             setFilteredCandidates(applyFilters(candidates));
         } finally {
             setSearching(false);
@@ -246,28 +464,26 @@ export default function SearchPage() {
         let filtered = candidateList;
 
         // Experience filter
-        filtered = filtered.filter(candidate => {
+        filtered = filtered.filter((candidate) => {
             const experience = parseInt(candidate.experience);
             return experience >= experienceRange[0] && experience <= experienceRange[1];
         });
 
         // Location filter
         if (selectedLocations.length > 0) {
-            filtered = filtered.filter(candidate =>
-                selectedLocations.some(location => candidate.location.includes(location))
+            filtered = filtered.filter((candidate) =>
+                selectedLocations.some((location) => candidate.location.includes(location))
             );
         }
 
         // Gender filter
         if (selectedGenders.length > 0) {
-            filtered = filtered.filter(candidate =>
-                selectedGenders.includes(candidate.gender)
-            );
+            filtered = filtered.filter((candidate) => selectedGenders.includes(candidate.gender));
         }
 
         // Ethnicity filter
         if (selectedEthnicities.length > 0) {
-            filtered = filtered.filter(candidate =>
+            filtered = filtered.filter((candidate) =>
                 selectedEthnicities.includes(candidate.ethnicity)
             );
         }
@@ -293,7 +509,7 @@ export default function SearchPage() {
         if (checked) {
             setSelectedLocations([...selectedLocations, location]);
         } else {
-            setSelectedLocations(selectedLocations.filter(l => l !== location));
+            setSelectedLocations(selectedLocations.filter((l) => l !== location));
         }
     };
 
@@ -301,7 +517,7 @@ export default function SearchPage() {
         if (checked) {
             setSelectedGenders([...selectedGenders, gender]);
         } else {
-            setSelectedGenders(selectedGenders.filter(g => g !== gender));
+            setSelectedGenders(selectedGenders.filter((g) => g !== gender));
         }
     };
 
@@ -309,14 +525,14 @@ export default function SearchPage() {
         if (checked) {
             setSelectedEthnicities([...selectedEthnicities, ethnicity]);
         } else {
-            setSelectedEthnicities(selectedEthnicities.filter(e => e !== ethnicity));
+            setSelectedEthnicities(selectedEthnicities.filter((e) => e !== ethnicity));
         }
     };
 
     // Get unique values for filters
-    const uniqueLocations = Array.from(new Set(candidates.map(c => c.location.split(',')[0])));
-    const uniqueGenders = Array.from(new Set(candidates.map(c => c.gender)));
-    const uniqueEthnicities = Array.from(new Set(candidates.map(c => c.ethnicity)));
+    const uniqueLocations = Array.from(new Set(candidates.map((c) => c.location.split(",")[0])));
+    const uniqueGenders = Array.from(new Set(candidates.map((c) => c.gender)));
+    const uniqueEthnicities = Array.from(new Set(candidates.map((c) => c.ethnicity)));
 
     const clearAllFilters = () => {
         setSelectedLocations([]);
@@ -332,7 +548,9 @@ export default function SearchPage() {
             <div className="space-y-6">
                 <div>
                     <h1 className="text-2xl font-semibold">Search Candidates</h1>
-                    <p className="text-muted-foreground">Finding the perfect talent for your team</p>
+                    <p className="text-muted-foreground">
+                        Finding the perfect talent for your team
+                    </p>
                 </div>
                 <div className="flex items-center justify-center py-12">
                     <Loader2 className="h-8 w-8 animate-spin" />
@@ -367,18 +585,14 @@ export default function SearchPage() {
                             value={searchQuery}
                             onChange={(e) => setSearchQuery(e.target.value)}
                             onKeyPress={(e) => {
-                                if (e.key === 'Enter') {
+                                if (e.key === "Enter") {
                                     handleSearch();
                                 }
                             }}
                             className="pl-9 h-12 text-base"
                         />
                     </div>
-                    <Button 
-                        onClick={handleSearch}
-                        disabled={searching}
-                        size="lg"
-                    >
+                    <Button onClick={handleSearch} disabled={searching} size="lg">
                         {searching ? (
                             <Loader2 className="h-4 w-4 animate-spin" />
                         ) : (
@@ -398,11 +612,13 @@ export default function SearchPage() {
                 {/* Detected Criteria Indicators */}
                 {searchQuery && (
                     <div className="flex flex-wrap gap-3 px-1">
-                        <div className={`flex items-center gap-2 px-3 py-1.5 rounded-full text-sm transition-all ${
-                            detectedCriteria.location 
-                                ? 'bg-green-100 text-green-700 border border-green-200' 
-                                : 'bg-gray-100 text-gray-500 border border-gray-200'
-                        }`}>
+                        <div
+                            className={`flex items-center gap-2 px-3 py-1.5 rounded-md text-sm transition-all ${
+                                detectedCriteria.location
+                                    ? "bg-green-300 text-green-900 border border-green-200"
+                                    : "bg-gray-100 text-gray-500 border border-gray-200"
+                            }`}
+                        >
                             {detectedCriteria.location ? (
                                 <Check className="h-4 w-4" />
                             ) : (
@@ -410,12 +626,14 @@ export default function SearchPage() {
                             )}
                             Location
                         </div>
-                        
-                        <div className={`flex items-center gap-2 px-3 py-1.5 rounded-full text-sm transition-all ${
-                            detectedCriteria.jobTitle 
-                                ? 'bg-green-100 text-green-700 border border-green-200' 
-                                : 'bg-gray-100 text-gray-500 border border-gray-200'
-                        }`}>
+
+                        <div
+                            className={`flex items-center gap-2 px-3 py-1.5 rounded-md text-sm transition-all ${
+                                detectedCriteria.jobTitle
+                                    ? "bg-green-300 text-green-900 border border-green-200"
+                                    : "bg-gray-100 text-gray-500 border border-gray-200"
+                            }`}
+                        >
                             {detectedCriteria.jobTitle ? (
                                 <Check className="h-4 w-4" />
                             ) : (
@@ -423,12 +641,14 @@ export default function SearchPage() {
                             )}
                             Job Title
                         </div>
-                        
-                        <div className={`flex items-center gap-2 px-3 py-1.5 rounded-full text-sm transition-all ${
-                            detectedCriteria.experience 
-                                ? 'bg-green-100 text-green-700 border border-green-200' 
-                                : 'bg-gray-100 text-gray-500 border border-gray-200'
-                        }`}>
+
+                        <div
+                            className={`flex items-center gap-2 px-3 py-1.5 rounded-md text-sm transition-all ${
+                                detectedCriteria.experience
+                                    ? "bg-green-300 text-green-900 border border-green-200"
+                                    : "bg-gray-100 text-gray-500 border border-gray-200"
+                            }`}
+                        >
                             {detectedCriteria.experience ? (
                                 <Check className="h-4 w-4" />
                             ) : (
@@ -436,12 +656,14 @@ export default function SearchPage() {
                             )}
                             Years of Experience
                         </div>
-                        
-                        <div className={`flex items-center gap-2 px-3 py-1.5 rounded-full text-sm transition-all ${
-                            detectedCriteria.industry 
-                                ? 'bg-green-100 text-green-700 border border-green-200' 
-                                : 'bg-gray-100 text-gray-500 border border-gray-200'
-                        }`}>
+
+                        <div
+                            className={`flex items-center gap-2 px-3 py-1.5 rounded-md text-sm transition-all ${
+                                detectedCriteria.industry
+                                    ? "bg-green-300 text-green-900 border border-green-200"
+                                    : "bg-gray-100 text-gray-500 border border-gray-200"
+                            }`}
+                        >
                             {detectedCriteria.industry ? (
                                 <Check className="h-4 w-4" />
                             ) : (
@@ -449,12 +671,14 @@ export default function SearchPage() {
                             )}
                             Industry
                         </div>
-                        
-                        <div className={`flex items-center gap-2 px-3 py-1.5 rounded-full text-sm transition-all ${
-                            detectedCriteria.skills 
-                                ? 'bg-green-100 text-green-700 border border-green-200' 
-                                : 'bg-gray-100 text-gray-500 border border-gray-200'
-                        }`}>
+
+                        <div
+                            className={`flex items-center gap-2 px-3 py-1.5 rounded-md text-sm transition-all ${
+                                detectedCriteria.skills
+                                    ? "bg-green-300 text-green-900 border border-green-200"
+                                    : "bg-gray-100 text-gray-500 border border-gray-200"
+                            }`}
+                        >
                             {detectedCriteria.skills ? (
                                 <Check className="h-4 w-4" />
                             ) : (
@@ -481,7 +705,9 @@ export default function SearchPage() {
 
                                 {/* Experience Range */}
                                 <div className="space-y-3">
-                                    <Label className="text-sm">Experience ({experienceRange[0]}-{experienceRange[1]} years)</Label>
+                                    <Label className="text-sm">
+                                        Experience ({experienceRange[0]}-{experienceRange[1]} years)
+                                    </Label>
                                     <Slider
                                         value={experienceRange}
                                         onValueChange={setExperienceRange}
@@ -497,12 +723,18 @@ export default function SearchPage() {
                                     <Label className="text-sm">Location</Label>
                                     <div className="space-y-2 max-h-32 overflow-y-auto">
                                         {uniqueLocations.slice(0, 10).map((location) => (
-                                            <div key={location} className="flex items-center space-x-2">
+                                            <div
+                                                key={location}
+                                                className="flex items-center space-x-2"
+                                            >
                                                 <Checkbox
                                                     id={`location-${location}`}
                                                     checked={selectedLocations.includes(location)}
                                                     onCheckedChange={(checked) =>
-                                                        handleLocationFilter(location, checked as boolean)
+                                                        handleLocationFilter(
+                                                            location,
+                                                            checked as boolean
+                                                        )
                                                     }
                                                 />
                                                 <Label
@@ -521,12 +753,18 @@ export default function SearchPage() {
                                     <Label className="text-sm">Gender</Label>
                                     <div className="space-y-2">
                                         {uniqueGenders.map((gender) => (
-                                            <div key={gender} className="flex items-center space-x-2">
+                                            <div
+                                                key={gender}
+                                                className="flex items-center space-x-2"
+                                            >
                                                 <Checkbox
                                                     id={`gender-${gender}`}
                                                     checked={selectedGenders.includes(gender)}
                                                     onCheckedChange={(checked) =>
-                                                        handleGenderFilter(gender, checked as boolean)
+                                                        handleGenderFilter(
+                                                            gender,
+                                                            checked as boolean
+                                                        )
                                                     }
                                                 />
                                                 <Label
@@ -545,12 +783,20 @@ export default function SearchPage() {
                                     <Label className="text-sm">Regional Background</Label>
                                     <div className="space-y-2 max-h-32 overflow-y-auto">
                                         {uniqueEthnicities.map((ethnicity) => (
-                                            <div key={ethnicity} className="flex items-center space-x-2">
+                                            <div
+                                                key={ethnicity}
+                                                className="flex items-center space-x-2"
+                                            >
                                                 <Checkbox
                                                     id={`ethnicity-${ethnicity}`}
-                                                    checked={selectedEthnicities.includes(ethnicity)}
+                                                    checked={selectedEthnicities.includes(
+                                                        ethnicity
+                                                    )}
                                                     onCheckedChange={(checked) =>
-                                                        handleEthnicityFilter(ethnicity, checked as boolean)
+                                                        handleEthnicityFilter(
+                                                            ethnicity,
+                                                            checked as boolean
+                                                        )
                                                     }
                                                 />
                                                 <Label
@@ -569,7 +815,7 @@ export default function SearchPage() {
                 )}
 
                 {/* Results */}
-                <div className={`space-y-4 ${showFilters ? 'lg:col-span-3' : 'lg:col-span-4'}`}>
+                <div className={`space-y-4 ${showFilters ? "lg:col-span-3" : "lg:col-span-4"}`}>
                     {filteredCandidates.length === 0 ? (
                         <Card>
                             <CardContent className="py-12">
@@ -632,19 +878,23 @@ export default function SearchPage() {
 
                                             <div className="flex items-center gap-2 text-sm">
                                                 <GraduationCap className="h-4 w-4 text-muted-foreground" />
-                                                <span className="text-muted-foreground">{candidate.education}</span>
+                                                <span className="text-muted-foreground">
+                                                    {candidate.education}
+                                                </span>
                                             </div>
 
                                             <div className="flex flex-wrap gap-1">
-                                                {candidate.skills.slice(0, 4).map((skill, index) => (
-                                                    <Badge
-                                                        key={index}
-                                                        variant="secondary"
-                                                        className="text-xs"
-                                                    >
-                                                        {skill}
-                                                    </Badge>
-                                                ))}
+                                                {candidate.skills
+                                                    .slice(0, 4)
+                                                    .map((skill, index) => (
+                                                        <Badge
+                                                            key={index}
+                                                            variant="secondary"
+                                                            className="text-xs"
+                                                        >
+                                                            {skill}
+                                                        </Badge>
+                                                    ))}
                                                 {candidate.skills.length > 4 && (
                                                     <Badge variant="outline" className="text-xs">
                                                         +{candidate.skills.length - 4} more
